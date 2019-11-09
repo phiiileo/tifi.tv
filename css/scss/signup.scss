@@ -1,0 +1,248 @@
+@import "config";
+
+header {
+    .user {
+        .signedIn {
+            display: none !important;
+        }
+    }
+}
+
+main {
+    width: 100%;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+
+    .section--one {
+    span {
+    h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 50px;
+        color: #333333;
+    }
+    }
+
+    .steps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 50px;
+        color: #333333;
+
+        section {
+        border-bottom: 4px solid rgb(146, 138, 138);
+        padding-bottom: 10px;
+
+        }
+         .active { 
+           border-bottom: 4px solid $brand_color;
+       }
+     }
+    }
+
+    .section--two {
+        margin-top: 80px;
+        text-align: left;
+
+        section{
+            width: 100%;
+            border: none;
+            padding: 10px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            color: $font-color;
+            border-radius: 10px;
+            font-size: 20px;
+            text-align: center;
+            position: relative;
+
+            i {
+                position: absolute;
+               left: 30px;
+                font-size: 20px;
+                display: inline-block;
+                margin-top: 5px;
+                color: $font-color;
+            }
+        }
+
+        .google {
+            background-color: $google_button;
+        }
+
+        .facebook {
+            background-color: $fb_button;
+        }
+
+        .email {
+            background-color: $email_button;
+        }
+
+        p {
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid #333333;
+            margin: 50px auto;
+
+            span {
+                display: block;
+                width: 50px;
+                margin: 0 auto;
+                background-color: $font-color;
+                padding: 10px;
+                margin-bottom: -20px;
+            }
+        }
+
+        div {
+            text-align: center;
+
+            span {
+                color: $brand_color;
+                font-weight: bold;
+            }
+        }
+        .notSignedIn {
+            margin: 50px 0;
+            font-size: 12px;
+        }
+    }
+}
+
+    /* CSS FOR SIGNUPWITHeMAIL ACCOUNT STARTS */
+    .signup_with_email {
+    padding: 0;
+
+    .form_container {
+        padding: 0;
+        
+        .form_group {
+            color: $default_color;
+            font-size: 20px;
+            padding: 0;
+            text-align: left;
+            color: $input_color;
+            
+            label, input, select {
+                display: block;
+                width: 100%;
+                padding: 15px;
+                color: $input_color;
+                font-weight: 600;
+                border-radius: 10px;
+                border: 1px solid $input_color;
+            }
+
+            label {
+                border: none;
+                padding: 15px 0;
+            } 
+            
+            .t_and_c {
+                text-align: left;
+                margin: 0;
+                font-size: 13px;
+                margin-bottom: 30px;
+
+                input[type= "checkbox"]{
+                    width: auto;
+                    display: inline-block;
+                }
+
+                p {
+                    display: inline; 
+                    border: none;
+                    padding-left: 10px;
+
+                    a {
+                        color: $brand_color;
+                    }
+                }
+            }
+
+        } 
+        
+        .a_group {
+                padding: 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 20px;
+                margin-bottom: 50px;
+            }
+
+            .submit { 
+                background-color: $brand_color;
+                text-align: center;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 50px;
+                
+                i {
+                    font-size: 20px;
+                    display: inline-block;
+                    margin-top: 5px;
+                    color: $font-color;
+                }
+                input {
+                    display: inline-block;
+                    border: none;
+                    padding: 0;
+                    margin: 0;
+                    background-color: transparent;    color: $font-color;
+                    font-size: 20px;
+                }
+            }
+
+    }            article {
+                color: $default_color;
+                a {
+                    color: $brand_color;
+                    font-weight: bold;
+                    
+                }
+            }
+
+    }
+
+
+    /* CSS FOR SIGNINWITHEMAIL */
+        .form_container{
+            .forgot_password {
+                margin: 30px;
+                text-align: left;
+                font-size: 15px;
+
+                a{
+                color: $default_color;
+            }
+            }
+        }
+
+@media screen and (min-width:560px){
+    main {
+        width: 80%;
+    }
+
+    .form_container {
+        .a_group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    main {
+        width: 60%;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,237 @@
+@import "config";
+
+header {
+  .user {
+    .signedIn,
+    .login {
+      display: block !important ;
+    }
+    .login {
+      display: none !important;
+    }
+  }
+}
+
+main {
+  width: 100%;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: center;
+
+  .section--one {
+    span {
+      h3 {
+        font-size: 1.5em;
+        margin-bottom: 50px;
+      }
+
+      p {
+        margin-bottom: 50px;
+        color: #333333;
+      }
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 50px;
+      color: #333333;
+
+      section {
+        border-bottom: 4px solid rgb(146, 138, 138);
+        padding-bottom: 10px;
+      }
+      .active {
+        border-bottom: 4px solid $brand_color;
+      }
+    }
+  }
+
+  .body {
+    .intro {
+      margin: 30px auto;
+
+      span:first-child {
+        font-weight: bold;
+      }
+
+      a {
+        color: $brand_color;
+        font-weight: bold;
+      }
+    }
+
+    .add_something {
+      input {
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+      }
+    }
+
+    .pick_genre {
+      width: 100%;
+      margin: 50px auto;
+      p {
+        font-weight: bold;
+        color: #202124;
+      }
+
+      article {
+        width: 100px;
+        height: 80px;
+        margin: 10px auto;
+        margin-right: 15px;
+        display: inline-block;
+        text-align: center;
+
+        .tlong {
+          font-size: 0.8em;
+        }
+
+        p {
+          font-weight: normal;
+        }
+        span {
+          display: inline-block;
+          width: 48px;
+          height: 45px;
+          border-radius: 5px;
+          background-color: #c4c4c4;
+        }
+      }
+    }
+
+    .select_movies {
+        background-color: #FFFDFC;;
+        padding: 30px;
+        border-radius: 10px;
+      p {
+        font-weight: bold;
+        font-size: 18px;
+
+        span {
+          font-weight: normal;
+          display: block;
+        }
+      }
+
+      .movie_container {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100%;
+        height: 200px;
+        background-color: #fffdfc;
+        
+        .movie_lists {
+          width: 100%;
+
+          .move_list_item {
+            width: 105px;
+            height: 150px;
+            display: inline-block;
+            margin: 5px;
+            text-align: center;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+
+      .movie_container::-webkit-scrollbar {
+        width: 5px;
+        background-color: rgb(219, 203, 194);
+    }
+    .movie_container::-webkit-scrollbar-thumb {
+        background-color: black;
+    }
+
+    }
+
+    .cta {
+      margin-top: 50px;
+      a {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 18px;
+        color: $brand_color;
+        padding: 15px 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+
+      a:first-child {
+        color: $font_color;
+        background-color: $brand_color;
+        padding: 15px 50px;
+        margin-right: 40px;
+      }
+
+      a:last-child {
+        border: 1px solid $brand_color;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  main {
+      width: 590px;
+      margin: 0 auto;
+
+    .section--one {
+        span {
+
+        
+      h3 {
+        font-size: 2em;
+        margin-top: 50px;
+      }
+      .steps {
+        width: 60%;
+        margin: 20px auto;
+        margin-bottom: 80px;
+      }
+    }
+}
+
+    .body {
+      text-align: left;
+
+      .intro {
+          font-size: 18px;
+      }
+
+      .pick_genre {
+        article {
+            margin-left: -25px;
+            margin-right: 2px;
+        }
+      }
+
+      .select_movies {
+          p { margin-bottom: 10px;
+              span {
+                  font-size: 12px;
+                  color: #777777;
+                  float: right;
+                  margin-top: 7px;
+              }
+          }   
+      } 
+      .cta {  
+          
+        text-align: center;
+        margin: 100px auto;
+            a{
+                display: inline;
+              }
+          }
+    }
+  }
+}

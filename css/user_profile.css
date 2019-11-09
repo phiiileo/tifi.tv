@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header .user .signedIn,
+header .user .login {
+  display: block !important;
+}
+
+header .user .login {
+  display: none !important;
+}
+
+main {
+  width: 100%;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+main .section--one span h3 {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+main .section--one span p {
+  margin-bottom: 50px;
+  color: #333333;
+}
+
+main .section--one .steps {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+  color: #333333;
+}
+
+main .section--one .steps section {
+  border-bottom: 4px solid #928a8a;
+  padding-bottom: 10px;
+}
+
+main .section--one .steps .active {
+  border-bottom: 4px solid #FF5300;
+}
+
+main .body .intro {
+  margin: 30px auto;
+}
+
+main .body .intro span:first-child {
+  font-weight: bold;
+}
+
+main .body .intro a {
+  color: #FF5300;
+  font-weight: bold;
+}
+
+main .body .add_something input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+main .body .pick_genre {
+  width: 100%;
+  margin: 50px auto;
+}
+
+main .body .pick_genre p {
+  font-weight: bold;
+  color: #202124;
+}
+
+main .body .pick_genre article {
+  width: 100px;
+  height: 80px;
+  margin: 10px auto;
+  margin-right: 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+main .body .pick_genre article .tlong {
+  font-size: 0.8em;
+}
+
+main .body .pick_genre article p {
+  font-weight: normal;
+}
+
+main .body .pick_genre article span {
+  display: inline-block;
+  width: 48px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #c4c4c4;
+}
+
+main .body .select_movies {
+  background-color: #FFFDFC;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+main .body .select_movies p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main .body .select_movies p span {
+  font-weight: normal;
+  display: block;
+}
+
+main .body .select_movies .movie_container {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  height: 200px;
+  background-color: #fffdfc;
+}
+
+main .body .select_movies .movie_container .movie_lists {
+  width: 100%;
+}
+
+main .body .select_movies .movie_container .movie_lists .move_list_item {
+  width: 105px;
+  height: 150px;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+}
+
+main .body .select_movies .movie_container .movie_lists .move_list_item img {
+  width: 100%;
+  height: 100%;
+}
+
+main .body .select_movies .movie_container::-webkit-scrollbar {
+  width: 5px;
+  background-color: #dbcbc2;
+}
+
+main .body .select_movies .movie_container::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+main .body .cta {
+  margin-top: 50px;
+}
+
+main .body .cta a {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #FF5300;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+main .body .cta a:first-child {
+  color: #ffffff;
+  background-color: #FF5300;
+  padding: 15px 50px;
+  margin-right: 40px;
+}
+
+main .body .cta a:last-child {
+  border: 1px solid #FF5300;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    width: 590px;
+    margin: 0 auto;
+  }
+  main .section--one span h3 {
+    font-size: 2em;
+    margin-top: 50px;
+  }
+  main .section--one span .steps {
+    width: 60%;
+    margin: 20px auto;
+    margin-bottom: 80px;
+  }
+  main .body {
+    text-align: left;
+  }
+  main .body .intro {
+    font-size: 18px;
+  }
+  main .body .pick_genre article {
+    margin-left: -25px;
+    margin-right: 2px;
+  }
+  main .body .select_movies p {
+    margin-bottom: 10px;
+  }
+  main .body .select_movies p span {
+    font-size: 12px;
+    color: #777777;
+    float: right;
+    margin-top: 7px;
+  }
+  main .body .cta {
+    text-align: center;
+    margin: 100px auto;
+  }
+  main .body .cta a {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=user_profile.css.map */
