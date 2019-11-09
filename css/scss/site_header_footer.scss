@@ -190,18 +190,16 @@
       }
     }
   }
-}
-footer {
-  padding: 50px 100px;
 
-  .footer_container {
+  footer { .footer_container {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .footer_content:last-child {
-    padding-left: 80px;
+    padding: 30px;
+  
   }
 }
+}
+
 
 @media screen and (min-width: 1000px) {
   header {
@@ -220,6 +218,11 @@ footer {
   footer {
     .footer_container {
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 50px 100px;
+
+      .footer_content--four {
+        text-align: right;
+      }
     }
   }
 }

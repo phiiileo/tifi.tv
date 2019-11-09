@@ -233,21 +233,15 @@ main .section--two .notSignedIn {
   color: #000000;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 600px) {
   main {
-    width: 80%;
+    width: 590px;
   }
   .form_container .a_group {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  main {
-    width: 60%;
   }
 }
 /*# sourceMappingURL=signup.css.map */

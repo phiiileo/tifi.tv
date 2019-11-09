@@ -222,9 +222,9 @@ main {
             }
         }
 
-@media screen and (min-width:560px){
+@media screen and (min-width:600px){
     main {
-        width: 80%;
+        width: 590px;
     }
 
     .form_container {
@@ -233,14 +233,6 @@ main {
             grid-template-columns: 1fr 1fr;
         }
     }
-}
-
-
-@media screen and (min-width:1000px){
-    main {
-        width: 60%;
-    }
-
 }
 
 
