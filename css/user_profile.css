@@ -7,12 +7,27 @@
   font-style: normal;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 a {
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.b_color {
+  color: #FF5300;
+}
+
+.bg_color {
+  background-color: #FF5300;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
 }
 
 header .user .signedIn,

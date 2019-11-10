@@ -7,11 +7,352 @@
   font-style: normal;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 a {
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.b_color {
+  color: #FF5300;
+}
+
+.bg_color {
+  background-color: #FF5300;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+}
+
+header .user .signedIn {
+  display: none !important;
+}
+
+main {
+  padding: 20px;
+}
+
+main .row1 {
+  margin-bottom: 50px;
+}
+
+main .row1 h3 {
+  font-size: 33px;
+  line-height: 52px;
+  font-weight: bold;
+  font-style: normal;
+  color: #202124;
+  margin-bottom: 30px;
+}
+
+main .row1 p {
+  font-weight: normal;
+  font-size: 20px;
+  color: #777777;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+main .row1 .search_input {
+  width: 100%;
+  border: 1px solid #777777;
+  height: 35px;
+  padding: 0;
+  border-right: none;
+}
+
+main .row1 .search_input input {
+  height: 35px;
+}
+
+main .row1 .search_input input#search {
+  width: 80%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 20px;
+}
+
+main .row1 .search_input input[type="submit"] {
+  padding: 10px 16px;
+  height: 38px;
+  width: 20%;
+  margin-top: -3px;
+  float: right;
+}
+
+main .row1 .carousel_container {
+  width: 100%;
+  border: 1px solid #777777;
+  height: 200px;
+  margin-top: 30px;
+}
+
+main .row2 {
+  text-align: left;
+  border-bottom: 1px solid #202124;
+  margin-bottom: 20px;
+}
+
+main .row2 .personalize {
+  border-bottom: 2px solid #777777;
+  margin: 30px auto;
+  padding-bottom: 20px;
+}
+
+main .row2 .personalize span {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+main .row2 .personalize span input {
+  padding: 5px 30px;
+  font-size: 20px;
+}
+
+main .row2 .popular_brands span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+main .row2 .popular_brands article {
+  display: block;
+}
+
+main .row2 .popular_brands article span {
+  display: block;
+}
+
+main .row2 .popular_brands article span img {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-left: 30px;
+}
+
+main .row3 {
+  text-align: center;
+}
+
+main .row3 .img_container {
+  width: 179px;
+  height: 230px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main .row3 .img_container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 1px solid grey;
+  margin: 20px auto;
+}
+
+main .row3 .img_container p {
+  font-size: 18px;
+}
+
+main .row3 .img_container p i {
+  color: #FF5300;
+  font-size: 14px;
+}
+
+main .row3 .personalize_acct {
+  margin: 20px auto;
+}
+
+main .row3 .personalize_acct section {
+  color: #202124;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+main .row3 .personalize_acct span {
+  display: inline-block;
+  font-size: 8px;
+  font-weight: bold;
+  border: 1px solid #202124;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+main .row3 .personalize_acct article.genre {
+  margin: 10px auto;
+  width: 40%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+}
+
+main .row3 .personalize_acct article.genre span {
+  margin: 0;
+}
+
+main .row3 .personalize_acct section.m_likes {
+  margin-top: 50px;
+}
+
+main .row3 .personalize_acct section.m_likes div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+main .row3 .personalize_acct section.m_likes div article {
+  width: 85px;
+  height: 170px;
+  text-align: left;
+}
+
+main .row3 .personalize_acct section.m_likes div article img {
+  width: 100%;
+  height: 135px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-bottom: 1px solid red;
+  border-radius: 10px;
+}
+
+main .row3 .personalize_acct section.m_likes div article p {
+  font-size: 12px;
+  color: #202124;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
+main .row3 .personalize_acct section.m_likes div article span {
+  border: none;
+  font-size: 7px;
+  color: #979797;
+  padding: 0;
+}
+
+main .row4 article h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 44px;
+  color: #202124;
+}
+
+main .row4 article.sort {
+  color: #1E1E1E;
+  margin: 10px 0;
+}
+
+main .row4 .range {
+  display: none;
+}
+
+main .row4 div.movie_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+}
+
+main .row4 div.movie_list article {
+  width: 100%;
+  height: 300px;
+  border: 1px solid grey;
+}
+
+main .row4 div.movie_list article div img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .row4 div.movie_list article div.m_details {
+  height: 40px;
+  padding-top: 5px;
+  position: relative;
+}
+
+main .row4 div.movie_list article div.m_details span {
+  background-color: #DADADA;
+  border-radius: 100%;
+  padding: 7px 14px;
+  display: inline-block;
+  position: absolute;
+  font-weight: bold;
+}
+
+main .row4 div.movie_list article div.m_details p {
+  display: inline-block;
+  margin-left: 42px;
+}
+
+main .row4 div.movie_list article div.m_details i {
+  font-size: 9px;
+  color: #979797;
+  display: block;
+}
+
+main .row5 {
+  margin: 50px 0;
+  border: 1px solid red;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #F4F4F4;
+}
+
+main .row5 h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 44px;
+  color: #777777;
+}
+
+main .row5 form {
+  height: 40px;
+  border-color: #777777;
+}
+
+main .row5 input[type="email"] {
+  height: 100%;
+  width: 80%;
+  padding-left: 20px;
+  border: 1px solid grey;
+  border-right: none;
+}
+
+main .row5 input[type="submit"] {
+  height: 100%;
+  width: 20%;
+  outline: none;
 }
 /*# sourceMappingURL=main.css.map */
