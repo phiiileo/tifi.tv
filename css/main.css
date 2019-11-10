@@ -8,7 +8,7 @@
 }
 
 body {
-  overflow-x: hidden !important;
+  overflow-x: k;
 }
 
 a {
@@ -61,30 +61,25 @@ main .row1 p {
 
 main .row1 .search_input {
   width: 100%;
-  border: 1px solid #777777;
   height: 35px;
   padding: 0;
   border-right: none;
 }
 
-main .row1 .search_input input {
-  height: 35px;
-}
-
 main .row1 .search_input input#search {
   width: 80%;
-  border: none;
+  height: 100%;
+  border: 1px solid #777777;
+  border-right: none;
   background-color: transparent;
   outline: none;
   padding-left: 20px;
 }
 
 main .row1 .search_input input[type="submit"] {
-  padding: 10px 16px;
-  height: 38px;
+  height: 100%;
   width: 20%;
-  margin-top: -3px;
-  float: right;
+  margin-left: -5px;
 }
 
 main .row1 .carousel_container {
@@ -133,14 +128,17 @@ main .row2 .popular_brands article {
 
 main .row2 .popular_brands article span {
   display: block;
+  width: 130px;
 }
 
 main .row2 .popular_brands article span img {
-  width: 100px;
-  height: 50px;
+  width: 80px;
+  height: 30px;
   display: inline-block;
   margin-bottom: -5px;
-  margin-left: 30px;
+  margin-left: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 main .row3 {
@@ -183,12 +181,14 @@ main .row3 .personalize_acct section {
 
 main .row3 .personalize_acct span {
   display: inline-block;
-  font-size: 8px;
   font-weight: bold;
   border: 1px solid #202124;
   border-radius: 5px;
   padding: 5px 10px;
   margin: 10px 0;
+  width: 60px;
+  font-size: 10px;
+  text-align: center;
 }
 
 main .row3 .personalize_acct article.genre {
@@ -205,6 +205,23 @@ main .row3 .personalize_acct article.genre {
 
 main .row3 .personalize_acct article.genre span {
   margin: 0;
+  width: 60px;
+  font-size: 10px;
+  text-align: center;
+}
+
+main .row3 .personalize_acct article.genre span.plus {
+  text-align: center;
+  background-color: #F4F4F4;
+}
+
+main .row3 .personalize_acct article.genre span.plus i {
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #777777;
+  border-radius: 100%;
+  padding: 2px 3px;
+  text-align: center;
 }
 
 main .row3 .personalize_acct section.m_likes {
@@ -230,7 +247,7 @@ main .row3 .personalize_acct section.m_likes div article {
   text-align: left;
 }
 
-main .row3 .personalize_acct section.m_likes div article img {
+main .row3 .personalize_acct section.m_likes div article img, main .row3 .personalize_acct section.m_likes div article article.plus {
   width: 100%;
   height: 135px;
   -o-object-fit: cover;
@@ -252,6 +269,26 @@ main .row3 .personalize_acct section.m_likes div article span {
   font-size: 7px;
   color: #979797;
   padding: 0;
+}
+
+main .row3 .personalize_acct section.m_likes div article.plus {
+  height: 135px;
+  width: 85px;
+  background-color: #F4F4F4;
+  text-align: center;
+  border-radius: 10px;
+}
+
+main .row3 .personalize_acct section.m_likes div article.plus span {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  background-color: #AAAAAA;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 100%;
+  width: auto;
+  padding: 5px 8px;
 }
 
 main .row4 article h3 {
@@ -279,6 +316,7 @@ main .row4 div.movie_list {
   -webkit-column-gap: 10px;
           column-gap: 10px;
   row-gap: 10px;
+  margin-bottom: 10px;
 }
 
 main .row4 div.movie_list article {
@@ -322,7 +360,6 @@ main .row4 div.movie_list article div.m_details i {
 
 main .row5 {
   margin: 50px 0;
-  border: 1px solid red;
   margin-left: -20px;
   margin-right: -20px;
   padding: 50px 20px;
@@ -354,5 +391,180 @@ main .row5 input[type="submit"] {
   height: 100%;
   width: 20%;
   outline: none;
+  margin-left: -5px;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    margin: 0 auto;
+    padding: 30px 50px;
+  }
+  main .row2 {
+    border: none;
+  }
+  main .row2 .personalize {
+    position: relative;
+  }
+  main .row2 .personalize span {
+    text-align: left;
+    display: inline-block;
+  }
+  main .row2 .personalize span input {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+  }
+  main .row2 .popular_brands {
+    text-align: left;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 3fr;
+        grid-template-columns: 1fr 3fr;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+  main .row2 .popular_brands article {
+    display: inline-block;
+  }
+  main .row2 .popular_brands article span {
+    display: inline-block;
+  }
+  main .row3 {
+    text-align: left;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 11fr;
+        grid-template-columns: 1fr 11fr;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+  main .row3 .img_container {
+    margin-left: 0;
+  }
+  main .row3 .personalize_acct {
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+  }
+  main .row3 .personalize_acct article.genre {
+    margin-left: 0;
+  }
+  main .row3 .personalize_acct section.m_likes {
+    margin-top: 0;
+    width: 100%;
+  }
+  main .row3 .personalize_acct section.m_likes div {
+    width: 100%;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 0;
+  }
+  main .row4 {
+    position: relative;
+  }
+  main .row4 article.sort {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    top: 0;
+  }
+  main .row4 div.movie_list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  main .row5 {
+    position: absolute;
+    left: 0;
+    right: 10px;
+  }
+  main .row5 div {
+    width: 590px;
+    margin: 0 auto;
+  }
+  main .row5 div h3 {
+    font-size: 33px;
+    margin-bottom: 30px;
+  }
+  main .row5--cover {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    padding: 50px 120px;
+  }
+  main .row3 .personalize_acct {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 2.5fr 7.5fr;
+        grid-template-columns: 2fr 2.5fr 7.5fr;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+  main .row3 .personalize_acct section.m_likes div {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  main .row4 {
+    margin-top: 80px;
+  }
+  main .row4 article.sort {
+    right: 300px;
+  }
+  main .row4 article.range {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -15px;
+  }
+  main .row4 article.range .week {
+    position: absolute;
+    right: 50px;
+    top: 0px;
+  }
+  main .row4 article.range input {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: #FF5300;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+  }
+  main .row4 article.range input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FF5300;
+    cursor: pointer;
+  }
+  main .row4 article.range input::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #FF5300;
+    cursor: pointer;
+  }
+  main .row4 div.movie_list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .row3 article {
+    width: 100% !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */

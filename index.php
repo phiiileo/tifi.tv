@@ -27,8 +27,8 @@
                     Find, track and discover where to watch your favourite TV shows and movies from Netflix, Amazon
                     Prime, Hulu, Showtime and more services.
                 </p>
-                <div class="search_input">
-                    <form action="">
+                <div>
+                    <form action="" class="search_input">
                         <input type="text" name="search" id="search" placeholder="Find a movie or series"><input
                             type="submit" value="Search" class="bg_color">
                     </form>
@@ -67,14 +67,18 @@
                 <p>Charles Etu <i class="fas fa-pencil-alt"></i></p>
             </div>
             <div class="personalize_acct">
+                <div>
                 <section>Personality type </section><span>INTP</span>
+                </div>
+                <div>
                 <section>Genres you like</section>
-                    <article class="genre">
+                <article class="genre">
                         <span>Horror</span>
                         <span>Sci-Fi</span>
                         <span>Comedy</span>
-                        <span>+</span>
-                    </article>
+                        <span class="plus"><i>+</i></span>
+                </article>
+                </div>
                 
                 <section class="m_likes">
                     <p>Sample movies & series you like</p>
@@ -100,14 +104,14 @@
                             <span>Series</span>
                         </article>
                         <article>
-                            <img src="" alt="">
+                            <img src="uploads/netflix.png" alt="">
                             <p>Alita Battle...</p>
                             <span>Movie</span>
                         </article>
-                        <article>
-                            <img src="" alt="">
-                            <p>Add</p>
-                            <span>Movie or Tv series</span>
+                        <article class="plus">
+                           <span>
+                               +
+                           </span>
                         </article>
                     </div>
                 </section>
@@ -117,15 +121,113 @@
         <section class="row4">
             <article>
                 <h3>Most Popular right now</h3>
-                <span>
                 <article class="sort">Sorted by 
                     <span class="b_color">Popularity <i class="fa fa-angle-down"></i></span>
             </article>
             <article class="range">
-                <span>1 week</span>
-                Time range <input type="range">
+                <span class="week">1 week</span>
+                <p><span>
+                Time range</span><input type="range"></p>
             </article>
             </article>
+            <div class="movie_list">
+                <article>
+                    <div><img src="uploads/hbo.png" alt=""></div>
+                    <div class="m_details">
+                        <span>1</span>
+                        <p>Monet Hiest <br>
+                            <i>series</i></p>
+                    </div>
+                </article>
+                 <article>
+                    <div><img src="uploads/hbo.png" alt=""></div>
+                    <div class="m_details">
+                        <span>2</span>
+                        <p>Power <br>
+                            <i>series</i></p>
+                    </div>
+                </article>
+                 <article>
+                    <div><img src="uploads/hbo.png" alt=""></div>
+                    <div class="m_details">
+                        <span>3</span>
+                        <p>Power <br>
+                            <i>series</i></p>
+                    </div>
+                </article>
+                 <article>
+                    <div><img src="uploads/hbo.png" alt=""></div>
+                    <div class="m_details">
+                        <span>4</span>
+                        <p>Monet Hiest <br>
+                            <i>series</i></p>
+                    </div>
+                </article>
+                <article>
+                        <div><img src="uploads/hbo.png" alt=""></div>
+                        <div class="m_details">
+                            <span>5</span>
+                            <p>Monet Hiest <br>
+                                <i>series</i></p>
+                        </div>
+                    </article>
+                     <article>
+                        <div><img src="uploads/hbo.png" alt=""></div>
+                        <div class="m_details">
+                            <span>6</span>
+                            <p>Monet Hiest <br>
+                                <i>series</i></p>
+                        </div>
+            </div>
+            <div class="movie_list">
+                <article>
+                    <div><img src="uploads/hbo.png" alt=""></div>
+                    <div class="m_details">
+                        <span>1</span>
+                        <p>Monet Hiest <br>
+                            <i>series</i></p>
+                    </div>
+                </article>
+                 <article>
+                    <div><img src="uploads/hbo.png" alt=""></div>
+                    <div class="m_details">
+                        <span>2</span>
+                        <p>Power <br>
+                            <i>series</i></p>
+                    </div>
+                </article>
+                 <article>
+                    <div><img src="uploads/hbo.png" alt=""></div>
+                    <div class="m_details">
+                        <span>3</span>
+                        <p>Power <br>
+                            <i>series</i></p>
+                    </div>
+                </article>
+                 <article>
+                    <div><img src="uploads/hbo.png" alt=""></div>
+                    <div class="m_details">
+                        <span>4</span>
+                        <p>Monet Hiest <br>
+                            <i>series</i></p>
+                    </div>
+                </article>
+                <article>
+                        <div><img src="uploads/hbo.png" alt=""></div>
+                        <div class="m_details">
+                            <span>5</span>
+                            <p>Monet Hiest <br>
+                                <i>series</i></p>
+                        </div>
+                    </article>
+                     <article>
+                        <div><img src="uploads/hbo.png" alt=""></div>
+                        <div class="m_details">
+                            <span>6</span>
+                            <p>Monet Hiest <br>
+                                <i>series</i></p>
+                        </div>
+            </div>
             <div class="movie_list">
                 <article>
                     <div><img src="uploads/hbo.png" alt=""></div>
@@ -178,10 +280,15 @@
         </section>
 
         <section class="row5">
+            <div>
             <h3>Send me email on updates</h3>
             <form action="">
                 <input type="email" name="email" id="email" placeholder="Email address"><input type="submit" value="Subscribe" class="bg_color">
             </form>
+            </div>
+        </section>
+        <section class="row5--cover">
+
         </section>
 
         <section class="row4">
