@@ -49,6 +49,11 @@ main {
   text-align: center;
 }
 
+main div.container {
+  width: 120%;
+  margin-left: -10%;
+}
+
 main .section--one {
   padding-top: 20px;
 }
@@ -104,7 +109,7 @@ main .section--two {
   margin: 80px auto;
   text-align: left;
   border: 1px solid #F4F4F4;
-  padding: 50px;
+  padding: 5px;
 }
 
 main .section--two section {
@@ -322,7 +327,11 @@ section.page_header h3 {
 
 @media screen and (min-width: 560px) {
   div.container {
-    width: 450px;
+    width: 450px !important;
+    margin: 0 auto !important;
+  }
+  .section--two {
+    padding: 50px !important;
   }
 }
 /*# sourceMappingURL=signup.css.map */
