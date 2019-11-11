@@ -37,39 +37,41 @@ img {
      object-fit: cover;
 }
 
-header .user .signedIn,
-header .user .login {
-  display: block !important;
-}
-
 header .user .login {
   display: none !important;
 }
 
 main {
-  width: 100%;
-  margin: 50px auto;
+  width: 600px;
+  margin: 150px auto;
   padding: 10px;
   text-align: center;
 }
 
 main .section--one span h3 {
-  font-size: 1.5em;
-  margin-bottom: 50px;
-}
-
-main .section--one span p {
-  margin-bottom: 50px;
-  color: #333333;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #202124;
+  margin-bottom: 60px;
 }
 
 main .section--one .steps {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
   margin-bottom: 50px;
   color: #333333;
+  width: 60%;
+}
+
+main .section--one .steps p {
+  color: #333333;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+main .section--one .steps p:last-child {
+  margin-top: -10px;
 }
 
 main .section--one .steps section {
@@ -81,17 +83,29 @@ main .section--one .steps .active {
   border-bottom: 4px solid #FF5300;
 }
 
-main .body .intro {
-  margin: 30px auto;
+main .body {
+  border: 1px solid rgba(128, 128, 128, 0.089);
+  padding: 30px;
+  text-align: left;
 }
 
-main .body .intro span:first-child {
+main .body .intro {
   font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 30px;
 }
 
 main .body .intro a {
   color: #FF5300;
   font-weight: bold;
+}
+
+main .body .add_something p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: -5px;
 }
 
 main .body .add_something input {
@@ -103,52 +117,81 @@ main .body .add_something input {
 main .body .pick_genre {
   width: 100%;
   margin: 50px auto;
+  text-align: left;
 }
 
 main .body .pick_genre p {
   font-weight: bold;
   color: #202124;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-main .body .pick_genre article {
-  width: 100px;
-  height: 80px;
-  margin: 10px auto;
-  margin-right: 15px;
+main .body .pick_genre div section {
+  margin-bottom: 20px;
+}
+
+main .body .pick_genre div section article {
   display: inline-block;
   text-align: center;
+  width: 50px;
+  margin-right: 11px;
 }
 
-main .body .pick_genre article .tlong {
-  font-size: 0.8em;
-}
-
-main .body .pick_genre article p {
-  font-weight: normal;
-}
-
-main .body .pick_genre article span {
+main .body .pick_genre div section article span {
   display: inline-block;
-  width: 48px;
+  margin: 0 auto;
+  width: 45px;
   height: 45px;
-  border-radius: 5px;
   background-color: #c4c4c4;
+  border-radius: 3px;
+}
+
+main .body .pick_genre div section article p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+main .body .pick_genre div section article.tlong {
+  width: 79px;
+  position: relative;
+  height: 65px;
+}
+
+main .body .pick_genre div section article.l span {
+  position: absolute;
+  top: 0px;
+  left: 18px;
+}
+
+main .body .pick_genre div section article.l p {
+  position: absolute;
+  bottom: -40px;
 }
 
 main .body .select_movies {
-  background-color: #FFFDFC;
-  padding: 30px;
+  background-color: #fffdfc;
+  padding: 10px 5px;
   border-radius: 10px;
+  margin-top: -30px;
 }
 
 main .body .select_movies p {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0 30px;
+  position: relative;
 }
 
 main .body .select_movies p span {
   font-weight: normal;
-  display: block;
+  font-size: 10px;
+  line-height: 16px;
+  position: absolute;
+  right: 20px;
+  top: 3px;
 }
 
 main .body .select_movies .movie_container {
@@ -156,6 +199,7 @@ main .body .select_movies .movie_container {
   overflow-y: scroll;
   width: 100%;
   height: 200px;
+  padding: 0 20px;
   background-color: #fffdfc;
 }
 
@@ -164,20 +208,26 @@ main .body .select_movies .movie_container .movie_lists {
 }
 
 main .body .select_movies .movie_container .movie_lists .move_list_item {
-  width: 105px;
+  width: 95px;
   height: 150px;
   display: inline-block;
   margin: 5px;
-  text-align: center;
 }
 
 main .body .select_movies .movie_container .movie_lists .move_list_item img {
-  width: 100%;
-  height: 100%;
+  width: 95px;
+  height: 137px;
+}
+
+main .body .select_movies .movie_container .movie_lists .move_list_item figcaption {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: -10px;
 }
 
 main .body .select_movies .movie_container::-webkit-scrollbar {
-  width: 5px;
+  width: 2px;
   background-color: #dbcbc2;
 }
 
@@ -187,16 +237,16 @@ main .body .select_movies .movie_container::-webkit-scrollbar-thumb {
 
 main .body .cta {
   margin-top: 50px;
+  text-align: center;
 }
 
 main .body .cta a {
-  display: block;
   width: 100%;
-  font-size: 20px;
   font-weight: 600;
+  font-size: 14px;
   line-height: 18px;
   color: #FF5300;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -204,7 +254,7 @@ main .body .cta a {
 main .body .cta a:first-child {
   color: #ffffff;
   background-color: #FF5300;
-  padding: 15px 50px;
+  padding: 10px 50px;
   margin-right: 40px;
 }
 
@@ -212,45 +262,78 @@ main .body .cta a:last-child {
   border: 1px solid #FF5300;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 560px) {
   main {
-    width: 590px;
-    margin: 0 auto;
+    width: 100%;
   }
-  main .section--one span h3 {
-    font-size: 2em;
-    margin-top: 50px;
-  }
-  main .section--one span .steps {
-    width: 60%;
-    margin: 20px auto;
-    margin-bottom: 80px;
-  }
-  main .body {
+  main .pick_genre section article {
     text-align: left;
   }
-  main .body .intro {
-    font-size: 18px;
+  main .select_movies p span {
+    position: static !important;
+    display: block;
   }
-  main .body .pick_genre article {
-    margin-left: -25px;
-    margin-right: 2px;
-  }
-  main .body .select_movies p {
-    margin-bottom: 10px;
-  }
-  main .body .select_movies p span {
-    font-size: 12px;
-    color: #777777;
-    float: right;
-    margin-top: 7px;
-  }
-  main .body .cta {
-    text-align: center;
-    margin: 100px auto;
-  }
-  main .body .cta a {
-    display: inline;
+  main .cta a {
+    display: block;
   }
 }
+
+/*
+@media screen and (min-width: 600px) {
+  main {
+      width: 590px;
+      margin: 0 auto;
+
+    .section--one {
+        span {
+
+        
+      h3 {
+        font-size: 2em;
+        margin-top: 50px;
+      }
+      .steps {
+        width: 60%;
+        margin: 20px auto;
+        margin-bottom: 80px;
+      }
+    }
+}
+
+    .body {
+      text-align: left;
+
+      .intro {
+          font-size: 18px;
+      }
+
+      .pick_genre {
+        article {
+            margin-left: -25px;
+            margin-right: 2px;
+        }
+      }
+
+      .select_movies {
+          p { margin-bottom: 10px;
+              span {
+                  font-size: 12px;
+                  color: #777777;
+                  float: right;
+                  margin-top: 7px;
+              }
+          }   
+      } 
+      .cta {  
+          
+        text-align: center;
+        margin: 100px auto;
+            a{
+                display: inline;
+              }
+          }
+    }
+  }
+}
+*/
 /*# sourceMappingURL=user_profile.css.map */

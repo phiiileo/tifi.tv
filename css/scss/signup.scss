@@ -31,13 +31,13 @@ main {
 
       p {
         margin-bottom: 50px;
-        color: #777777;
+        color: $header_text;
       }
     }
 
     .steps {
       margin: 50px auto;
-      color: #333333;
+      color: $input_color;
       width: 70%;
 
       section {
@@ -48,7 +48,7 @@ main {
           font-weight: 600;
           font-size: 14px;
           line-height: 18px;
-          color: #333333;
+          color: $input_color;
         }
       }
       .active {
@@ -117,7 +117,7 @@ main {
     p {
       width: 100%;
       text-align: center;
-      border-bottom: 1px solid #333333;
+      border-bottom: 1px solid $input_color;
       margin: 20px auto;
       margin-bottom: none;
 

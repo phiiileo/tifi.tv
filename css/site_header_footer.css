@@ -107,7 +107,7 @@ img {
     text-align: center;
     margin: 0;
     position: absolute;
-    right: 100px;
+    right: 0;
     top: 10px;
   }
   header section.user .signedIn img {
@@ -174,7 +174,7 @@ img {
   }
 }
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 560px) {
   header h3 {
     position: absolute;
     left: 0;
