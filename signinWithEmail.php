@@ -2,30 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SignUp With Email| tifiTV</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sign In with Email | tifi.tv</title>
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/site_header_footer.css">
+        <link rel="stylesheet" href="css/signup.css">
 
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" href="css/site_header_footer.css" type="text/css">
-    <link rel="stylesheet" href="css/signup.css" type="text/css">
-
-</head>
-
+    </head>
 <body>
     <?php include "components/site_header.php" ?>
 
     <main>
-    <section class="section--one">
+    <section class="page_header">
             <span>
             <h3>Instantly watch TV shows & Movies</h3>
             <p>Welcome back!</p>
             </span>
         </section>
-
+        <div class="container">
         <section class="section--two">
         <section class="google"><i class="fab fa-google"></i>Continue as Brandon</section>
             <section class="facebook"><i class="fab fa-facebook-f"></i>Continue with Facebook</section>
@@ -65,6 +67,7 @@
 
                 </div>
             </section>
+        </div>
     </main>
 
     <?php include "components/site_footer.php" ?>

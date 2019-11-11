@@ -10,20 +10,22 @@ $input_color : #333333;;
     margin : 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    overflow-x: k ;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
+    color: $default_color;
 }
 
 a:hover {
     text-decoration: none;
+    color: $brand_color;
 }
 
 .b_color {
@@ -35,4 +37,8 @@ a:hover {
     color: $font_color;
     border: 0;
     border-radius: 5px;
+}
+
+img {
+    object-fit: cover;
 }
