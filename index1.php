@@ -38,7 +38,7 @@
                 </div>
             </article>
 
-            <article class="carousel_container col-md-6">
+            <article class="carousel_container col-md-6 my-4 mx-auto">
             </article>
 
         </section>
@@ -86,9 +86,9 @@
                 </article>
                 </div>
                 </section>
-                <section class="m_likes px-2">
+                <section class="m_likes px-1 mx-auto">
                     <p>Sample movies & series you like</p>
-                    <div class="mx-auto">
+                    <div class="mx-3">
                         <article>
                             <img src="uploads/hulu.png" alt="">
                             <p>Aladdin</p>
@@ -137,7 +137,7 @@
                 <input type="range" class=""></p>
             </article>
             </article>
-            <div class="movie_list">
+            <div class="movie_list mx-auto">
                 <article>
                     <div><img src="uploads/hbo.png" alt=""></div>
                     <div class="m_details">
