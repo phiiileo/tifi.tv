@@ -8,8 +8,6 @@ header {
 
 main {
   width: 600px;
-  margin: 150px auto;
-  padding: 10px;
   text-align: center;
 
   .section--one {
@@ -19,71 +17,61 @@ main {
         font-size: 32px;
         line-height: 44px;
         color: $font_color_dark;
-        margin-bottom: 60px;
       }
     }
 
     .steps {
-      margin: 0 auto;
-      margin-bottom: 50px;
       color: $input_color;
       width: 60%;
 
       p {
         color: $input_color;
-        font-weight: 600;
+        font-weight: 200px;
         font-size: 14px;
         line-height: 18px;
 
-        &:last-child {
-          margin-top: -10px;
-        }
       }
 
       section {
-        border-bottom: 4px solid rgb(146, 138, 138);
-        padding-bottom: 10px;
+        border-bottom: 2px solid rgb(146, 138, 138);
       }
       .active {
-        border-bottom: 4px solid $brand_color;
+        border-bottom: 3px solid $brand_color;
+
+        p{
+        font-weight: 600;
+        }
       }
     }
   }
 
   .body {
     border: 1px solid rgba(128, 128, 128, 0.089);
-    padding: 30px;
     text-align: left;
 
     .intro {
-      font-weight: bold;
-      font-size: 15px;
+      font-weight: 400;
+      font-size: 17px;
       line-height: 25px;
-      margin-bottom: 30px;
-
-      a {
-        color: $brand_color;
-        font-weight: bold;
-      }
-    }
+      span {
+        font-weight: 900;
+    }}
 
     .add_something {
       p {
         font-size: 14px;
         line-height: 19px;
         color: #000000;
-        margin-bottom: -5px;
       }
       input {
         width: 100%;
-        padding: 5px;
-        margin-top: 10px;
+        border: 1px solid #A8B7C7;;
+        border-radius: 5px;
       }
     }
 
     .pick_genre {
       width: 100%;
-      margin: 50px auto;
       text-align: left;
 
       p {
@@ -141,7 +129,6 @@ main {
 
     .select_movies {
       background-color: #fffdfc;
-      padding: 10px 5px;
       border-radius: 10px;
       margin-top: -30px;
 
@@ -204,7 +191,6 @@ main {
     }
 
     .cta {
-      margin-top: 50px;
       text-align: center;
       a {
         width: 100%;
@@ -232,7 +218,7 @@ main {
 }
 
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 786px){
   main {
     width: 100%;
 
@@ -258,61 +244,3 @@ main {
     }
   }
 }
-/*
-@media screen and (min-width: 600px) {
-  main {
-      width: 590px;
-      margin: 0 auto;
-
-    .section--one {
-        span {
-
-        
-      h3 {
-        font-size: 2em;
-        margin-top: 50px;
-      }
-      .steps {
-        width: 60%;
-        margin: 20px auto;
-        margin-bottom: 80px;
-      }
-    }
-}
-
-    .body {
-      text-align: left;
-
-      .intro {
-          font-size: 18px;
-      }
-
-      .pick_genre {
-        article {
-            margin-left: -25px;
-            margin-right: 2px;
-        }
-      }
-
-      .select_movies {
-          p { margin-bottom: 10px;
-              span {
-                  font-size: 12px;
-                  color: #777777;
-                  float: right;
-                  margin-top: 7px;
-              }
-          }   
-      } 
-      .cta {  
-          
-        text-align: center;
-        margin: 100px auto;
-            a{
-                display: inline;
-              }
-          }
-    }
-  }
-}
-*/

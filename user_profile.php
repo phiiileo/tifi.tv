@@ -19,13 +19,13 @@
 
 <body>
     <?php include "components/site_header.php" ?>
-    <main>
-        <div class="container">
+    <main class="mx-auto my-5 py-5">
+        <div class="container-fluid">
             <section class="section--one">
                 <span>
                     <h3>Instantly watch TV shows & Movies</h3>
                 </span>
-                <div class="steps row">
+                <div class="steps row mx-auto my-5">
                     <section class="col-6">
                         <p>STEP 1</p>
                         <P>Create Account</P>
@@ -37,16 +37,16 @@
                 </div>
             </section>
 
-            <section class="body">
-                <p class="intro">
-                    <span>Welcome </span><a href="#">Brandon</a>, Tifi.tv works better when we know what you like
+            <section class="body p-3">
+                <p class="intro mb-3">
+                    <span>Welcome <a href="#" class="brand_color">Brandon</a></span>, Tifi.tv works better when we know what you like
                 </p>
                 <div class="add_something">
                     <p>Add something to your watchlist</p>
-                    <input type="text" name="add_something">
+                    <input type="text" name="add_something" class="mt-1 p-1">
                 </div>
 
-                <div class="pick_genre">
+                <div class="pick_genre mx-auto my-5">
                     <p>Pick a genre</p>
                     <div>
                         <section>
@@ -112,8 +112,8 @@
                     </div>
                 </div>
 
-                <div class="select_movies">
-                    <p> Select movies
+                <div class="select_movies px-1 py-2">
+                    <p > Select movies
                         <span>This allows us to figure out a recomendation for you</span>
                     </p>
                     <section class="movie_container">
@@ -219,7 +219,7 @@
                         </div>
                     </section>
                 </div>
-                <p class="cta"><a href="#">Finish</a><a href="#">Skip this step</a></p>
+                <p class="cta my-5"><a href="#">Finish</a><a href="#">Skip this step</a></p>
 
             </section>
         </div>

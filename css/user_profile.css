@@ -39,8 +39,6 @@ header .signedIn {
 
 main {
   width: 600px;
-  margin: 150px auto;
-  padding: 10px;
   text-align: center;
 }
 
@@ -49,70 +47,61 @@ main .section--one span h3 {
   font-size: 32px;
   line-height: 44px;
   color: #202124;
-  margin-bottom: 60px;
 }
 
 main .section--one .steps {
-  margin: 0 auto;
-  margin-bottom: 50px;
   color: #333333;
   width: 60%;
 }
 
 main .section--one .steps p {
   color: #333333;
-  font-weight: 600;
+  font-weight: 200px;
   font-size: 14px;
   line-height: 18px;
 }
 
-main .section--one .steps p:last-child {
-  margin-top: -10px;
-}
-
 main .section--one .steps section {
-  border-bottom: 4px solid #928a8a;
-  padding-bottom: 10px;
+  border-bottom: 2px solid #928a8a;
 }
 
 main .section--one .steps .active {
-  border-bottom: 4px solid #FF5300;
+  border-bottom: 3px solid #FF5300;
+}
+
+main .section--one .steps .active p {
+  font-weight: 600;
 }
 
 main .body {
   border: 1px solid rgba(128, 128, 128, 0.089);
-  padding: 30px;
   text-align: left;
 }
 
 main .body .intro {
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 17px;
   line-height: 25px;
-  margin-bottom: 30px;
 }
 
-main .body .intro a {
-  color: #FF5300;
-  font-weight: bold;
+main .body .intro span {
+  font-weight: 900;
 }
 
 main .body .add_something p {
   font-size: 14px;
   line-height: 19px;
   color: #000000;
-  margin-bottom: -5px;
 }
 
 main .body .add_something input {
   width: 100%;
-  padding: 5px;
-  margin-top: 10px;
+  border: 1px solid #A8B7C7;
+  border-radius: 5px;
 }
 
 main .body .pick_genre {
   width: 100%;
-  margin: 50px auto;
   text-align: left;
 }
 
@@ -168,7 +157,6 @@ main .body .pick_genre div section article.l p {
 
 main .body .select_movies {
   background-color: #fffdfc;
-  padding: 10px 5px;
   border-radius: 10px;
   margin-top: -30px;
 }
@@ -232,7 +220,6 @@ main .body .select_movies .movie_container::-webkit-scrollbar-thumb {
 }
 
 main .body .cta {
-  margin-top: 50px;
   text-align: center;
 }
 
@@ -258,7 +245,7 @@ main .body .cta a:last-child {
   border: 1px solid #FF5300;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 786px) {
   main {
     width: 100%;
   }
@@ -273,63 +260,4 @@ main .body .cta a:last-child {
     display: block;
   }
 }
-
-/*
-@media screen and (min-width: 600px) {
-  main {
-      width: 590px;
-      margin: 0 auto;
-
-    .section--one {
-        span {
-
-        
-      h3 {
-        font-size: 2em;
-        margin-top: 50px;
-      }
-      .steps {
-        width: 60%;
-        margin: 20px auto;
-        margin-bottom: 80px;
-      }
-    }
-}
-
-    .body {
-      text-align: left;
-
-      .intro {
-          font-size: 18px;
-      }
-
-      .pick_genre {
-        article {
-            margin-left: -25px;
-            margin-right: 2px;
-        }
-      }
-
-      .select_movies {
-          p { margin-bottom: 10px;
-              span {
-                  font-size: 12px;
-                  color: #777777;
-                  float: right;
-                  margin-top: 7px;
-              }
-          }   
-      } 
-      .cta {  
-          
-        text-align: center;
-        margin: 100px auto;
-            a{
-                display: inline;
-              }
-          }
-    }
-  }
-}
-*/
 /*# sourceMappingURL=user_profile.css.map */
