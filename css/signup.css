@@ -37,6 +37,10 @@ img {
      object-fit: cover;
 }
 
+.clear {
+  clear: both;
+}
+
 /*SIGNUP PAGE STYLING ALSO APPLIED TO SOME OTHER PAGES*/
 header .signedIn {
   display: none;

@@ -37,6 +37,10 @@ img {
      object-fit: cover;
 }
 
+.clear {
+  clear: both;
+}
+
 header .header_user .signedIn {
   display: none;
 }

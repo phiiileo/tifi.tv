@@ -37,6 +37,10 @@ img {
      object-fit: cover;
 }
 
+.clear {
+  clear: both;
+}
+
 header .signedIn {
   display: none;
 }
@@ -100,7 +104,7 @@ main .body .add_something p {
 
 main .body .add_something input {
   width: 100%;
-  border: 1px solid #A8B7C7;
+  border: 1px solid #a8b7c7;
   border-radius: 5px;
 }
 
@@ -121,10 +125,11 @@ main .body .pick_genre div section {
 }
 
 main .body .pick_genre div section article {
-  display: inline-block;
+  display: block;
   text-align: center;
   width: 50px;
-  margin-right: 11px;
+  margin-right: 26px;
+  float: left;
 }
 
 main .body .pick_genre div section article span {
@@ -137,26 +142,9 @@ main .body .pick_genre div section article span {
 }
 
 main .body .pick_genre div section article p {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 12px;
   line-height: 19px;
-}
-
-main .body .pick_genre div section article.tlong {
-  width: 79px;
-  position: relative;
-  height: 65px;
-}
-
-main .body .pick_genre div section article.l span {
-  position: absolute;
-  top: 0px;
-  left: 18px;
-}
-
-main .body .pick_genre div section article.l p {
-  position: absolute;
-  bottom: -40px;
 }
 
 main .body .select_movies {

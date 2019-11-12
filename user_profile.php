@@ -79,7 +79,7 @@
                                 <p>Action</p>
                             </article>
                         </section>
-                        <section>
+                        <section class="clear" >
                             <article>
                                 <span></span>
                                 <p>Western</p>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
 
-                <div class="select_movies px-1 py-2">
+                <div class="select_movies px-1 py-5 clear">
                     <p > Select movies
                         <span>This allows us to figure out a recomendation for you</span>
                     </p>
