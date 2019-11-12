@@ -346,6 +346,7 @@ main .row4 div.movie_list article div img {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 8px;
 }
 
 main .row4 div.movie_list article div.m_details {
@@ -366,6 +367,7 @@ main .row4 div.movie_list article div.m_details span {
 main .row4 div.movie_list article div.m_details p {
   display: inline-block;
   margin-left: 42px;
+  font-weight: bold;
 }
 
 main .row4 div.movie_list article div.m_details i {

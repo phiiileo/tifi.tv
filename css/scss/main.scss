@@ -299,6 +299,7 @@ main {
           width: 100%;
           height: 250px;
           object-fit: cover;
+          border-radius: 8px;
         }
 
         div.m_details {
@@ -317,6 +318,7 @@ main {
           p {
             display: inline-block;
             margin-left: 42px;
+            font-weight: bold;
           }
 
           i {
