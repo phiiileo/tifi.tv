@@ -18,7 +18,7 @@
 <body>
     <?php include "components/site_header.php" ?>
     
-    <main class="m-auto py-2">
+    <main class="">
         <div class="container-fluid">
         <section class="section--one">
             <span>

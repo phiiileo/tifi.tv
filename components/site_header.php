@@ -1,4 +1,4 @@
-<header class="my-3 mb-5">
+<header class="my-3 mb-5 px-md-5">
     <section class="container-fluid">
 
         <section class="tifi_logo">

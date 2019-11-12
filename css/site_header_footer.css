@@ -34,9 +34,6 @@ img {
 }
 
 @media screen and (min-width: 0) {
-  header {
-    padding: 0 9.5%;
-  }
   header .container-fluid {
     position: relative;
   }
@@ -149,12 +146,12 @@ img {
   header .tifi_logo {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 1%;
   }
   header .header_user {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 1%;
   }
   footer .footer_content:last-child {
     text-align: right;

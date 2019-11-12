@@ -27,7 +27,7 @@
                         <h3>Instantly watch TV shows & Movies</h3>
                     </span>
         </section>
-        <div class="container">
+        <div class="container-fluid">
             <section class="section--one">
                 <div class="steps row">
                     <section class="active col-6">

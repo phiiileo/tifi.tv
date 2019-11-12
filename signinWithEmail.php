@@ -28,7 +28,7 @@
                 <p>Welcome back!</p>
             </span>
         </section>
-        <div class="container">
+        <div class="container-fluid">
             <section class="section--two">
                 <section class="google"><i class="fab fa-google"></i>Continue as Brandon</section>
                 <section class="facebook"><i class="fab fa-facebook-f"></i>Continue with Facebook</section>
