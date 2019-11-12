@@ -18,7 +18,7 @@
 <body>
     <?php include "components/site_header.php" ?>
     
-    <main class="">
+    <main class="m-auto px-5 py-2">
         <div class="container">
         <section class="section--one">
             <span>

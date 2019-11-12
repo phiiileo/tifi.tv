@@ -15,11 +15,7 @@
     <link rel="stylesheet" href="css/site_header_footer.css">
 
     <style>
-        header .signedIn {
-            display: none !important;
-        }
-
-       main ol {
+           main ol {
             text-align: left;
         }
 
@@ -40,12 +36,14 @@
     </style>
 </head>
 
-<body> <?php include "components/site_header.php" ?>
+<body> 
+
+    <?php include "components/site_header.php" ?>
 
     <section class="container">
 
         <main>
-            <H3>FOR THE <span class="b_color">PURPOSE</span> OF TESTING</H3>
+            <H3>FOR THE <span class="brand_color">PURPOSE</span> OF TESTING</H3>
             <ol>
                 <li><a href="index1.php">Index Page</a></li>
                 <li><a href="signin.php">signin Page</a></li>
@@ -58,8 +56,8 @@
         </main>
 
     </section>
+    
     <?php include "components/site_footer.php" ?>
-
 </body>
 
 </html>

@@ -7,10 +7,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 a {
   text-decoration: none;
   color: #000000;
@@ -21,7 +17,7 @@ a:hover {
   color: #FF5300;
 }
 
-.b_color {
+.brand_color {
   color: #FF5300;
 }
 
@@ -38,20 +34,19 @@ img {
 }
 
 /*SIGNUP PAGE STYLING ALSO APPLIED TO SOME OTHER PAGES*/
-header .user .signedIn {
-  display: none !important;
+header .signedIn {
+  display: none;
 }
 
 main {
   width: 90%;
-  margin: auto;
-  padding: 10px 50px;
   text-align: center;
 }
 
 main div.container {
   width: 120%;
   margin-left: -10%;
+  border: 1px solid red !important;
 }
 
 main .section--one {
@@ -108,7 +103,7 @@ main .page_header p {
 main .section--two {
   margin: 80px auto;
   text-align: left;
-  border: 1px solid #F4F4F4;
+  border: 1px solid #f4f4f4;
   padding: 5px;
 }
 
