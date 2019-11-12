@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="css/site_header_footer.css">
 
     <style>
+        main {
+            width: 50%;
+        }
            main ol {
             text-align: left;
         }
@@ -42,7 +45,7 @@
 
     <section class="container">
 
-        <main>
+        <main class="mx-auto">
             <H3>FOR THE <span class="brand_color">PURPOSE</span> OF TESTING</H3>
             <ol>
                 <li><a href="index1.php">Index Page</a></li>
