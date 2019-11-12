@@ -41,6 +41,10 @@ img {
   clear: both;
 }
 
+.active {
+  color: #FF5300;
+}
+
 @media screen and (min-width: 0) {
   header .container-fluid {
     position: relative;

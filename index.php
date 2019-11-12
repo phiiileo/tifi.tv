@@ -54,6 +54,7 @@
                 <li><a href="signup.php">signup Page</a></li>
                 <li><a href="signupWithEmail.php">signupWithEmail Page</a></li>
                 <li><a href="user_profile.php">User profile Page</a></li>
+                <li><a href="settings.php">Settings</a></li>
 
             </ol>
         </main>

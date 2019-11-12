@@ -41,6 +41,10 @@ img {
   clear: both;
 }
 
+.active {
+  color: #FF5300;
+}
+
 header .signedIn {
   display: none;
 }

@@ -41,6 +41,10 @@ img {
   clear: both;
 }
 
+.active {
+  color: #FF5300;
+}
+
 /*SIGNUP PAGE STYLING ALSO APPLIED TO SOME OTHER PAGES*/
 header .signedIn {
   display: none;

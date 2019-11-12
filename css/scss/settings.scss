@@ -1,0 +1,151 @@
+@import "config";
+header {
+  .login {
+    display: none;
+  }
+}
+
+.page_header {
+  &_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #404040;
+  }
+}
+
+.sidebar {
+  nav {
+    p {
+      border: 1px solid#F5F4F4;
+      text-align: center;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+}
+
+.content_box {
+  h4 {
+    background: #f5f4f4;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #404040;
+  }
+
+  i {
+    color: grey;
+  }
+  .form_container {
+    width: 80%;
+    background: #FCFCFC;
+
+    form {
+      label {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #333333;
+      }
+      input,
+      select {
+        background: #ffffff;
+        border: 1px solid #999999;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px #e5e5e5;
+        padding: 10px;
+        font-size: 13px;
+        line-height: 18px;
+      }
+    }
+  }
+
+  .services_container {
+    &_header {
+      position: relative;
+
+      p {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+    .services {
+      padding-bottom: 50px;
+      width: 80%;
+      margin: 0 auto;
+
+      .img_container {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        article {
+          width: 100%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .add_providers {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    .cta {
+      a {
+        border: 1px solid $brand_color;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 786px) {
+  .sidebar {
+    nav {
+      p {
+        text-align: left;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .form_container {
+    form {
+      label {
+        text-align: right;
+        display: block;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .services_container {
+    .img_container {
+      display: grid;
+      width: 450px !important;
+      margin: 0;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 10px;
+      article {
+        width: 120px;
+        height: 60px;
+      }
+    }
+  }
+}
