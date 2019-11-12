@@ -98,6 +98,7 @@ main .section--two {
   text-align: left;
   border: 1px solid #f4f4f4;
   padding: 5px;
+  padding-top: 30px;
 }
 
 main .section--two section {
