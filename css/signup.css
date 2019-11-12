@@ -39,13 +39,12 @@ header .signedIn {
 }
 
 main {
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 
-main div.container {
-  width: 120%;
-  margin-left: -10%;
+main div.container-fluid {
+  width: 100%;
   border: 1px solid red !important;
 }
 
@@ -321,7 +320,7 @@ section.page_header h3 {
 }
 
 @media screen and (min-width: 560px) {
-  div.container {
+  div.container-fluid {
     width: 450px !important;
     margin: 0 auto !important;
   }

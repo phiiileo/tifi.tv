@@ -8,12 +8,11 @@ header {
   }
 }
 main {
-  width: 90%;
+  width: 100%;
   text-align: center;
 
-  div.container {
-    width: 120%;
-    margin-left: -10%;
+  div.container-fluid {
+    width: 100%;
     border: 1px solid red !important;
   }
 
@@ -287,7 +286,7 @@ section.page_header {
 }
 
 @media screen and (min-width: 560px) {
-  div.container {
+  div.container-fluid {
     width: 450px !important;
     margin: 0 auto !important;
   }

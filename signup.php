@@ -18,8 +18,8 @@
 <body>
     <?php include "components/site_header.php" ?>
     
-    <main class="m-auto px-5 py-2">
-        <div class="container">
+    <main class="m-auto py-2">
+        <div class="container-fluid">
         <section class="section--one">
             <span>
                 <h3>Sign Up</h3>
