@@ -19,11 +19,11 @@
 <body>
     <?php include "components/site_header.php" ?>
 
-    <main>
-        <section class="row1">
-            <article>
+    <main class="p-md-5">
+        <section class="row row1 p-3 mb-5">
+            <article class="col-md-6">
                 <h3>
-                    Watch the <span class="b_color">movies</span> and <span class="b_color">Tv shows</span> based on
+                    Watch the <span class="brand_color">movies</span> and <span class="brand_color">Tv shows</span> based on
                     your personality
                 </h3>
                 <p>
@@ -32,25 +32,27 @@
                 </p>
                 <div>
                     <form action="" class="search_input">
-                        <input type="text" name="search" id="search" placeholder="Find a movie or series"><input
-                            type="submit" value="Search" class="bg_color">
+                        <input type="text" name="search" id="search" placeholder="Find a movie or series" class="pl-3">
+                        <input type="submit" value="Search" class="bg_color ml-n2">
                     </form>
                 </div>
             </article>
-            <article class="carousel_container">
+
+            <article class="carousel_container col-md-6">
             </article>
+
         </section>
 
-        <section class="row2">
-            <div class="personalize">
+        <section class="row row2 ml-0">
+            <div class="personalize col-12">
                 <span>Personalize</span>
                 <span>
-                    <input type="button" value="Save" class="bg_color">
+                    <input type="button" value="Save" class="bg_color px-5 mb-2">
                 </span>
             </div>
-            <div class="popular_brands">
+            <div class="popular_brands col-12">
                 <span>What do you have:</span>
-                <article>
+                <article class="my-2">
                     <span><input type="checkbox" name="netflix" id="netflix" value="Netflix"><img
                         src="uploads/netflix.png" alt=""></span>
                     <span><input type="checkbox" name="hulu" id="hulu" value="hulu"><img src="uploads/hulu.png"
@@ -66,71 +68,73 @@
         </section>
 
         <section class="row3">
-            <div class="img_container"><img src="uploads/hulu.png" alt="">
+            <div class="img_container mx-auto my-0 py-5 py-md-0"><img src="uploads/hulu.png" alt="">
                 <p>Charles Etu <i class="fas fa-pencil-alt"></i></p>
             </div>
             <div class="personalize_acct">
+                <section class="break_2">
                 <div>
-                <section>Personality type </section><span>INTP</span>
+                <section class="mx-auto my-0">Personality type </section><span class="py-1 my-3">INTP</span>
                 </div>
                 <div>
-                <section>Genres you like</section>
-                <article class="genre">
-                        <span>Horror</span>
-                        <span>Sci-Fi</span>
-                        <span>Comedy</span>
-                        <span class="plus"><i>+</i></span>
+                <section class="genre_container">Genres you like</section>
+                <article class="genre row mx-auto my-3">
+                        <div class="col-6 text-right pr-1 mb-1"><span>Horror</span></div>
+                        <div class="col-6 text-left pl-1"><span>Sci-Fi</span></div>
+                        <div class="col-6 text-right pr-1 mb-1"><span>Comedy</span></div>
+                        <div class="col-6 text-left pl-1"><span class="plus p-0"><i class="">+</i></span></div>
                 </article>
                 </div>
-                
-                <section class="m_likes">
+                </section>
+                <section class="m_likes px-2">
                     <p>Sample movies & series you like</p>
-                    <div>
+                    <div class="mx-auto">
                         <article>
                             <img src="uploads/hulu.png" alt="">
                             <p>Aladdin</p>
-                            <span>Movie</span>
+                            <p>Movie</p>
                         </article>
                         <article>
                             <img src="uploads/hulu.png" alt="">
                             <p>Matrix</p>
-                            <span>Movie</span>
+                            <p>Movie</p>
                         </article>
                         <article>
                             <img src="uploads/hulu.png" alt="">
                             <p>Us</p>
-                            <span>Movie</span>
+                            <p>Movie</p>
                         </article>
                         <article>
                             <img src="uploads/netflix.png" alt="">
                             <p>The walki...</p>
-                            <span>Series</span>
+                            <p>Series</p>
                         </article>
                         <article>
                             <img src="uploads/netflix.png" alt="">
                             <p>Alita Battle...</p>
-                            <span>Movie</span>
+                            <p>Movie</p>
                         </article>
                         <article class="plus">
-                           <span>
+                           <p class="px-2 py-2">
                                +
-                           </span>
+                           </p>
                         </article>
                     </div>
                 </section>
             </div>
         </section>
 
-        <section class="row4">
+        <section class="row4 px-2 mt-5">
             <article>
                 <h3>Most Popular right now</h3>
                 <article class="sort">Sorted by 
-                    <span class="b_color">Popularity <i class="fa fa-angle-down"></i></span>
+                    <span class="brand_color">Popularity <i class="fa fa-angle-down"></i></span>
             </article>
-            <article class="range">
+            <article class="range pt-4 my-4">
                 <span class="week">1 week</span>
-                <p><span>
-                Time range</span><input type="range"></p>
+                <p>
+                Time range 
+                <input type="range" class=""></p>
             </article>
             </article>
             <div class="movie_list">
@@ -282,19 +286,20 @@
             </div>
         </section>
 
-        <section class="row5">
+        <section class="row5 px-1 py-5 mx-n5 mt-5">
             <div>
             <h3>Send me email on updates</h3>
-            <form action="">
-                <input type="email" name="email" id="email" placeholder="Email address"><input type="submit" value="Subscribe" class="bg_color">
+            <form action="" class="mx-auto">
+                <input type="email" name="email" id="email" placeholder="Enter Email" class="pl-3">
+                <input type="submit" value="Subscribe" class="bg_color ml-n2">
             </form>
             </div>
         </section>
-        <section class="row5--cover">
+        <section class="row5--cover px-1 py-5 ">
 
         </section>
 
-        <section class="row4">
+        <section class="row4 px-2 mt-n5 mb-5">
                 <div class="movie_list">
                     <article>
                         <div><img src="uploads/hbo.png" alt=""></div>

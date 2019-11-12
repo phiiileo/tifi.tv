@@ -7,6 +7,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -33,39 +37,28 @@ img {
      object-fit: cover;
 }
 
-header .user .signedIn {
-  display: none !important;
-}
-
-main {
-  padding: 20px;
-}
-
-main .row1 {
-  margin-bottom: 50px;
+header .header_user .signedIn {
+  display: none;
 }
 
 main .row1 h3 {
-  font-size: 33px;
-  line-height: 52px;
+  font-size: 25px;
+  line-height: 30px;
   font-weight: bold;
   font-style: normal;
   color: #202124;
-  margin-bottom: 30px;
 }
 
 main .row1 p {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 17px;
   color: #777777;
   line-height: 30px;
-  margin-bottom: 30px;
 }
 
 main .row1 .search_input {
   width: 100%;
   height: 35px;
-  padding: 0;
   border-right: none;
 }
 
@@ -76,13 +69,11 @@ main .row1 .search_input input#search {
   border-right: none;
   background-color: transparent;
   outline: none;
-  padding-left: 20px;
 }
 
 main .row1 .search_input input[type="submit"] {
   height: 100%;
   width: 20%;
-  margin-left: -5px;
 }
 
 main .row1 .carousel_container {
@@ -95,13 +86,11 @@ main .row1 .carousel_container {
 main .row2 {
   text-align: left;
   border-bottom: 1px solid #202124;
-  margin-bottom: 20px;
+  width: 100%;
 }
 
 main .row2 .personalize {
   border-bottom: 2px solid #777777;
-  margin: 30px auto;
-  padding-bottom: 20px;
 }
 
 main .row2 .personalize span {
@@ -113,8 +102,7 @@ main .row2 .personalize span {
 }
 
 main .row2 .personalize span input {
-  padding: 5px 30px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 main .row2 .popular_brands span {
@@ -122,23 +110,25 @@ main .row2 .popular_brands span {
   font-weight: normal;
   font-size: 20px;
   line-height: 27px;
-  margin-bottom: 30px;
 }
 
 main .row2 .popular_brands article {
-  display: block;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 main .row2 .popular_brands article span {
-  display: block;
+  display: inline-block;
   width: 130px;
+  margin-bottom: 20px;
 }
 
 main .row2 .popular_brands article span img {
   width: 80px;
   height: 30px;
   display: inline-block;
-  margin-bottom: -5px;
   margin-left: 10px;
   -o-object-fit: contain;
      object-fit: contain;
@@ -152,7 +142,6 @@ main .row3 .img_container {
   width: 179px;
   height: 230px;
   text-align: center;
-  margin: 0 auto;
 }
 
 main .row3 .img_container img {
@@ -160,7 +149,6 @@ main .row3 .img_container img {
   height: 100px;
   border-radius: 100%;
   border: 1px solid grey;
-  margin: 20px auto;
 }
 
 main .row3 .img_container p {
@@ -172,10 +160,6 @@ main .row3 .img_container p i {
   font-size: 14px;
 }
 
-main .row3 .personalize_acct {
-  margin: 20px auto;
-}
-
 main .row3 .personalize_acct section {
   color: #202124;
   font-size: 18px;
@@ -185,37 +169,26 @@ main .row3 .personalize_acct section {
 main .row3 .personalize_acct span {
   display: inline-block;
   font-weight: bold;
-  border: 1px solid #202124;
+  border: 1px solid #777777;
   border-radius: 5px;
-  padding: 5px 10px;
-  margin: 10px 0;
-  width: 60px;
-  font-size: 10px;
+  width: 80px;
+  font-size: 14px;
   text-align: center;
+  color: #777777;
 }
 
 main .row3 .personalize_acct article.genre {
-  margin: 10px auto;
-  width: 40%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
-  row-gap: 10px;
+  color: #777777;
 }
 
 main .row3 .personalize_acct article.genre span {
-  margin: 0;
-  width: 60px;
-  font-size: 10px;
+  width: 80px;
+  font-size: 14px;
   text-align: center;
 }
 
 main .row3 .personalize_acct article.genre span.plus {
-  text-align: center;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 main .row3 .personalize_acct article.genre span.plus i {
@@ -223,75 +196,65 @@ main .row3 .personalize_acct article.genre span.plus i {
   color: #ffffff;
   background-color: #777777;
   border-radius: 100%;
-  padding: 2px 3px;
+  padding: 1px 3px;
   text-align: center;
-}
-
-main .row3 .personalize_acct section.m_likes {
-  margin-top: 50px;
-}
-
-main .row3 .personalize_acct section.m_likes div {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 10px;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
-  width: 80%;
-  margin: 0 auto;
-  margin-left: 10px;
 }
 
 main .row3 .personalize_acct section.m_likes div article {
   width: 85px;
   height: 170px;
   text-align: left;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
-main .row3 .personalize_acct section.m_likes div article img, main .row3 .personalize_acct section.m_likes div article article.plus {
+main .row3 .personalize_acct section.m_likes div article img {
   width: 100%;
   height: 135px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-bottom: 1px solid red;
+  border: 1px solid red;
   border-radius: 10px;
 }
 
 main .row3 .personalize_acct section.m_likes div article p {
+  text-align: left;
   font-size: 12px;
   color: #202124;
   font-weight: bold;
-  margin-top: -10px;
-  margin-bottom: -20px;
 }
 
-main .row3 .personalize_acct section.m_likes div article span {
+main .row3 .personalize_acct section.m_likes div article p:nth-child(3) {
   border: none;
-  font-size: 7px;
+  font-size: 10px;
   color: #979797;
   padding: 0;
+  margin-top: -25px;
 }
 
 main .row3 .personalize_acct section.m_likes div article.plus {
   height: 135px;
   width: 85px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   text-align: center;
   border-radius: 10px;
 }
 
-main .row3 .personalize_acct section.m_likes div article.plus span {
+main .row3 .personalize_acct section.m_likes div article.plus p {
+  display: inline-block;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
   border-radius: 100%;
-  width: auto;
-  padding: 5px 8px;
+}
+
+main .row4 {
+  clear: both;
 }
 
 main .row4 article h3 {
@@ -303,12 +266,54 @@ main .row4 article h3 {
 }
 
 main .row4 article.sort {
-  color: #1E1E1E;
+  color: #1e1e1e;
   margin: 10px 0;
 }
 
 main .row4 .range {
-  display: none;
+  width: 300px;
+  position: relative;
+}
+
+main .row4 .range span {
+  position: absolute;
+  top: 5px;
+  right: 70px;
+}
+
+main .row4 .range input {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  -webkit-appearance: none;
+  margin-top: 20px;
+  width: 60%;
+  height: 3px;
+  border-radius: 5px;
+  background: #FF5300;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+main .row4 .range input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #FF5300;
+  cursor: pointer;
+}
+
+main .row4 .range input::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #FF5300;
+  cursor: pointer;
 }
 
 main .row4 div.movie_list {
@@ -326,6 +331,7 @@ main .row4 div.movie_list article {
   width: 100%;
   height: 300px;
   border: 1px solid grey;
+  border-radius: 8px;
 }
 
 main .row4 div.movie_list article div img {
@@ -342,7 +348,7 @@ main .row4 div.movie_list article div.m_details {
 }
 
 main .row4 div.movie_list article div.m_details span {
-  background-color: #DADADA;
+  background-color: #dadada;
   border-radius: 100%;
   padding: 7px 14px;
   display: inline-block;
@@ -362,12 +368,8 @@ main .row4 div.movie_list article div.m_details i {
 }
 
 main .row5 {
-  margin: 50px 0;
-  margin-left: -20px;
-  margin-right: -20px;
-  padding: 50px 20px;
   text-align: center;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 main .row5 h3 {
@@ -380,6 +382,8 @@ main .row5 h3 {
 main .row5 form {
   height: 40px;
   border-color: #777777;
+  width: 80%;
+  position: relative;
 }
 
 main .row5 input[type="email"] {
@@ -394,10 +398,15 @@ main .row5 input[type="submit"] {
   height: 100%;
   width: 20%;
   outline: none;
-  margin-left: -5px;
+  font-size: 0.8em;
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  right: 10%;
+  top: 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   main {
     margin: 0 auto;
     padding: 30px 50px;
@@ -415,7 +424,7 @@ main .row5 input[type="submit"] {
   main .row2 .personalize span input {
     position: absolute;
     right: 0;
-    bottom: 20px;
+    bottom: 0;
   }
   main .row2 .popular_brands {
     text-align: left;
@@ -442,9 +451,6 @@ main .row5 input[type="submit"] {
     -webkit-column-gap: 20px;
             column-gap: 20px;
   }
-  main .row3 .img_container {
-    margin-left: 0;
-  }
   main .row3 .personalize_acct {
     text-align: left;
     margin-left: 0;
@@ -458,25 +464,29 @@ main .row5 input[type="submit"] {
     width: 100%;
   }
   main .row3 .personalize_acct section.m_likes div {
-    width: 100%;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     margin-left: 0;
   }
-  main .row4 {
-    position: relative;
+  main .row3 .break_2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
   }
-  main .row4 article.sort {
-    position: absolute;
-    z-index: 1;
-    right: 0px;
-    top: 0;
+  main .row3 .break_2 div {
+    text-align: center;
   }
   main .row4 div.movie_list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 30px;
   }
   main .row5 {
     position: absolute;
@@ -492,82 +502,45 @@ main .row5 input[type="submit"] {
     margin-bottom: 30px;
   }
   main .row5--cover {
-    height: 300px;
+    height: 350px;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1050px) {
   main {
     padding: 50px 120px;
   }
   main .row3 .personalize_acct {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr 2.5fr 7.5fr;
-        grid-template-columns: 2fr 2.5fr 7.5fr;
-    -webkit-column-gap: 20px;
-            column-gap: 20px;
-  }
-  main .row3 .personalize_acct section.m_likes div {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
   main .row4 {
-    margin-top: 80px;
+    position: relative;
   }
   main .row4 article.sort {
-    right: 300px;
-  }
-  main .row4 article.range {
-    display: block;
     position: absolute;
-    right: 0;
-    top: -15px;
+    z-index: 1;
+    right: 380px;
+    top: 0;
   }
-  main .row4 article.range .week {
+  main .row4 .range {
     position: absolute;
-    right: 50px;
-    top: 0px;
+    top: -35px;
+    right: 10px;
   }
-  main .row4 article.range input {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 3px;
-    border-radius: 5px;
-    background: #FF5300;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    -webkit-transition: opacity .2s;
-    transition: opacity .2s;
-  }
-  main .row4 article.range input::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #FF5300;
-    cursor: pointer;
-  }
-  main .row4 article.range input::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #FF5300;
-    cursor: pointer;
+  main .row4 div.movie_list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
   }
   main .row4 div.movie_list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1200px) {
-  .row3 article {
-    width: 100% !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

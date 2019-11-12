@@ -16,6 +16,10 @@ $header_text: #777777;
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     color: $default_color;
