@@ -16,7 +16,8 @@
 
     <style>
         main {
-            width: 50%;
+            width: 90%;
+            
         }
            main ol {
             text-align: left;
@@ -43,9 +44,7 @@
 
     <?php include "components/site_header.php" ?>
 
-    <section class="container">
-
-        <main class="mx-auto">
+        <main class="mx-auto px-3">
             <H3>FOR THE <span class="brand_color">PURPOSE</span> OF TESTING</H3>
             <ol>
                 <li><a href="index1.php">Index Page</a></li>
@@ -59,7 +58,6 @@
             </ol>
         </main>
 
-    </section>
     
     <?php include "components/site_footer.php" ?>
 </body>
