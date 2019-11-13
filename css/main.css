@@ -7,10 +7,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .container {
   max-width: 1200px;
   min-width: 320px;

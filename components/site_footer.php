@@ -1,7 +1,7 @@
 <footer>
     <section class="container">
-        <section class="footer_container row py-5 pr-0 pl-5 px-md-0">
-            <div class="footer_content col-sm-3">
+        <section class="footer_container row p-5 px-md-0 mx-auto">
+            <div class="footer_content col-md-3">
                 <h3>What to Watch</h3>
                 <div>
                     <a href="#">Popular TV Shows</a>
