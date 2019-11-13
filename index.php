@@ -14,6 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/site_header_footer.css">
 
+
     <style>
         main {
             width: 90%;
@@ -54,6 +55,7 @@
                 <li><a href="signupWithEmail.php">signupWithEmail Page</a></li>
                 <li><a href="user_profile.php">User profile Page</a></li>
                 <li><a href="settings.php">Settings</a></li>
+                <li><a href="components_test.php">See Difference components</a></li>
 
             </ol>
         </main>

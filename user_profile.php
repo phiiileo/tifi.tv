@@ -121,7 +121,7 @@
                         <div class="movie_lists">
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img1.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -129,7 +129,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img2.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -137,7 +137,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img2.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -145,7 +145,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img3.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -153,7 +153,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img1.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -161,7 +161,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img3.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -169,7 +169,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img4.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -177,7 +177,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img5.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -185,7 +185,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img3.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -193,7 +193,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img3.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -201,7 +201,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img3.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
@@ -209,7 +209,7 @@
                             </article>
                             <article class="move_list_item">
                                 <figure>
-                                    <img src="uploads/super.jpeg" alt="">
+                                    <img src="uploads/img3.jpeg" alt="">
                                 </figure>
                                 <figcaption>
                                     The Unicorn <span>(2019)</span>
