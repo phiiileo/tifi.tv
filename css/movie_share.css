@@ -49,19 +49,6 @@ img {
   background-color: #ffffff;
 }
 
-.modal_header .modal_content_header h4.movie_name {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 33px;
-  color: #000000;
-}
-
-.modal_header .modal_content_header h4.movie_name article {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
-}
-
 .modal_header .modal_content div.body1 {
   border: 0.5px solid #cacacaca;
   border-right: none;
@@ -74,7 +61,20 @@ img {
   color: #000000;
 }
 
-.modal_header .modal_content div.body1 div.body2 input[type="text"] {
+.modal_header .modal_content div.body1_header h4.movie_name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.modal_header .modal_content div.body1_header h4.movie_name article {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.modal_header .modal_content div.body2 input[type="text"] {
   width: 100%;
   height: 32px;
   background: #ffffff;
@@ -84,11 +84,11 @@ img {
   border-radius: 4px;
 }
 
-.modal_header .modal_content div.body1 div.body2 .review_input {
+.modal_header .modal_content div.body2 .review_input {
   height: 187px !important;
 }
 
-.modal_header .modal_content div.body1 div.cta input:last-child {
+.modal_header .modal_content div.cta input:last-child {
   border: 1px solid #FF5300;
   background-color: transparent;
   border-radius: 5px;
