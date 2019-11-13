@@ -18,7 +18,7 @@
                 </p>
                 <h4 class="movie_name">Game of Thrones 
                     <article class="brand_color float-right">
-                        <icon class="fa fa-star"></icon> <span>5/10</span>
+                        <i class="fa fa-star"></i> <span>5/10</span>
                     </article>
                 </h4>
 
@@ -30,17 +30,17 @@
                         Contains Spoilers</p>
                     <p>Rate movie</p>
 
-                    <h5 class="brand_color">
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
-                        <icon class="fa fa-star"></icon>
+                    <h5 class=" brand_color">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
                     </h5>
                 </div>
                 <div class="body2 my-3">
