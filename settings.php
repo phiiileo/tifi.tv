@@ -13,7 +13,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/site_header_footer.css">
     <link rel="stylesheet" href="css/settings.css">
 
 </head>
@@ -23,8 +22,8 @@
     <div class="page_header container my-0">
         <h3 class="page_header_text text-center mb-5 mb-md-0">SETTINGS</h3>
     </div>
-    <main class=" px-3 p-md-5 row">
-        <section class="sidebar px-4 col-md-2">
+    <main class="container mx-auto py-5 row ">
+        <section class="sidebar col-md-2">
             <nav class="row">
                 <p class="nav_links col-4 col-md-12 my-0  py-2"><a href="settings.php"
                         class="nav_links_item active">General</a></p>

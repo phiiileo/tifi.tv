@@ -11,6 +11,13 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  max-width: 1200px;
+  min-width: 320px;
+  padding: 0 1%;
+  border: 1px solid red;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -72,7 +79,7 @@ main .section--one span p {
 main .section--one .steps {
   margin: 50px auto;
   color: #333333;
-  width: 70%;
+  width: 80%;
 }
 
 main .section--one .steps section {

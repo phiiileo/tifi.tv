@@ -11,6 +11,13 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  max-width: 1200px;
+  min-width: 320px;
+  padding: 0 1%;
+  border: 1px solid red;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -126,18 +133,25 @@ main .body .pick_genre p {
 
 main .body .pick_genre div section {
   margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
 }
 
 main .body .pick_genre div section article {
   display: block;
-  text-align: center;
-  width: 50px;
-  margin-right: 26px;
-  float: left;
+  text-align: left;
+  width: 45px;
+  margin-right: 39px;
 }
 
 main .body .pick_genre div section article span {
-  display: inline-block;
+  display: block;
   margin: 0 auto;
   width: 45px;
   height: 45px;
@@ -161,7 +175,6 @@ main .body .select_movies p {
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
-  padding: 0 30px;
   position: relative;
 }
 
@@ -178,13 +191,17 @@ main .body .select_movies .movie_container {
   overflow-x: hidden;
   overflow-y: scroll;
   width: 100%;
-  height: 200px;
-  padding: 0 20px;
+  height: 250px;
   background-color: #fffdfc;
 }
 
 main .body .select_movies .movie_container .movie_lists {
   width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 40px;
 }
 
 main .body .select_movies .movie_container .movie_lists .move_list_item {
@@ -197,6 +214,7 @@ main .body .select_movies .movie_container .movie_lists .move_list_item {
 main .body .select_movies .movie_container .movie_lists .move_list_item img {
   width: 95px;
   height: 137px;
+  border-radius: 10px;
 }
 
 main .body .select_movies .movie_container .movie_lists .move_list_item figcaption {
@@ -245,12 +263,24 @@ main .body .cta a:last-child {
   main {
     width: 100%;
   }
+  main .pick_genre section {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
   main .pick_genre section article {
-    text-align: left;
+    text-align: center !important;
   }
   main .select_movies p span {
     position: static !important;
     display: block;
+  }
+  main .select_movies .movie_lists {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
   }
   main .cta a {
     display: block;

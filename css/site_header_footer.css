@@ -11,6 +11,13 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  max-width: 1200px;
+  min-width: 320px;
+  padding: 0 1%;
+  border: 1px solid red;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -46,22 +53,22 @@ img {
 }
 
 @media screen and (min-width: 0) {
-  header .container-fluid {
+  header .container {
     position: relative;
   }
-  header .container-fluid .tifi_logo {
+  header .container .tifi_logo {
     text-align: center;
   }
-  header .container-fluid .tifi_logo h3 {
+  header .container .tifi_logo h3 {
     color: #FF5300;
     font-size: 1.8em;
     font-weight: 900;
   }
-  header .container-fluid .tifi_logo h3 svg {
+  header .container .tifi_logo h3 svg {
     display: inline-block;
     margin-top: -10px;
   }
-  header .container-fluid .header_search span {
+  header .container .header_search span {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
@@ -70,26 +77,26 @@ img {
     padding: 5px;
     text-align: center;
   }
-  header .container-fluid .header_search span a {
+  header .container .header_search span a {
     color: #000000;
     display: inline-block;
   }
-  header .container-fluid .header_search span a.active {
+  header .container .header_search span a.active {
     border-top: 2px solid #FF5300;
   }
-  header .container-fluid .header_search_form {
+  header .container .header_search_form {
     height: 35px;
     border: 1px solid grey;
     border-radius: 10px;
   }
-  header .container-fluid .header_search_form button {
+  header .container .header_search_form button {
     width: 10%;
     color: grey;
     outline: none;
     background-color: transparent;
     border: none;
   }
-  header .container-fluid .header_search_form input {
+  header .container .header_search_form input {
     width: 90%;
     height: 100%;
     font-size: 1em;
@@ -98,24 +105,24 @@ img {
     outline: none;
     background-color: transparent;
   }
-  header .container-fluid .header_user {
+  header .container .header_user {
     text-align: center;
   }
-  header .container-fluid .header_user .login {
+  header .container .header_user .login {
     text-align: center;
   }
-  header .container-fluid .header_user .login a {
+  header .container .header_user .login a {
     color: #000000;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
   }
-  header .container-fluid .header_user .login a:nth-child(2) {
+  header .container .header_user .login a:nth-child(2) {
     background-color: #FF5300;
     color: #ffffff;
     border-radius: 5px;
   }
-  header .container-fluid .header_user .signedIn img {
+  header .container .header_user .signedIn img {
     border: 1px solid grey;
     border-radius: 100%;
     width: 40px;
@@ -124,7 +131,6 @@ img {
   footer {
     background-color: #000000;
     color: #ffffff;
-    padding: 5% 9.5%;
   }
   footer .footer_container .footer_content h3 {
     margin-bottom: 20px;
@@ -169,7 +175,7 @@ img {
     text-align: right;
   }
   footer .footer_content:last-child div {
-    margin-right: -15px;
+    margin-right: -15px !important;
   }
 }
 /*# sourceMappingURL=site_header_footer.css.map */
