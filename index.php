@@ -56,6 +56,7 @@
                 <li><a href="user_profile.php">User profile Page</a></li>
                 <li><a href="settings.php">Settings</a></li>
                 <li><a href="components_test.php">See Difference components</a></li>
+                <li><a href="home_login.php">Home Login</a></li>
 
             </ol>
         </main>
