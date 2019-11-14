@@ -13,6 +13,10 @@
   padding: 0 1%;
 }
 
+.row {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: #000000;

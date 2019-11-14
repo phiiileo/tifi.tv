@@ -65,7 +65,7 @@
                     </form>
 
                     <div class="notSignedIn">
-                        <article>Have an account? <a>Sign In</a></article>
+                        <article>Have an account? <a href="signin.php" class="font-weight-bold">Sign In</a></article>
 
                     </div>
                 </section>

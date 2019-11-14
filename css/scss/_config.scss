@@ -6,7 +6,6 @@ $google_button: #D72A04;
 $fb_button: #0669C9;
 $email_button: #FF5300;
 $input_color : #333333;
-$header_text: #777777;
 $text_color: #202124;
 $general_color: #777777;
 $badge_color: #dadada;
@@ -23,6 +22,10 @@ $badge_color: #dadada;
     max-width: 1200px;
     min-width: 320px;
     padding: 0 1%;
+}
+
+.row {
+    margin: 0;
 }
 
 a {

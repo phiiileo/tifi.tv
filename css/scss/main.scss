@@ -1,6 +1,6 @@
 @import "./config";
 
-
+/*HEADER STYLE*/
 header {
   .header_user {
     .signedIn {
@@ -8,7 +8,11 @@ header {
     }
   }
 }
+
+/*MAIN PAGE STYLE*/
 main {
+  /*ROW 2 STYLE*/
+
   .row1 {
     h3 {
       font-size: 35px;
@@ -51,6 +55,7 @@ main {
     }
   }
 
+  /*ROW 2 STYLE*/
   .row2 {
     text-align: left;
     border-bottom: 1px solid $text_color;
@@ -72,19 +77,16 @@ main {
     }
 
     .popular_brands {
-      span {
+      a {
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
         line-height: 27px;
+        width: 174px;
       }
 
       article {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
         span {
-          display: inline-block;
           width: 130px;
           margin-bottom: 20px;
 
@@ -99,128 +101,114 @@ main {
       }
     }
   }
+  /*ROW 3 STYLE*/
 
   .row3 {
-    text-align: center;
+    /*user pictureSTYLE*/
+
     .img_container {
       width: 179px;
       height: 230px;
-      text-align: center;
-      img {
-        width: 100px;
-        height: 100px;
-        border-radius: 100%;
-        border: 1px solid grey;
-      }
 
       p {
-        font-size: 18px;
+        font-size: 14px;
+        width: 95px;
         i {
           color: $brand_color;
           font-size: 14px;
         }
       }
     }
+    /*User preference*/
+
     .personalize_acct {
+      color: $text_color;
       section {
-        color: $text_color;
         font-size: 18px;
-        line-height: 25px;
+        line-height: 27px;
       }
+    }
+    span {
+      display: inline-block;
+      font-weight: bold;
+      border: 1px solid $general_color;
+      border-radius: 5px;
+      width: 80px;
+      font-size: 14px;
+      text-align: center;
+      color: $general_color;
+    }
+
+    article.genre {
+      color: $general_color;
+      width: 200px;
 
       span {
-        display: inline-block;
-        font-weight: bold;
-        border: 1px solid $general_color;
-        border-radius: 5px;
         width: 80px;
         font-size: 14px;
         text-align: center;
-        color: $general_color;
       }
-
-      article.genre {
-        color: $general_color;
-
-        span {
-          width: 80px;
+      span.plus {
+        background-color: #f4f4f4;
+        i {
           font-size: 14px;
-          text-align: center;
+          color: $font_color;
+          background-color: $general_color;
         }
-        span.plus {
-          background-color: #f4f4f4;
-          i {
-            font-size: 10px;
-            color: $font_color;
-            background-color: $general_color;
-            border-radius: 100%;
-            padding: 1px 3px;
-            text-align: center;
-          }
+      }
+    }
+    /*movies like by users*/
+
+    section.m_likes {
+      article {
+        width: 85px;
+        height: 170px;
+        margin-bottom: 10px;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 135px;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+
+        p {
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 19px;
+          color: $text_color;
+        }
+        i {
+          position: absolute;
+          font-size: 10px;
+          line-height: 14px;
+          bottom: 0;
+          color: $general_color;
+          left: 0;
         }
       }
 
-      section.m_likes {
+      article.plus {
+        background-color: #f4f4f4;
+        height: 135px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        div {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 10px;
-          article {
-            width: 100%;
-            height: 170px;
-            text-align: left;
-            margin-right: 5px;
-            margin-bottom: 10px;
-            text-align: left;
-
-            img {
-              width: 100%;
-              height: 135px;
-              object-fit: cover;
-              border: 1px solid red;
-              border-radius: 10px;
-            }
-            p {
-              text-align: left;
-              font-size: 12px;
-              color: $text_color;
-              font-weight: bold;
-            }
-
-            p:nth-child(3) {
-              border: none;
-              font-size: 10px;
-              color: #979797;
-              padding: 0;
-              margin-top: -25px;
-            }
-          }
-
-          article.plus {
-            height: 135px;
-            width: 85px;
-            background-color: #f4f4f4;
-            text-align: center;
-            border-radius: 10px;
-
-            p {
-              display: inline-block;
-              transform: translateY(100%);
-              background-color: #aaaaaa;
-              color: $font_color;
-              font-size: 30px;
-              font-weight: bold;
-              border-radius: 100%;
-            }
-          }
+        p {
+          font-size: 25px;
+          color: $font_color;
+          background-color: #aaaaaa;
         }
       }
     }
   }
 
+  /*ROW 4 STYLE*/
+
   .row4 {
-    clear: both;
     article {
       h3 {
         font-style: normal;
@@ -281,17 +269,11 @@ main {
     }
 
     div.movie_list {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      column-gap: 10px;
-      row-gap: 10px;
-      margin-bottom: 10px;
-
       article {
-        width: 100%;
+        width: 170px;
         height: 300px;
-        border: 1px solid grey;
         border-radius: 8px;
+        margin-bottom: 80px;
 
         div img {
           width: 100%;
@@ -308,8 +290,11 @@ main {
           span {
             background-color: $badge_color;
             border-radius: 100%;
-            padding: 7px 14px;
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
             position: absolute;
             font-weight: bold;
           }
@@ -328,42 +313,28 @@ main {
       }
     }
   }
+  /*ROW 5 STYLE*/
+}
+.full_width {
+  background-color: #f4f4f4;
+  .subscribe_input {
+    width: 320px;
+    height: 35px;
+    border-right: none;
+    font-size: 15px;
 
-  .row5 {
-    text-align: center;
-    background-color: #f4f4f4;
-
-    h3 {
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 44px;
-      color: $general_color;
-    }
-
-    form {
-      height: 40px;
-      border-color: $general_color;
-      width: 80%;
-      position: relative;
-    }
-    input[type="email"] {
+    input#subscribe {
+      width: 75%;
       height: 100%;
-      width: 80%;
-      padding-left: 20px;
-      border: 1px solid grey;
+      border: 1px solid $general_color;
       border-right: none;
+      background-color: transparent;
+      outline: none;
+      border-radius: 8px 0 0 8px;
     }
-
     input[type="submit"] {
       height: 100%;
-      width: 20%;
-      outline: none;
-      font-size: 0.8em;
-      display: inline-block;
-      padding: 10px;
-      position: absolute;
-      right: 10%;
-      top: 0;
+      width: 25%;
     }
   }
 }
@@ -405,9 +376,6 @@ main {
     .row3 {
       text-align: left;
       width: 100%;
-      display: grid;
-      grid-template-columns: 1fr 11fr;
-      column-gap: 20px;
 
       .personalize_acct {
         text-align: left;
@@ -417,40 +385,17 @@ main {
         article.genre {
           margin-left: 0;
         }
-
-        section.m_likes {
-          margin-top: 0;
-          width: 100%;
-          div {
-              display: block;
-
-              article {
-                  float: left;
-                  width: 85PX;
-              }
-          }
-        }
-      }
-
-      .break_2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 20px;
-
-        div {
-          text-align: center;
-        }
       }
     }
 
     .row4 {
-        div.movie_list {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 30px;
-            row-gap: 30px;
-            margin-bottom: 30px;
-        }
+      div.movie_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+        margin-bottom: 30px;
+      }
     }
 
     .row5 {
@@ -478,15 +423,8 @@ main {
   main {
     padding: 50px 120px;
 
-    .row3 {
-      .personalize_acct {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-      }
-    }
-
     .row4 {
-        position: relative;
+      position: relative;
       article.sort {
         position: absolute;
         z-index: 1;
@@ -498,17 +436,6 @@ main {
         position: absolute;
         top: -35px;
         right: 10px;
-      }
-
-      div.movie_list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-
-      div.movie_list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        
       }
     }
   }

@@ -96,7 +96,7 @@
                     </form>
 
                     <div class="notSignedIn">
-                        <article>Have an account? <a class="" href="#">Sign In</a></article>
+                        <article>Have an account? <a class="font-weight-bold" href="signin.php">Sign In</a></article>
 
                     </div>
                 </section>

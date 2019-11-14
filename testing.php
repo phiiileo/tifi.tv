@@ -19,7 +19,7 @@
     <?php include "components/site_footer.php" ?>
 
     <main class="container">
-    hello world
+    <input type="range">
     </main>
 
 </body>
