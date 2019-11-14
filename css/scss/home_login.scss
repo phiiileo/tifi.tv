@@ -1,4 +1,5 @@
 @import "config";
+
 header {
   .login {
     display: none;
@@ -13,44 +14,49 @@ header {
     }
   }
 }
+
 body {
-  position: relative;
-
-  .sidebar {
-    position: absolute;
-    min-width: 320px !important;
-    max-width: 50% !important;
-    top: 20px;
-    left: -1000px;
-    background-color: $font_color;
-    overflow: scroll;
+  .container {
+    position: relative;
     overflow-x: hidden;
-    height: 100vh;
+  }
+  /* HAMBURGER STYING STARTS HERE*/
 
-    section.hamburger {
-        position: fixed;
-        top: 0px;
-        left: 10px;
-        z-index: 2;
+  section.hamburger {
+    position: fixed;
+    top: 70px;
+    left: 10px;
+    z-index: 2;
+    background-color: white;
 
-        div.sticks {
-            width: 25px;
-            height: 3px;
-            margin-bottom: 3px;
-            background-color: black;
-        }
-
+    div.sticks {
+      width: 25px;
+      height: 3px;
+      margin-bottom: 3px;
+      background-color: black;
     }
+  }
+
+  /* SIDE BAR STYING STARTS HERE*/
+  .sidebar {
+    position: fixed;
+    background-color: $font_color;
+    overflow: visible;
+    overflow-x: hidden;
+    min-width: 320px;
+    height: auto;
+    display: none;
 
     h5 {
       background-color: #332f30;
       color: $font_color;
       font-weight: bold;
-      font-size: 22px;
+      font-size: 20px;
       line-height: 33px;
       padding: 8px 5px 8px 50px;
       border-radius: 0px 8px 8px 0px;
       position: relative;
+      margin: 20px 0;
 
       span {
         position: absolute;
@@ -108,12 +114,18 @@ body {
       }
     }
   }
+  /* MAIN CONTENT STYING STARTS HERE*/
 
   .main {
     z-index: -1;
+
+    /* First section  STYING STARTS HERE*/
+
     .row1 {
-      clear: both;
       article {
+        font-size: 12px;
+        line-height: 52px
+
         h3 {
           font-style: normal;
           font-weight: bold;
@@ -124,27 +136,16 @@ body {
       }
       article.sort {
         color: #1e1e1e;
-        margin: 10px 0;
       }
 
       .range {
         width: 300px;
-        position: relative;
-
-        span {
-          position: absolute;
-          top: 5px;
-          right: 70px;
-        }
 
         input {
-          position: absolute;
-          right: 0;
-          top: 15px;
           -webkit-appearance: none;
-          margin-top: 20px;
-          width: 60%;
+          width: 100px;
           height: 3px;
+          margin-left: 17px;
           border-radius: 5px;
           background: $brand_color;
           outline: none;
@@ -171,18 +172,19 @@ body {
           cursor: pointer;
         }
       }
+    }
 
-      div.movie_list {
+    /* MOVIE LISTS SECTION STYLING */
+    div.movie_list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
         row-gap: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 80px;
 
         article {
           width: 100%;
           height: 300px;
-          border: 1px solid grey;
           border-radius: 8px;
 
           div img {
@@ -218,15 +220,12 @@ body {
             }
           }
         }
-      }
-    }
+      } 
   }
 }
 
-.toggleBar {
-    left: -20px !important;
-    transition: left 1s;
-}
+/* MEDIUM SCREEN STYING STARTS HERE*/
+
 @media screen and (min-width: 768px) {
   header {
     .header_search {
@@ -239,50 +238,72 @@ body {
     }
   }
 
+ 
+
   .row1 {
-    div.movie_list {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      column-gap: 30px;
-      row-gap: 30px;
-      margin-bottom: 30px;
+    position: relative;
+    article {
+      h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 44px;
+        color: $text_color;
+      }
+    }
+    article.sort {
+      position: absolute;
+      color: #1e1e1e;
+      margin: 10px 0;
+      top: 8px;
+      right: 200px;
+    }
+
+    .range {
+      width: 300px;
+      position: absolute;
+      right: -120px;
+      top: 13px;
+
+      span {
+        position: absolute;
+        top: -15px;
+        right: 155px;
+      }
+
+      p {
+        position: absolute;
+        top: 5px;
+      }
+    }
+  }
+
+  div.movie_list {
+    display: flex !important;
+    justify-content: center;
+    article {
+      margin-right: 10px;
     }
   }
 }
 
-@media screen and (min-width: 1050px) {
+/* LARGE SCREEN STYING STARTS HERE*/
+
+@media screen and (min-width: 992px) {
+
+  .hamburger {
+    display: none !important;
+  }
   .sidebar {
-    position: static !important;
-    width: 100%;
-    margin-left: -20px;
-
-    .hamburger {
-        display: none;
-    }
+    left: -30px !important;
+    display: block !important;
   }
+
   .row1 {
-    position: relative;
-    article.sort {
-      position: absolute;
-      z-index: 1;
-      right: 380px;
-      top: 0;
-    }
-
-    .range {
-      position: absolute;
-      top: -35px;
-      right: 10px;
-    }
-
-    div.movie_list {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    div.movie_list {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
+    width: 105%;
   }
+}
+
+.overflow {
+  overflow: hidden;
 }

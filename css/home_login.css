@@ -57,44 +57,51 @@ header .header_search div span {
 }
 
 body {
+  /* HAMBURGER STYING STARTS HERE*/
+  /* SIDE BAR STYING STARTS HERE*/
+  /* MAIN CONTENT STYING STARTS HERE*/
+}
+
+body .container {
   position: relative;
-}
-
-body .sidebar {
-  position: absolute;
-  min-width: 320px !important;
-  max-width: 50% !important;
-  top: 20px;
-  left: -1000px;
-  background-color: #ffffff;
-  overflow: scroll;
   overflow-x: hidden;
-  height: 100vh;
 }
 
-body .sidebar section.hamburger {
+body section.hamburger {
   position: fixed;
-  top: 0px;
+  top: 70px;
   left: 10px;
   z-index: 2;
+  background-color: white;
 }
 
-body .sidebar section.hamburger div.sticks {
+body section.hamburger div.sticks {
   width: 25px;
   height: 3px;
   margin-bottom: 3px;
   background-color: black;
 }
 
+body .sidebar {
+  position: fixed;
+  background-color: #ffffff;
+  overflow: visible;
+  overflow-x: hidden;
+  min-width: 320px;
+  height: auto;
+  display: none;
+}
+
 body .sidebar h5 {
   background-color: #332f30;
   color: #ffffff;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 33px;
   padding: 8px 5px 8px 50px;
   border-radius: 0px 8px 8px 0px;
   position: relative;
+  margin: 20px 0;
 }
 
 body .sidebar h5 span {
@@ -154,44 +161,33 @@ body .sidebar p i:hover {
 
 body .main {
   z-index: -1;
+  /* First section  STYING STARTS HERE*/
+  /* MOVIE LISTS SECTION STYLING */
 }
 
-body .main .row1 {
-  clear: both;
-}
-
-body .main .row1 article h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 44px;
-  color: #202124;
+body .main .row1 article {
+  font-size: 12px;
+  line-height: 52px h3;
+  line-height-font-style: normal;
+  line-height-font-weight: bold;
+  line-height-font-size: 25px;
+  line-height-line-height: 44px;
+  line-height-color: #202124;
 }
 
 body .main .row1 article.sort {
   color: #1e1e1e;
-  margin: 10px 0;
 }
 
 body .main .row1 .range {
   width: 300px;
-  position: relative;
-}
-
-body .main .row1 .range span {
-  position: absolute;
-  top: 5px;
-  right: 70px;
 }
 
 body .main .row1 .range input {
-  position: absolute;
-  right: 0;
-  top: 15px;
   -webkit-appearance: none;
-  margin-top: 20px;
-  width: 60%;
+  width: 100px;
   height: 3px;
+  margin-left: 17px;
   border-radius: 5px;
   background: #FF5300;
   outline: none;
@@ -219,7 +215,7 @@ body .main .row1 .range input::-moz-range-thumb {
   cursor: pointer;
 }
 
-body .main .row1 div.movie_list {
+body .main div.movie_list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -227,17 +223,16 @@ body .main .row1 div.movie_list {
   -webkit-column-gap: 10px;
           column-gap: 10px;
   row-gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 80px;
 }
 
-body .main .row1 div.movie_list article {
+body .main div.movie_list article {
   width: 100%;
   height: 300px;
-  border: 1px solid grey;
   border-radius: 8px;
 }
 
-body .main .row1 div.movie_list article div img {
+body .main div.movie_list article div img {
   width: 100%;
   height: 250px;
   -o-object-fit: cover;
@@ -245,13 +240,13 @@ body .main .row1 div.movie_list article div img {
   border-radius: 8px;
 }
 
-body .main .row1 div.movie_list article div.m_details {
+body .main div.movie_list article div.m_details {
   height: 40px;
   padding-top: 5px;
   position: relative;
 }
 
-body .main .row1 div.movie_list article div.m_details span {
+body .main div.movie_list article div.m_details span {
   background-color: #dadada;
   border-radius: 100%;
   padding: 7px 14px;
@@ -260,75 +255,84 @@ body .main .row1 div.movie_list article div.m_details span {
   font-weight: bold;
 }
 
-body .main .row1 div.movie_list article div.m_details p {
+body .main div.movie_list article div.m_details p {
   display: inline-block;
   margin-left: 42px;
   font-weight: bold;
 }
 
-body .main .row1 div.movie_list article div.m_details i {
+body .main div.movie_list article div.m_details i {
   font-size: 9px;
   color: #979797;
   display: block;
 }
 
-.toggleBar {
-  left: -20px !important;
-  -webkit-transition: left 1s;
-  transition: left 1s;
-}
-
+/* MEDIUM SCREEN STYING STARTS HERE*/
 @media screen and (min-width: 768px) {
   header .header_search div span {
     display: block !important;
     visibility: hidden;
   }
-  .row1 div.movie_list {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    -webkit-column-gap: 30px;
-            column-gap: 30px;
-    row-gap: 30px;
-    margin-bottom: 30px;
-  }
-}
-
-@media screen and (min-width: 1050px) {
-  .sidebar {
-    position: static !important;
-    width: 100%;
-    margin-left: -20px;
-  }
-  .sidebar .hamburger {
-    display: none;
-  }
   .row1 {
     position: relative;
   }
+  .row1 article h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 44px;
+    color: #202124;
+  }
   .row1 article.sort {
     position: absolute;
-    z-index: 1;
-    right: 380px;
-    top: 0;
+    color: #1e1e1e;
+    margin: 10px 0;
+    top: 8px;
+    right: 200px;
   }
   .row1 .range {
+    width: 300px;
     position: absolute;
-    top: -35px;
-    right: 10px;
+    right: -120px;
+    top: 13px;
   }
-  .row1 div.movie_list {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+  .row1 .range span {
+    position: absolute;
+    top: -15px;
+    right: 155px;
   }
-  .row1 div.movie_list {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  .row1 .range p {
+    position: absolute;
+    top: 5px;
   }
+  div.movie_list {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.movie_list article {
+    margin-right: 10px;
+  }
+}
+
+/* LARGE SCREEN STYING STARTS HERE*/
+@media screen and (min-width: 992px) {
+  .hamburger {
+    display: none !important;
+  }
+  .sidebar {
+    left: -30px !important;
+    display: block !important;
+  }
+  .row1 {
+    width: 105%;
+  }
+}
+
+.overflow {
+  overflow: hidden;
 }
 /*# sourceMappingURL=home_login.css.map */

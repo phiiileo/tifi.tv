@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/site_header_footer.css">
     <link rel="stylesheet" href="css/home_login.css">
 </head>
 
@@ -19,13 +20,14 @@
     <?php include "components/site_header.php" ?>
 
     <main class="mb-5">
-        <div class="container-fluid row mx-auto px-2 pl-md-0 pr-md-5">
-            <section class="sidebar col-lg-3 px-0">
-                <section class="hamburger my-3">
-                    <div class="sticks"></div>
-                    <div class="sticks"></div>
-                    <div class="sticks"></div>
-                </section>
+        <section class="hamburger">
+            <div class="sticks"></div>
+            <div class="sticks"></div>
+            <div class="sticks"></div>
+        </section>
+
+        <div class="container row mx-auto px-2 pt-0 pb-5 px-md-0">
+            <section class="sidebar toggleBar col-lg-3 px-0">
                 <h5 class="bg_color sidebar_header">
                     Recommended For You
                 </h5>
@@ -81,36 +83,34 @@
                     </div>
                 </form>
                 <section class="my_list mb-5">
-                    <h5 class=" sidebar_header px-5">
+                    <h5 class=" sidebar_header px-5 my-5">
                         My Lists (Baddt)
                         <span>Edit</span>
                     </h5>
                     <form action="" class="form2 px-5">
                         <div class="form-group">
                             <h6>Make Public <i><input type="checkbox" name="" id=""></i></h6>
-                                <p>Suits<i class="fas fa-times"></i></p>
-                                <p>Breaking Bad<i class="fas fa-times"></i></p>
-                                <p>Grey's Anatomy<i class="fas fa-times"></i></p>
-                                <p>HBO<i class="fas fa-times"></i></p>
-                                
+                            <p>Suits<i class="fas fa-times"></i></p>
+                            <p>Breaking Bad<i class="fas fa-times"></i></p>
+                            <p>Grey's Anatomy<i class="fas fa-times"></i></p>
+                            <p>HBO<i class="fas fa-times"></i></p>
+
                         </div>
 
                     </form>
                 </section>
             </section>
 
-            <section class="main col-lg-8">
-                <section class="row1 px-2 mt-5">
+            <section class="main col-lg-8 pl-lg-0 ml-lg-n1 px-md-0">
+                <section class="row1 ">
                     <article>
-                        <h3>Most Popular right now</h3>
+                        <h3>TV Shows you should watch</h3>
                         <article class="sort">Sorted by
                             <span class="brand_color">Popularity <i class="fa fa-angle-down"></i></span>
                         </article>
-                        <article class="range pt-4 my-4">
+                        <article class="range pt-2 pt-md-0 my-0">
                             <span class="week">1 week</span>
-                            <p>
-                                Time range
-                                <input type="range" class=""></p>
+                            <p>Time range<input type="range" class=""></p>
                         </article>
                     </article>
                     <div class="movie_list mx-auto">
@@ -154,6 +154,8 @@
                                     <i>series</i></p>
                             </div>
                         </article>
+                    </div>
+                    <div class="movie_list mx-auto">
                         <article>
                             <div><img src="uploads/img3.png" alt=""></div>
                             <div class="m_details">
@@ -162,21 +164,6 @@
                                     <i>series</i></p>
                             </div>
                         </article>
-                        <article>
-                            <div><img src="uploads/img1.png" alt=""></div>
-                            <div class="m_details">
-                                <span>4</span>
-                                <p>Monet Hiest <br>
-                                    <i>series</i></p>
-                            </div>
-                        </article>
-                        <article>
-                            <div><img src="uploads/img4.png" alt=""></div>
-                            <div class="m_details">
-                                <span>5</span>
-                                <p>Monet Hiest <br>
-                                    <i>series</i></p>
-                            </div>
                         </article>
                         <article>
                             <div><img src="uploads/img1.png" alt=""></div>
@@ -194,6 +181,24 @@
                                     <i>series</i></p>
                             </div>
                         </article>
+                        <article>
+                            <div><img src="uploads/img1.png" alt=""></div>
+                            <div class="m_details">
+                                <span>4</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img4.png" alt=""></div>
+                            <div class="m_details">
+                                <span>5</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="movie_list mx-auto">
                         <article>
                             <div><img src="uploads/img1.png" alt=""></div>
                             <div class="m_details">
@@ -234,6 +239,8 @@
                                     <i>series</i></p>
                             </div>
                         </article>
+                    </div>
+                    <div class="movie_list mx-auto">
                         <article>
                             <div><img src="uploads/img3.png" alt=""></div>
                             <div class="m_details">
@@ -242,21 +249,6 @@
                                     <i>series</i></p>
                             </div>
                         </article>
-                        <article>
-                            <div><img src="uploads/img1.png" alt=""></div>
-                            <div class="m_details">
-                                <span>4</span>
-                                <p>Monet Hiest <br>
-                                    <i>series</i></p>
-                            </div>
-                        </article>
-                        <article>
-                            <div><img src="uploads/img4.png" alt=""></div>
-                            <div class="m_details">
-                                <span>5</span>
-                                <p>Monet Hiest <br>
-                                    <i>series</i></p>
-                            </div>
                         </article>
                         <article>
                             <div><img src="uploads/img1.png" alt=""></div>
@@ -274,6 +266,24 @@
                                     <i>series</i></p>
                             </div>
                         </article>
+                        <article>
+                            <div><img src="uploads/img1.png" alt=""></div>
+                            <div class="m_details">
+                                <span>4</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img4.png" alt=""></div>
+                            <div class="m_details">
+                                <span>5</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="movie_list mx-auto">
                         <article>
                             <div><img src="uploads/img3.png" alt=""></div>
                             <div class="m_details">
@@ -282,21 +292,6 @@
                                     <i>series</i></p>
                             </div>
                         </article>
-                        <article>
-                            <div><img src="uploads/img1.png" alt=""></div>
-                            <div class="m_details">
-                                <span>4</span>
-                                <p>Monet Hiest <br>
-                                    <i>series</i></p>
-                            </div>
-                        </article>
-                        <article>
-                            <div><img src="uploads/img4.png" alt=""></div>
-                            <div class="m_details">
-                                <span>5</span>
-                                <p>Monet Hiest <br>
-                                    <i>series</i></p>
-                            </div>
                         </article>
                         <article>
                             <div><img src="uploads/img1.png" alt=""></div>
@@ -314,10 +309,78 @@
                                     <i>series</i></p>
                             </div>
                         </article>
+                        <article>
+                            <div><img src="uploads/img1.png" alt=""></div>
+                            <div class="m_details">
+                                <span>4</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img4.png" alt=""></div>
+                            <div class="m_details">
+                                <span>5</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                    </div>
 
+                </section>
+                <section class="row2 pt-5 my-5">
+                    <article>
+                        <h3>Upcoming Movies and TV Shows</h3>
+                        <div>
+                            TIME
+                        </div>
+                    </article>
+                    <div class="movie_list mx-auto ">
+                        <article>
+                            <div><img src="uploads/img1.png" alt=""></div>
+                            <div class="m_details">
+                                <span>1</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div class="m_details">
+                                <span>2</span>
+                                <p>Power <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img3.png" alt=""></div>
+                            <div class="m_details">
+                                <span>3</span>
+                                <p>Power <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img1.png" alt=""></div>
+                            <div class="m_details">
+                                <span>4</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img4.png" alt=""></div>
+                            <div class="m_details">
+                                <span>5</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </article>
                     </div>
                 </section>
             </section>
+
+
         </div>
     </main>
 
@@ -326,8 +389,12 @@
 <script>
     let hamburger = $(".hamburger");
     let sidebar = $(".sidebar");
-    hamburger.on("click", function(){
-            sidebar.toggleClass("toggleBar")
+    let mainbar = $(".main");
+    hamburger.on("click", function () {
+        sidebar.toggle(1000);
+        mainbar.toggleClass("overflow")
+
     })
 </script>
+
 </html>
