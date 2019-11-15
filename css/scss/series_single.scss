@@ -1,0 +1,327 @@
+@import "./config";
+
+/*header style*/
+header {
+  .login {
+    display: none;
+  }
+
+  .header_search {
+    div {
+      span {
+        display: none !important;
+        margin-left: -70px;
+      }
+    }
+  }
+}
+
+/*Page style start*/
+
+.page_header {
+  position: relative;
+  height: 320px;
+  background-image: url("../uploads/got_throne.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &_content {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 200px;
+
+    .vote_number {
+      color: $font_color;
+
+      p {
+        font-size: 22px;
+        line-height: 30px;
+      }
+      span {
+        font-weight: lighter;
+        font-size: 14px;
+      }
+    }
+    .vote_star {
+      color: #ffce31;
+      font-size: 25px;
+      font-weight: lighter;
+      font-weight: 600;
+      i:last-child {
+        color: white;
+      }
+    }
+    .m_provider {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: $font_color;
+
+      article {
+        width: 50px;
+        height: 50px;
+      }
+      img {
+        width: 100%;
+        height: 25px;
+        border-radius: 2px;
+      }
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
+.page_body {
+  .sidebar { 
+    .img_container {
+      background-color: #332f30;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .movie_details {
+      p {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 5px;
+
+        span:last-child {
+          font-size: 11px;
+        }
+      }
+    }
+    .movie_trailer {
+      p {
+        background-color: rgba(119, 119, 119, 0.08);
+        border-radius: 5px;
+        width: 117px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+      }
+
+      iframe {
+        width: 100%;
+        height: auto;
+      }
+      article {
+        width: 100%;
+        iframe,
+        img {
+          width: 49%;
+          height: auto;
+        }
+      }
+    }
+    .movie_cc {
+      h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #332f30;
+      }
+      div {
+        article {
+          width: 45%;
+
+          p {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+          }
+          p:first-child {
+            color: $brand_color;
+          }
+        }
+      }
+    }
+  }
+
+  .main_container {
+    position: relative;
+    h3 {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 38px;
+      color: $default_color;
+      span {
+        color: $general_color;
+      }
+    }
+    p.add_to {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    section.about_movie {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      color: #332f30;
+
+      h5 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+      }
+
+      p:last-child {
+        a {
+          border: 1px solid;
+          border-radius: 10px;
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+        a.active {
+          color: $brand_color;
+        }
+      }
+    }
+
+    section.seasons {
+      font-weight: 600;
+
+      h3 {
+        font-size: 18px;
+        line-height: 25px;
+        color: #332f30;
+      }
+      ul.list-unstyled {
+        width: 80%;
+        background-color: rgb(223, 215, 215);
+
+        li {
+          border: 1px solid rgb(182, 173, 173);
+          border-right: none;
+          border-left: none;
+        }
+        i {
+          float: right;
+        }
+      }
+    }
+
+    .episode_thriller {
+
+      &_item {
+        width: 100%;
+        height: auto;
+        iframe {
+          width: 100%;
+          height: auto;
+        }
+        span a {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+        }
+        p {
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 20px;
+          a {
+            font-weight: normal;
+          }
+        }
+        a.trailer_text {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+    .comment_container {
+      h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+      }
+
+      .comment {
+        border: 1px solid $badge_color;
+        border-radius: 8px;
+        position: relative;
+
+        .fa-twitter {
+          position: absolute;
+          right: 40px;
+          top: 40px;
+          color: #00aeff;
+          font-size: 30px;
+        }
+
+        article.t_user i {
+          font-size: 70px;
+          color: #979797;
+        }
+        .tweet {
+          a {
+            color: $brand_color;
+          }
+          p {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+          }
+
+          article {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+
+        .rt_likes {
+          i {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #979797;
+          }
+        }
+      }
+      .gists {
+        border-top: 1px solid grey;
+
+        div {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #1b8bc8;
+        }
+      }
+      .see_more {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.233333px;
+        color: #1b8bc8;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*header style*/
+  header {
+    .header_search {
+      div {
+        span {
+          display: block !important;
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}

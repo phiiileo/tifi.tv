@@ -56,6 +56,8 @@
                 <li><a href="settings.php">Settings</a></li>
                 <li><a href="components_test.php">See Difference components</a></li>
                 <li><a href="home_login.php">Home Login</a></li>
+                <li><a href="series_single.php">Series page</a></li>
+                <li><a href="movies_single.php">Movies page</a></li>
 
             </ol>
         </main>
