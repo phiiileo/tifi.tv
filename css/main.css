@@ -13,10 +13,6 @@
   padding: 0 1%;
 }
 
-.row {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
   color: #000000;
@@ -51,6 +47,10 @@ img {
   color: #FF5300;
 }
 
+a:hover {
+  opacity: 0.6;
+}
+
 /*HEADER STYLE*/
 header .header_user .signedIn {
   display: none;
@@ -78,15 +78,20 @@ main .row1 p {
   font-size: 20px;
   color: #777777;
   line-height: 30px;
+  width: 82%;
 }
 
-main .row1 .search_input {
+main .row1 div {
+  width: 82%;
+}
+
+main .row1 div .search_input {
   width: 100%;
   height: 35px;
   border-right: none;
 }
 
-main .row1 .search_input input#search {
+main .row1 div .search_input input#search {
   width: 80%;
   height: 100%;
   border: 1px solid #777777;
@@ -95,13 +100,15 @@ main .row1 .search_input input#search {
   outline: none;
 }
 
-main .row1 .search_input input[type="submit"] {
+main .row1 div .search_input input[type="submit"] {
   height: 100%;
   width: 20%;
+  background-color: #FF5300;
+  border: 1px solid #FF5300;
+  color: #ffffff;
 }
 
 main .row1 .carousel_container {
-  width: 80%;
   border: 1px solid #777777;
   height: 200px;
 }
@@ -144,6 +151,7 @@ main .row2 .popular_brands article span {
 main .row2 .popular_brands article span img {
   width: 80px;
   height: 30px;
+  border: 1px solid black;
   display: inline-block;
   margin-left: 10px;
   -o-object-fit: contain;
@@ -153,7 +161,6 @@ main .row2 .popular_brands article span img {
 main .row3 {
   /*user pictureSTYLE*/
   /*User preference*/
-  /*movies like by users*/
 }
 
 main .row3 .img_container {
@@ -173,6 +180,7 @@ main .row3 .img_container p i {
 
 main .row3 .personalize_acct {
   color: #202124;
+  /*movies like by users*/
 }
 
 main .row3 .personalize_acct section {
@@ -180,46 +188,61 @@ main .row3 .personalize_acct section {
   line-height: 27px;
 }
 
-main .row3 span {
+main .row3 .personalize_acct a {
   display: inline-block;
   font-weight: bold;
   border: 1px solid #777777;
   border-radius: 5px;
   width: 80px;
+  height: 32px;
   font-size: 14px;
-  text-align: center;
   color: #777777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
-main .row3 article.genre {
+main .row3 .personalize_acct article.genre {
   color: #777777;
   width: 200px;
 }
 
-main .row3 article.genre span {
-  width: 80px;
-  font-size: 14px;
-  text-align: center;
-}
-
-main .row3 article.genre span.plus {
+main .row3 .personalize_acct article.genre a.plus {
   background-color: #f4f4f4;
+  position: relative;
 }
 
-main .row3 article.genre span.plus i {
+main .row3 .personalize_acct article.genre a.plus i {
   font-size: 14px;
   color: #ffffff;
   background-color: #777777;
+  border: 2px solid #777777;
+  border-radius: 100%;
+  position: absolute;
+  padding: 0;
+  top: 5px;
+  right: 30px;
 }
 
-main .row3 section.m_likes article {
-  width: 85px;
+main .row3 .personalize_acct section.m_likes article {
+  width: 89px;
   height: 170px;
   margin-bottom: 10px;
   position: relative;
 }
 
-main .row3 section.m_likes article img {
+main .row3 .personalize_acct section.m_likes article a {
+  height: 135px;
+  width: 89px;
+  border: none;
+}
+
+main .row3 .personalize_acct section.m_likes article img {
   width: 100%;
   height: 135px;
   -o-object-fit: cover;
@@ -227,14 +250,14 @@ main .row3 section.m_likes article img {
   border-radius: 10px;
 }
 
-main .row3 section.m_likes article p {
+main .row3 .personalize_acct section.m_likes article p {
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
   color: #202124;
 }
 
-main .row3 section.m_likes article i {
+main .row3 .personalize_acct section.m_likes article i {
   position: absolute;
   font-size: 10px;
   line-height: 14px;
@@ -243,10 +266,11 @@ main .row3 section.m_likes article i {
   left: 0;
 }
 
-main .row3 section.m_likes article.plus {
+main .row3 .personalize_acct section.m_likes article.plus {
   background-color: #f4f4f4;
   height: 135px;
   border-radius: 8px;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,10 +282,14 @@ main .row3 section.m_likes article.plus {
           align-items: center;
 }
 
-main .row3 section.m_likes article.plus p {
+main .row3 .personalize_acct section.m_likes article.plus p {
   font-size: 25px;
   color: #ffffff;
   background-color: #aaaaaa;
+}
+
+main .row3 .personalize_acct section.m_likes article.plus:hover {
+  opacity: .6;
 }
 
 main .row4 article h3 {
@@ -324,7 +352,7 @@ main .row4 .range input::-moz-range-thumb {
 }
 
 main .row4 div.movie_list article {
-  width: 170px;
+  width: 185px;
   height: 300px;
   border-radius: 8px;
   margin-bottom: 80px;
@@ -339,7 +367,7 @@ main .row4 div.movie_list article div img {
 }
 
 main .row4 div.movie_list article div.m_details {
-  height: 40px;
+  height: 50px;
   padding-top: 5px;
   position: relative;
 }
@@ -398,13 +426,13 @@ main .row4 div.movie_list article div.m_details i {
 .full_width .subscribe_input input[type="submit"] {
   height: 100%;
   width: 25%;
+  background-color: #FF5300;
+  border: 1px solid #FF5300;
+  color: #ffffff;
+  border-bottom: none;
 }
 
 @media screen and (min-width: 768px) {
-  main {
-    margin: 0 auto;
-    padding: 30px 50px;
-  }
   main .row2 {
     border: none;
   }
@@ -424,10 +452,10 @@ main .row4 div.movie_list article div.m_details i {
     text-align: left;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 3fr;
-        grid-template-columns: 1fr 3fr;
-    -webkit-column-gap: 20px;
-            column-gap: 20px;
+    -ms-grid-columns: 1fr 4fr;
+        grid-template-columns: 1fr 4fr;
+    -webkit-column-gap: 0px;
+            column-gap: 0px;
   }
   main .row2 .popular_brands article {
     display: inline-block;
@@ -438,14 +466,6 @@ main .row4 div.movie_list article div.m_details i {
   main .row3 {
     text-align: left;
     width: 100%;
-  }
-  main .row3 .personalize_acct {
-    text-align: left;
-    margin-left: 0;
-    width: 100%;
-  }
-  main .row3 .personalize_acct article.genre {
-    margin-left: 0;
   }
   main .row4 div.movie_list {
     display: -ms-grid;

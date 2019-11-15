@@ -1,5 +1,8 @@
 @import "./config";
 
+a:hover {
+  opacity: 0.6;
+}
 /*HEADER STYLE*/
 header {
   .header_user {
@@ -27,29 +30,35 @@ main {
       font-size: 20px;
       color: $general_color;
       line-height: 30px;
+      width: 82%;
     }
 
-    .search_input {
-      width: 100%;
-      height: 35px;
-      border-right: none;
-
-      input#search {
-        width: 80%;
-        height: 100%;
-        border: 1px solid $general_color;
+    div {
+      width: 82%;
+      .search_input {
+        width: 100%;
+        height: 35px;
         border-right: none;
-        background-color: transparent;
-        outline: none;
-      }
-      input[type="submit"] {
-        height: 100%;
-        width: 20%;
+
+        input#search {
+          width: 80%;
+          height: 100%;
+          border: 1px solid $general_color;
+          border-right: none;
+          background-color: transparent;
+          outline: none;
+        }
+        input[type="submit"] {
+          height: 100%;
+          width: 20%;
+          background-color: $brand_color;
+      border: 1px solid $brand_color;
+      color: $font_color;
+        }
       }
     }
 
     .carousel_container {
-      width: 80%;
       border: 1px solid $general_color;
       height: 200px;
     }
@@ -93,6 +102,7 @@ main {
           img {
             width: 80px;
             height: 30px;
+            border: 1px solid black;
             display: inline-block;
             margin-left: 10px;
             object-fit: contain;
@@ -127,81 +137,96 @@ main {
         font-size: 18px;
         line-height: 27px;
       }
-    }
-    span {
-      display: inline-block;
-      font-weight: bold;
-      border: 1px solid $general_color;
-      border-radius: 5px;
-      width: 80px;
-      font-size: 14px;
-      text-align: center;
-      color: $general_color;
-    }
-
-    article.genre {
-      color: $general_color;
-      width: 200px;
-
-      span {
+      a {
+        display: inline-block;
+        font-weight: bold;
+        border: 1px solid $general_color;
+        border-radius: 5px;
         width: 80px;
+        height: 32px;
         font-size: 14px;
-        text-align: center;
-      }
-      span.plus {
-        background-color: #f4f4f4;
-        i {
-          font-size: 14px;
-          color: $font_color;
-          background-color: $general_color;
-        }
-      }
-    }
-    /*movies like by users*/
-
-    section.m_likes {
-      article {
-        width: 85px;
-        height: 170px;
-        margin-bottom: 10px;
-        position: relative;
-
-        img {
-          width: 100%;
-          height: 135px;
-          object-fit: cover;
-          border-radius: 10px;
-        }
-
-        p {
-          font-weight: bold;
-          font-size: 14px;
-          line-height: 19px;
-          color: $text_color;
-        }
-        i {
-          position: absolute;
-          font-size: 10px;
-          line-height: 14px;
-          bottom: 0;
-          color: $general_color;
-          left: 0;
-        }
-      }
-
-      article.plus {
-        background-color: #f4f4f4;
-        height: 135px;
-        border-radius: 8px;
+        color: $general_color;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-content: center;
+      }
+      article.genre {
+        color: $general_color;
+        width: 200px;
 
-        p {
-          font-size: 25px;
-          color: $font_color;
-          background-color: #aaaaaa;
+        a.plus {
+          background-color: #f4f4f4;
+          position: relative;
+          i {
+            font-size: 14px;
+            color: $font_color;
+            background-color: $general_color;
+            border: 2px solid $general_color;
+            border-radius: 100%;
+            position: absolute;
+            padding: 0;
+            top: 5px;
+            right: 30px;
+          }
         }
+      }
+      /*movies like by users*/
+
+      section.m_likes {
+        article {
+          width: 89px;
+          height: 170px;
+          margin-bottom: 10px;
+          position: relative;
+
+         a {
+           height: 135px;
+           width: 89px;
+           border: none;
+         }
+          img {
+            width: 100%;
+            height: 135px;
+            object-fit: cover;
+            border-radius: 10px;
+          }
+
+          p {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 19px;
+            color: $text_color;
+          }
+          i {
+            position: absolute;
+            font-size: 10px;
+            line-height: 14px;
+            bottom: 0;
+            color: $general_color;
+            left: 0;
+          }
+        }
+
+        article.plus {
+          background-color: #f4f4f4;
+          height: 135px;
+          border-radius: 8px;
+          cursor: pointer; 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          p {
+            font-size: 25px;
+            color: $font_color;
+            background-color: #aaaaaa;
+          }
+
+          &:hover {
+            opacity: .6;
+          }
+        }
+
       }
     }
   }
@@ -270,7 +295,7 @@ main {
 
     div.movie_list {
       article {
-        width: 170px;
+        width: 185px;
         height: 300px;
         border-radius: 8px;
         margin-bottom: 80px;
@@ -283,7 +308,7 @@ main {
         }
 
         div.m_details {
-          height: 40px;
+          height: 50px;
           padding-top: 5px;
           position: relative;
 
@@ -335,15 +360,16 @@ main {
     input[type="submit"] {
       height: 100%;
       width: 25%;
+      background-color: $brand_color;
+      border: 1px solid $brand_color;
+      color: $font_color;
+      border-bottom: none;
     }
   }
 }
 
 @media screen and (min-width: 768px) {
   main {
-    margin: 0 auto;
-    padding: 30px 50px;
-
     .row2 {
       border: none;
       .personalize {
@@ -362,8 +388,8 @@ main {
       .popular_brands {
         text-align: left;
         display: grid;
-        grid-template-columns: 1fr 3fr;
-        column-gap: 20px;
+        grid-template-columns: 1fr 4fr;
+        column-gap: 0px;
         article {
           display: inline-block;
           span {
@@ -376,16 +402,6 @@ main {
     .row3 {
       text-align: left;
       width: 100%;
-
-      .personalize_acct {
-        text-align: left;
-        margin-left: 0;
-        width: 100%;
-
-        article.genre {
-          margin-left: 0;
-        }
-      }
     }
 
     .row4 {

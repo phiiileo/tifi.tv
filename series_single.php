@@ -171,8 +171,8 @@
                         </ul>
                     </section>
 
-                    <section class="episode_thriller row mx-auto my-5">
-                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6">
+                    <section class="episode_thriller row mx-0 my-5">
+                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6 px-0">
                             <iframe src="https://www.youtube.com/embed/zkhUealkTc8/">
                             </iframe> 
                             <span>
@@ -220,8 +220,9 @@
                                 </article>
                             </article>
                            
-                        </section> <div class="gists mt-n5 pl-5">
-                                <div class="fa fa-comment pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
+                        </section>
+                         <div class="gists mt-n5 pl-5 ml-0">
+                                <div class="fa fa-comment ml-5 pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
                             </div>
                         </div>
                         <div class="pt-5">
@@ -244,8 +245,8 @@
                             </article>
                            
                         </section> 
-                        <div class="gists mt-n5 pl-5">
-                                <div class="fa fa-comment pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
+                        <div class="gists mt-n5 pl-5  ml-n0">
+                                <div class="fa fa-comment ml-5 pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
                         </div>
                         <p class="pt-3 see_more">See more</p>
                         </div>

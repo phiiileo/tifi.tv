@@ -161,8 +161,9 @@
                                 </article>
                             </article>
                            
-                        </section> <div class="gists mt-n5 pl-5">
-                                <div class="fa fa-comment pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
+                        </section> 
+                        <div class="gists mt-n5 pl-5 ml-0">
+                                <div class="fa fa-comment ml-5 pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
                             </div>
                         </div>
                         <div class="pt-5">
@@ -185,8 +186,8 @@
                             </article>
                            
                         </section> 
-                        <div class="gists mt-n5 pl-5">
-                                <div class="fa fa-comment pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
+                        <div class="gists mt-n5 pl-5  ml-0">
+                                <div class="fa fa-comment ml-5 pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
                         </div>
                         <p class="pt-3 see_more">See more</p>
                         </div>

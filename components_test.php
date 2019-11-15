@@ -16,6 +16,8 @@
 <?php include "components/site_header.php" ?>
 <main class="mx-1 mx-sm-5 my-5 my-5">
 <?php include "components/movie_share.php" ?>
+
+<?php include "components/tweets.php" ?>
 </main>
 <?php include "components/site_footer.php" ?>
 

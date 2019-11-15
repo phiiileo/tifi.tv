@@ -7,11 +7,8 @@ header {
   }
 
   .header_search {
-    div {
-      span {
-        display: none !important;
-        margin-left: -70px;
-      }
+    .menu {
+      display: none;
     }
   }
 }
@@ -75,7 +72,7 @@ header {
 }
 
 .page_body {
-  .sidebar { 
+  .sidebar {
     .img_container {
       background-color: #332f30;
 
@@ -199,7 +196,7 @@ header {
         color: #332f30;
       }
       ul.list-unstyled {
-        width: 80%;
+        width: 100%;
         background-color: rgb(223, 215, 215);
 
         li {
@@ -214,7 +211,7 @@ header {
     }
 
     .episode_thriller {
-
+      width: 100%;
       &_item {
         width: 100%;
         height: auto;
@@ -279,6 +276,7 @@ header {
             font-weight: normal;
             font-size: 16px;
             line-height: 20px;
+            padding-right: 40px;
           }
         }
 
@@ -292,8 +290,7 @@ header {
         }
       }
       .gists {
-        border-top: 1px solid grey;
-
+        border-top: 1px solid $badge_color;
         div {
           font-weight: 600;
           font-size: 16px;
@@ -312,15 +309,13 @@ header {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   /*header style*/
   header {
     .header_search {
-      div {
-        span {
-          display: block !important;
-          visibility: hidden;
-        }
+      .menu {
+        display: inline-block !important;
+        visibility: hidden;
       }
     }
   }

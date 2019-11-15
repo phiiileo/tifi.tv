@@ -113,7 +113,7 @@
                             </article>
                         </div>
                     </article>
-                    <div class="movie_list mx-auto my-4">
+                    <div class="movie_list mx-auto my-4 ml-md-0">
                         <article>
                             <div><img src="uploads/img2.png" alt=""></div>
                             <div class="m_details">

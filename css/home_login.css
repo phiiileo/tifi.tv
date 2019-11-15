@@ -13,10 +13,6 @@
   padding: 0 1%;
 }
 
-.row {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
   color: #000000;
@@ -150,7 +146,7 @@ main.container {
 .sidebar p i {
   position: absolute;
   right: -15px;
-  color: #777777;
+  color: white;
 }
 
 .sidebar p i:hover {
@@ -254,14 +250,14 @@ main.container {
 
 .main .row1 div.movie_list article,
 .main .row2 div.movie_list article {
-  width: 170px;
+  width: 180px;
   height: 300px;
   margin-bottom: 50px;
 }
 
 .main .row1 div.movie_list article img,
 .main .row2 div.movie_list article img {
-  width: 95%;
+  width: 100%;
   height: 250px;
   border-radius: 8px;
 }

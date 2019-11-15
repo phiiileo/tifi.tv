@@ -13,10 +13,6 @@
   padding: 0 1%;
 }
 
-.row {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
   color: #000000;
@@ -56,9 +52,8 @@ header .login {
   display: none;
 }
 
-header .header_search div span {
-  display: none !important;
-  margin-left: -70px;
+header .header_search .menu {
+  display: none;
 }
 
 /*Page style start*/
@@ -256,7 +251,7 @@ header .header_search div span {
 }
 
 .page_body .main_container section.seasons ul.list-unstyled {
-  width: 80%;
+  width: 100%;
   background-color: #dfd7d7;
 }
 
@@ -268,6 +263,10 @@ header .header_search div span {
 
 .page_body .main_container section.seasons ul.list-unstyled i {
   float: right;
+}
+
+.page_body .main_container .episode_thriller {
+  width: 100%;
 }
 
 .page_body .main_container .episode_thriller_item {
@@ -340,6 +339,7 @@ header .header_search div span {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  padding-right: 40px;
 }
 
 .page_body .main_container .comment_container .comment .rt_likes i {
@@ -350,7 +350,7 @@ header .header_search div span {
 }
 
 .page_body .main_container .comment_container .gists {
-  border-top: 1px solid grey;
+  border-top: 1px solid #dadada;
 }
 
 .page_body .main_container .comment_container .gists div {
@@ -368,10 +368,10 @@ header .header_search div span {
   color: #1b8bc8;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   /*header style*/
-  header .header_search div span {
-    display: block !important;
+  header .header_search .menu {
+    display: inline-block !important;
     visibility: hidden;
   }
 }

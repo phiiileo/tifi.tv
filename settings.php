@@ -23,7 +23,7 @@
         <h3 class="page_header_text text-center mb-5 mb-md-0">SETTINGS</h3>
     </div>
     <main class="container mx-auto py-5 row ">
-        <section class="sidebar col-md-2">
+        <section class="sidebar col-md-2 px-0">
             <nav class="row">
                 <p class="nav_links col-4 col-md-12 my-0  py-2"><a href="settings.php"
                         class="nav_links_item active">General</a></p>
@@ -35,7 +35,7 @@
             </nav>
         </section>
 
-        <section class="content col-md-10 mx-auto px-4">
+        <section class="content col-md-10 mx-auto pl-5 pr-0">
             <section class="content_box">
                 <section class="account">
                     <h4 class="my-3 my-md-0">ACCOUNT</h4>
@@ -163,8 +163,8 @@
 
                     </section>
                     <div class="clear cta mt-n5 mb-5 text-center">
-                        <a href="" class="bg_color px-3 py-1 mr-4">Save</a>
-                        <a href="" class="brand_color px-3 py-1">Cancel</a>
+                        <a href="" class="bg_color px-5 py-1 mr-4 font-weight-bold">Save</a>
+                        <a href="" class="brand_color px-5 py-1 font-weight-bold">Cancel</a>
                     </div>
                 </section>
             </section>
