@@ -7,11 +7,11 @@
 <body>
     <section class="container">
         <Section class="modal_header row my-5">
-            <div class="modal_image col-md-5">
+            <div class="modal_image col-md-5 px-0">
                 <img src="uploads/got.png" alt="" class="" width="100%" height="100%">
             </div>
 
-            <div class="modal_content col-md-7 p-5">
+            <div class="modal_content col-md-7 pr-5 pl-0">
                 <section class="modal_content_header">
 
                     <p class="review">
