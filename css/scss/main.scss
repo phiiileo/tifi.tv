@@ -3,6 +3,7 @@
 a:hover {
   opacity: 0.6;
 }
+
 /*HEADER STYLE*/
 header {
   .header_user {
@@ -52,8 +53,8 @@ main {
           height: 100%;
           width: 20%;
           background-color: $brand_color;
-      border: 1px solid $brand_color;
-      color: $font_color;
+          border: 1px solid $brand_color;
+          color: $font_color;
         }
       }
     }
@@ -165,7 +166,7 @@ main {
             border-radius: 100%;
             position: absolute;
             padding: 0;
-            top: 5px;
+            top: 7px;
             right: 30px;
           }
         }
@@ -179,11 +180,11 @@ main {
           margin-bottom: 10px;
           position: relative;
 
-         a {
-           height: 135px;
-           width: 89px;
-           border: none;
-         }
+          a {
+            height: 135px;
+            width: 89px;
+            border: none;
+          }
           img {
             width: 100%;
             height: 135px;
@@ -211,7 +212,7 @@ main {
           background-color: #f4f4f4;
           height: 135px;
           border-radius: 8px;
-          cursor: pointer; 
+          cursor: pointer;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -223,10 +224,9 @@ main {
           }
 
           &:hover {
-            opacity: .6;
+            opacity: 0.6;
           }
         }
-
       }
     }
   }
@@ -246,6 +246,28 @@ main {
     article.sort {
       color: #1e1e1e;
       margin: 10px 0;
+
+      .myDropdown {
+        cursor: pointer;
+      }
+
+      .dropdown_content {
+        background-color: white;
+        color: black;
+        margin-top: 10px;
+        display: none;
+
+        li {
+          border: 1px solid grey;
+          border-bottom: none;
+          padding: 10px 15px;
+          list-style: none;
+        }
+      }
+      .myDropdown:hover  .dropdown_content{
+        font-size: 25px;
+      }
+
     }
 
     .range {
@@ -298,7 +320,8 @@ main {
         width: 185px;
         height: 300px;
         border-radius: 8px;
-        margin-bottom: 80px;
+        margin-bottom: 70px;
+        position: relative;
 
         div img {
           width: 100%;
@@ -335,7 +358,113 @@ main {
             display: block;
           }
         }
-      }
+        section {
+          border: 1px solid red;
+          width: 100%;
+          height: 250px;
+          border-radius: 8px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: transparent;
+        }
+        .m_state {
+          .icons {
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            width: 100%;
+            i {
+              color: #bfbfbf;
+              font-size: 20px;
+              position: relative;
+
+              span {
+                position: absolute;
+                top: 5px;
+                left: 4px;
+                font-size: 6px;
+                color: black;
+                font-weight: bolder;
+              }
+            }
+          }
+        }
+        .seen {
+          background-color: rgba(255, 255, 255, 0.342);
+          display: none;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          text-align: center;
+
+          i {
+            border: 2px dashed white;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          a {
+            color: white;
+            display: block;
+            font-size: 22px;
+            line-height: 30px;
+            margin-top: 10px;
+          }
+        }
+        .watch {
+          display: none;
+          flex-direction: column;
+          background-color: rgba(20, 17, 17, 0.637);
+          color: white;
+          padding: 5px;
+          position: relative;
+          p.about_movie {
+            font-weight: normal;
+            font-size: 8px;
+            line-height: 12px;
+          }
+          p.ratings {
+            font-size: 8px;
+            line-height: 12px;
+          
+
+            i {
+              font-size: 2.5em;
+            }
+          }
+          p.m_state2 { 
+            font-size: 18px;
+              i {
+                color: white;
+                font-size: 20px;
+                position: relative;
+
+                span {
+                  position: absolute;
+                  top: 5px;
+                  left: 4px;
+                  font-size: 6px;
+                  color: black;
+                  font-weight: bolder;
+                }
+              }
+            }
+          p.watch_movie {
+            background-color: $brand_color;
+            text-align: center;
+            border-radius: 8px;
+            position: absolute;
+            bottom: -10px;
+            left: 8px;
+            width: 90%;
+
+          }
+          }
+        }
+   
     }
   }
   /*ROW 5 STYLE*/
@@ -456,3 +585,16 @@ main {
     }
   }
 }
+  /*functions with js*/
+  .active_state_icon {
+    color: $brand_color !important;
+  }
+  .display_flex {
+    display: flex !important;
+  }
+
+  .moveup {
+    bottom: 45px !important;
+
+  }
+  ////////////////////////
