@@ -306,11 +306,24 @@ main .row4 article h3 {
 
 main .row4 article.sort {
   color: #1e1e1e;
-  margin: 10px 0;
+  margin: 20px 0;
+  position: relative;
+  width: 230px;
 }
 
 main .row4 article.sort .myDropdown {
   cursor: pointer;
+  display: inline-block;
+  width: 140px;
+}
+
+main .row4 article.sort .myDropdown i {
+  float: right;
+  margin-top: 5px;
+}
+
+main .row4 article.sort .myDropdown:hover {
+  opacity: .7;
 }
 
 main .row4 article.sort .dropdown_content {
@@ -318,6 +331,13 @@ main .row4 article.sort .dropdown_content {
   color: black;
   margin-top: 10px;
   display: none;
+  width: 200px;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  z-index: 1;
+  border-radius: 10px;
+  border-bottom: 1px solid grey;
 }
 
 main .row4 article.sort .dropdown_content li {
@@ -325,6 +345,11 @@ main .row4 article.sort .dropdown_content li {
   border-bottom: none;
   padding: 10px 15px;
   list-style: none;
+}
+
+main .row4 article.sort .dropdown_content li:hover {
+  background: #F3F3F3;
+  border-radius: 10px;
 }
 
 main .row4 article.sort .myDropdown:hover .dropdown_content {

@@ -139,11 +139,11 @@
             <article>
                 <h3>Most Popular right now</h3>
                 <article class="sort">Sorted by
-                    <span class="brand_color myDropdown">Popularity <i class="fa fa-angle-down"></i></span>
+                    <span class="brand_color myDropdown"><span class="filter_value"> &nbsp;Popularity  </span> <i class="fa fa-angle-down"></i></span>
                     <div class="dropdown_content">
                         <li>Popularity</li>
                         <li>Top Rated</li>
-                        <li>All-Time Greats</li>
+                        <li>All-Time Great</li>
                     </div>
 
                 </article>
@@ -1156,34 +1156,5 @@
 
     <?php include "components/site_footer.php" ?>
 </body>
-<script>
-    let state_icon = $(".state_icon");
-    let primary_state = $(".m_state .icons");
-    let saw_movie = $(".fa-check");
-    let watch_movie = $(".movie_tag");
-    for (i = 0; i < state_icon.length; i++) {
-
-        $(state_icon[i]).css("cursor", "pointer").on("click", function () {
-            $(this).toggleClass("active_state_icon");
-            primary_state.css("z-index", "1")
-        })
-
-    }
-
-    $(saw_movie).on("click", function () {
-        let b = $(this).parents(".m_state").siblings(".seen").toggleClass("display_flex");
-    })
-
-    $(watch_movie).on("click", function () {
-        $(this).parents(".m_state").siblings(".watch").toggleClass("display_flex");
-        let b = $(this).parent().toggleClass("moveup");
-    })
-
-    $(".myDropdown").on("click", function(){
-        $(".dropdown_content").toggle();
-    })
-
-
-</script>
-
+<script src="js/main.js"></script>
 </html>

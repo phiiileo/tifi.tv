@@ -245,10 +245,22 @@ main {
     }
     article.sort {
       color: #1e1e1e;
-      margin: 10px 0;
+      margin: 20px 0;
+      position: relative;
+      width: 230px;
+
 
       .myDropdown {
         cursor: pointer;
+        display: inline-block;
+        width: 140px;
+        i {
+          float: right;
+          margin-top: 5px;
+        }
+      }
+      .myDropdown:hover {
+        opacity: .7;
       }
 
       .dropdown_content {
@@ -256,12 +268,23 @@ main {
         color: black;
         margin-top: 10px;
         display: none;
+        width: 200px;
+        position: absolute;
+        top: 25px;
+        left: 0px;
+        z-index: 1;
+        border-radius: 10px;
+        border-bottom: 1px solid grey;
 
         li {
           border: 1px solid grey;
           border-bottom: none;
           padding: 10px 15px;
           list-style: none;
+        }
+        li:hover {
+          background: #F3F3F3;
+          border-radius: 10px;
         }
       }
       .myDropdown:hover  .dropdown_content{
