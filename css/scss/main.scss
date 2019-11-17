@@ -247,7 +247,7 @@ main {
       color: #1e1e1e;
       margin: 20px 0;
       position: relative;
-      width: 230px;
+      width: 220px;
 
 
       .myDropdown {
@@ -268,7 +268,7 @@ main {
         color: black;
         margin-top: 10px;
         display: none;
-        width: 200px;
+        width: 250px;
         position: absolute;
         top: 25px;
         left: 0px;
@@ -281,6 +281,10 @@ main {
           border-bottom: none;
           padding: 10px 15px;
           list-style: none;
+          i {
+            float: right;
+            display: none;
+          }
         }
         li:hover {
           background: #F3F3F3;
@@ -597,7 +601,7 @@ main {
         position: absolute;
         z-index: 1;
         right: 380px;
-        top: 0;
+        top: -10px;
       }
 
       .range {
@@ -619,5 +623,9 @@ main {
   .moveup {
     bottom: 45px !important;
 
+  }
+
+  .sort_active {
+    display: block !important;
   }
   ////////////////////////

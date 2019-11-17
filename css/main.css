@@ -308,7 +308,7 @@ main .row4 article.sort {
   color: #1e1e1e;
   margin: 20px 0;
   position: relative;
-  width: 230px;
+  width: 220px;
 }
 
 main .row4 article.sort .myDropdown {
@@ -331,7 +331,7 @@ main .row4 article.sort .dropdown_content {
   color: black;
   margin-top: 10px;
   display: none;
-  width: 200px;
+  width: 250px;
   position: absolute;
   top: 25px;
   left: 0px;
@@ -345,6 +345,11 @@ main .row4 article.sort .dropdown_content li {
   border-bottom: none;
   padding: 10px 15px;
   list-style: none;
+}
+
+main .row4 article.sort .dropdown_content li i {
+  float: right;
+  display: none;
 }
 
 main .row4 article.sort .dropdown_content li:hover {
@@ -683,7 +688,7 @@ main .row4 div.movie_list article .watch p.watch_movie {
     position: absolute;
     z-index: 1;
     right: 380px;
-    top: 0;
+    top: -10px;
   }
   main .row4 .range {
     position: absolute;
@@ -705,5 +710,9 @@ main .row4 div.movie_list article .watch p.watch_movie {
 
 .moveup {
   bottom: 45px !important;
+}
+
+.sort_active {
+  display: block !important;
 }
 /*# sourceMappingURL=main.css.map */

@@ -9,7 +9,11 @@ myDropdown.on("click", function () {
     for (i = 0; i < dropdown_content_items.length; i++) {
         $(dropdown_content_items[i]).on("click", function () {
             let value_source = $(this).text();
+            let sort_value = $(this).children(".fa-check");
+            dropdown_content_items.children(".fa-check").removeClass("sort_active")
+            sort_value.toggleClass("sort_active");
             $(".myDropdown .filter_value").text(value_source);
+
         })
     }
 })

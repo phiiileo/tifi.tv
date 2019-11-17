@@ -141,9 +141,9 @@
                 <article class="sort">Sorted by
                     <span class="brand_color myDropdown"><span class="filter_value"> &nbsp;Popularity  </span> <i class="fa fa-angle-down"></i></span>
                     <div class="dropdown_content">
-                        <li>Popularity</li>
-                        <li>Top Rated</li>
-                        <li>All-Time Great</li>
+                        <li>Popularity <i class="fa fa-check bg_color px-4 py-1 sort_active"></i></li>
+                        <li>Top Rated <i class="fa fa-check bg_color px-4 py-1"></i></li>
+                        <li>All-Time Great <i class="fa fa-check bg_color px-4 py-1 "></i></li>
                     </div>
 
                 </article>
