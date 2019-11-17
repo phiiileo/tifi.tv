@@ -21,7 +21,7 @@
 
     <main class="container py-md-0">
         <section class="row row1 mb-5 mx-0 px-0">
-            <article class="col-md-6 px-0">
+            <article class="col-lg-6 px-0">
                 <h3>
                     Watch the best <span class="brand_color">movies</span> and <span class="brand_color">Tv shows</span>
                     based on
@@ -39,10 +39,25 @@
                 </div>
             </article>
 
-            <article class="carousel_container col-md-6 my-4 mx-auto">
-                <h3>
-                    DONE PAGES <a class="brand_color font-weight-bold" href="donepages.php">HERE</a>
-                </h3>
+            <article class="carousel_container col-lg-6 my-5 my-lg-0 mx-auto">
+                <section class="img_container mx-auto ">
+                    <article class="control control--left"><i class="fa fa-angle-left"></i> </article>
+
+                   
+                    <article class="images img_container_1  acting">
+                        <img src="uploads/carousel_img1.png" alt="">
+                    </article>
+                    <article class="images img_container_2">
+                        <img src="uploads/carousel_img2.png" alt="">
+                    </article>
+                    <article class=" images img_container_3 ">
+                        <img src="uploads/carousel_img1.png" alt="">
+                    </article>
+                    
+    
+                    <article class="control control--right"><i class="fa fa-angle-right "></i> </article>
+
+                </section>
             </article>
 
         </section>
@@ -72,9 +87,9 @@
         </section>
 
         <section class="row3 text-center row my-3">
-            <div class="img_container col-md-2  text-md-left mx-auto my-0 py-5 py-md-4 ml-md-n3">
+            <div class="img_container col-md-2  text-md-left mx-auto my-0 py-5 py-md-4 ml-md-0">
                 <img src="uploads/super.jpeg" alt="" class="rounded-circle" width="100px" height="100px">
-                <p class="mx-auto mx-md-0 mt-2">Charles Etu <a href="settings.php"><i class="fas fa-pencil-alt"></i></a>
+                <p class="mx-auto mx-md-1 mt-2">Charles Etu <a href="settings.php"><i class="fas fa-pencil-alt"></i></a>
                 </p>
             </div>
             <div class="personalize_acct  text-md-left col-md-10 mx-0 px-0">
@@ -139,7 +154,8 @@
             <article>
                 <h3>Most Popular right now</h3>
                 <article class="sort">Sorted by
-                    <span class="brand_color myDropdown"><span class="filter_value"> &nbsp;Popularity  </span> <i class="fa fa-angle-down"></i></span>
+                    <span class="brand_color myDropdown"><span class="filter_value"> &nbsp;Popularity </span> <i
+                            class="fa fa-angle-down"></i></span>
                     <div class="dropdown_content">
                         <li>Popularity <i class="fa fa-check bg_color px-4 py-1 sort_active"></i></li>
                         <li>Top Rated <i class="fa fa-check bg_color px-4 py-1"></i></li>
@@ -1157,4 +1173,5 @@
     <?php include "components/site_footer.php" ?>
 </body>
 <script src="js/main.js"></script>
+
 </html>

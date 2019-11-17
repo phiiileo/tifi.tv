@@ -114,7 +114,87 @@ main .row1 div .search_input input[type="submit"] {
 
 main .row1 .carousel_container {
   border: 1px solid #777777;
-  height: 200px;
+  height: 320px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .row1 .carousel_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+main .row1 .carousel_container .img_container {
+  position: relative;
+  border: 1px solid red;
+  height: 315px;
+  width: 320px;
+}
+
+main .row1 .carousel_container .img_container .control {
+  position: absolute;
+  top: 0;
+  font-size: 30px;
+  height: 50%;
+  -webkit-transform: translateY(85%);
+          transform: translateY(85%);
+}
+
+main .row1 .carousel_container .img_container .control i {
+  cursor: pointer;
+}
+
+main .row1 .carousel_container .img_container .control--left {
+  left: -50px;
+  width: 20px;
+}
+
+main .row1 .carousel_container .img_container .control--right {
+  right: -50px;
+  width: 20px;
+}
+
+main .row1 .carousel_container .img_container_1 {
+  display: block !important;
+  position: absolute;
+  width: 200px;
+  height: 314px;
+  border: 1px solid green;
+  z-index: 3;
+}
+
+main .row1 .carousel_container .img_container_2 {
+  display: block !important;
+  position: absolute;
+  width: 140px;
+  height: 210px;
+  top: 54px;
+  left: 130px;
+  border: 1px solid blue;
+  z-index: 2;
+}
+
+main .row1 .carousel_container .img_container_3 {
+  display: block !important;
+  position: absolute;
+  width: 117px;
+  height: 176px;
+  top: 70px;
+  left: 190px;
+  border: 1px solid purple;
+  z-index: 1;
+}
+
+main .row1 .carousel_container .img_container .img_active {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 314px;
+  left: 0;
+  top: 0;
+  z-index: 3;
 }
 
 main .row2 {
@@ -323,7 +403,7 @@ main .row4 article.sort .myDropdown i {
 }
 
 main .row4 article.sort .myDropdown:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 main .row4 article.sort .dropdown_content {
@@ -353,7 +433,7 @@ main .row4 article.sort .dropdown_content li i {
 }
 
 main .row4 article.sort .dropdown_content li:hover {
-  background: #F3F3F3;
+  background: #f3f3f3;
   border-radius: 10px;
 }
 
@@ -449,7 +529,7 @@ main .row4 div.movie_list article div.m_details span {
 
 main .row4 div.movie_list article div.m_details p {
   display: inline-block;
-  margin-left: 42px;
+  margin-left: 50px;
   font-weight: bold;
 }
 
@@ -460,7 +540,7 @@ main .row4 div.movie_list article div.m_details i {
 }
 
 main .row4 div.movie_list article section {
-  border: 1px solid red;
+  border: 1px solid grey;
   width: 100%;
   height: 250px;
   border-radius: 8px;

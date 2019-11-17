@@ -1,5 +1,35 @@
-//   Effect on sort movies
+// Carousel functions 
 
+//define parameters
+let image_stack = $(".images");
+let right_control = $(".fa-angle-right");
+let left_control = $(".fa-angle-left");
+let active_img = $(".img");
+
+// let right_control set next image active and remove active from current one
+
+
+
+    right_control.on("click", function () {
+        let img = $(".acting");
+        let active = $(".img_active");
+        img.removeClass(".img_active")
+       img.next().addClass("img_active");
+       active.next().addClass("img_active")
+
+    })
+
+
+// let left_control set previous image active and remove active from current one
+left_control.on("click", function () {
+    let active = $(".img_active");
+    active.removeClass(".img_active")
+   active.prev().addClass("img_active");
+
+})
+
+
+//   Effect on sort movies
 let myDropdown = $(".myDropdown");
 let dropdown_content = $(".dropdown_content");
 let dropdown_content_items = dropdown_content.children();

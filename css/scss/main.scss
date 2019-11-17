@@ -61,7 +61,86 @@ main {
 
     .carousel_container {
       border: 1px solid $general_color;
-      height: 200px;
+      height: 320px;
+        justify-content: center;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+      }
+      .img_container {
+        position: relative;
+        border: 1px solid red;
+        height: 315px;
+        width: 320px;
+
+     
+        .control {
+          position: absolute;
+          top: 0;
+          font-size: 30px;
+          height: 50%;
+          transform: translateY(85%);
+          i {
+            cursor: pointer;
+          }
+        }
+        .control--left {
+          left: -50px;
+          width: 20px;
+
+        }
+
+        .control--right {
+          right: -50px;
+          width: 20px;
+        }
+        
+        &_1 {
+          display: block !important;
+          position: absolute;
+          width: 200px;
+          height: 314px;
+          border: 1px solid green;
+          z-index: 3;
+        }
+        &_2 {
+          display: block !important;
+          position: absolute;
+          width: 140px;
+          height: 210px;
+          top: 54px;
+          left: 130px;
+          border: 1px solid blue;
+          z-index: 2;
+        }
+        &_3 {
+          display: block !important;
+          position: absolute;
+          width: 117px;
+          height: 176px;
+          top: 70px;
+          left: 190px ; 
+          border: 1px solid purple;
+          z-index: 1;
+
+        }
+
+        .img_active {
+          display: block;
+          position: absolute; 
+          width: 200px;
+          height: 314px;
+          left: 0;
+          top: 0;
+          z-index: 3;
+        }
+
+
+      }
+
+   
     }
   }
 
@@ -249,7 +328,6 @@ main {
       position: relative;
       width: 220px;
 
-
       .myDropdown {
         cursor: pointer;
         display: inline-block;
@@ -260,7 +338,7 @@ main {
         }
       }
       .myDropdown:hover {
-        opacity: .7;
+        opacity: 0.7;
       }
 
       .dropdown_content {
@@ -287,14 +365,13 @@ main {
           }
         }
         li:hover {
-          background: #F3F3F3;
+          background: #f3f3f3;
           border-radius: 10px;
         }
       }
-      .myDropdown:hover  .dropdown_content{
+      .myDropdown:hover .dropdown_content {
         font-size: 25px;
       }
-
     }
 
     .range {
@@ -375,7 +452,7 @@ main {
           }
           p {
             display: inline-block;
-            margin-left: 42px;
+            margin-left: 50px;
             font-weight: bold;
           }
 
@@ -386,7 +463,7 @@ main {
           }
         }
         section {
-          border: 1px solid red;
+          border: 1px solid grey;
           width: 100%;
           height: 250px;
           border-radius: 8px;
@@ -456,29 +533,28 @@ main {
           p.ratings {
             font-size: 8px;
             line-height: 12px;
-          
 
             i {
               font-size: 2.5em;
             }
           }
-          p.m_state2 { 
+          p.m_state2 {
             font-size: 18px;
-              i {
-                color: white;
-                font-size: 20px;
-                position: relative;
+            i {
+              color: white;
+              font-size: 20px;
+              position: relative;
 
-                span {
-                  position: absolute;
-                  top: 5px;
-                  left: 4px;
-                  font-size: 6px;
-                  color: black;
-                  font-weight: bolder;
-                }
+              span {
+                position: absolute;
+                top: 5px;
+                left: 4px;
+                font-size: 6px;
+                color: black;
+                font-weight: bolder;
               }
             }
+          }
           p.watch_movie {
             background-color: $brand_color;
             text-align: center;
@@ -487,11 +563,9 @@ main {
             bottom: -10px;
             left: 8px;
             width: 90%;
-
-          }
           }
         }
-   
+      }
     }
   }
   /*ROW 5 STYLE*/
@@ -612,20 +686,19 @@ main {
     }
   }
 }
-  /*functions with js*/
-  .active_state_icon {
-    color: $brand_color !important;
-  }
-  .display_flex {
-    display: flex !important;
-  }
+/*functions with js*/
+.active_state_icon {
+  color: $brand_color !important;
+}
+.display_flex {
+  display: flex !important;
+}
 
-  .moveup {
-    bottom: 45px !important;
+.moveup {
+  bottom: 45px !important;
+}
 
-  }
-
-  .sort_active {
-    display: block !important;
-  }
-  ////////////////////////
+.sort_active {
+  display: block !important;
+}
+////////////////////////
