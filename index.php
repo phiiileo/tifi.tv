@@ -31,7 +31,7 @@
                     Find, track and discover where to watch your favourite TV shows and movies from Netflix, Amazon
                     Prime, Hulu, Showtime and more services.
                 </p>
-                <div>
+                <div class="mt-3">
                     <form action="" class="search_input">
                         <input type="text" name="search" id="search" placeholder="Find a movie or series" class="pl-3">
                         <input type="submit" value="Search" class="ml-n2">
@@ -39,22 +39,47 @@
                 </div>
             </article>
 
-            <article class="carousel_container col-lg-6 my-5 my-lg-0 mx-auto">
+            <article class="carousel_container col-lg-6 mt-5 my-lg-0 mx-auto">
                 <section class="img_container mx-auto ">
                     <article class="control control--left"><i class="fa fa-angle-left"></i> </article>
 
-                   
-                    <article class="images img_container_1  acting">
-                        <img src="uploads/carousel_img1.png" alt="">
-                    </article>
-                    <article class="images img_container_2">
-                        <img src="uploads/carousel_img2.png" alt="">
-                    </article>
-                    <article class=" images img_container_3 ">
-                        <img src="uploads/carousel_img1.png" alt="">
-                    </article>
-                    
-    
+                    <span>
+                        <article class="images img_container_1  active_img">
+                            <img src="uploads/carousel_img1.png" alt="">
+                        </article>
+                        <article class="images img_container_2">
+                            <img src="uploads/carousel_img2.png" alt="">
+                        </article>
+                        <article class=" images img_container_3 ">
+                            <img src="uploads/carousel_img1.png" alt="">
+                        </article>
+                        <article class=" images">
+                            <img src="uploads/carousel_img2.png" alt="">
+                        </article>
+                        <article class=" images">
+                            <img src="uploads/carousel_img1.png" alt="">
+                        </article>
+                        <article class=" images">
+                            <img src="uploads/carousel_img2.png" alt="">
+                        </article>
+                        <article class=" images">
+                            <img src="uploads/carousel_img1.png" alt="">
+                        </article>
+                         <article class=" images">
+                            <img src="uploads/carousel_img2.png" alt="">
+                        </article>
+                        <article class=" images">
+                            <img src="uploads/carousel_img1.png" alt="">
+                        </article>
+                        <article class=" images">
+                            <img src="uploads/carousel_img2.png" alt="">
+                        </article>
+                        <article class=" images">
+                            <img src="uploads/carousel_img1.png" alt="">
+                        </article>
+
+
+                    </span>
                     <article class="control control--right"><i class="fa fa-angle-right "></i> </article>
 
                 </section>
@@ -63,7 +88,7 @@
         </section>
 
         <section class="row row2 ml-0">
-            <div class="personalize col-12 px-0">
+            <div class="personalize col-12 px-0 mt-lg-5">
                 <span>Personalize</span>
                 <span>
                     <input type="button" value="Save" class="bg_color px-5 mb-2">
@@ -86,14 +111,14 @@
             </div>
         </section>
 
-        <section class="row3 text-center row my-3">
+        <section class="row3 text-center mx-0 row my-3">
             <div class="img_container col-md-2  text-md-left mx-auto my-0 py-5 py-md-4 ml-md-0">
                 <img src="uploads/super.jpeg" alt="" class="rounded-circle" width="100px" height="100px">
                 <p class="mx-auto mx-md-1 mt-2">Charles Etu <a href="settings.php"><i class="fas fa-pencil-alt"></i></a>
                 </p>
             </div>
-            <div class="personalize_acct  text-md-left col-md-10 mx-0 px-0">
-                <section class="row mx-0">
+            <div class="personalize_acct  text-md-left col-md-10 mx-0 px-0 ">
+                <section class="row mx-0 px-0">
                     <div class="col-lg-2 p_type px-0">
                         <section class="mx-auto my-0">Personality type </section>
                         <a class="my-3 mx-auto ml-md-0" href="#">INTP</a>
@@ -110,7 +135,7 @@
                         </article>
 
                     </div>
-                    <section class="m_likes col-lg-7 px-0">
+                    <section class="m_likes col-lg-7  px-md-0">
                         <section>Sample movies & series you like</section>
                         <section class="m_likes_items d-flex flex-row flex-wrap justify-content-around mt-3">
                             <article>
@@ -170,7 +195,7 @@
                         <input type="range" class=""></p>
                 </article>
             </article>
-            <div class="movie_list mx-auto px-md-0 d-flex flex-row flex-wrap justify-content-around">
+            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
                 <article>
                     <span>
                         <div><img src="uploads/img1.png" alt=""></div>

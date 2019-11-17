@@ -48,6 +48,7 @@ main {
           border-right: none;
           background-color: transparent;
           outline: none;
+          border-radius: 5px 0 0 5px;
         }
         input[type="submit"] {
           height: 100%;
@@ -55,12 +56,12 @@ main {
           background-color: $brand_color;
           border: 1px solid $brand_color;
           color: $font_color;
+          border-radius: 0 5px 5px 0;
         }
       }
     }
 
     .carousel_container {
-      border: 1px solid $general_color;
       height: 320px;
         justify-content: center;
 
@@ -71,10 +72,12 @@ main {
       }
       .img_container {
         position: relative;
-        border: 1px solid red;
         height: 315px;
         width: 320px;
-
+        
+       .images {
+         display: none;
+       }
      
         .control {
           position: absolute;
@@ -95,6 +98,7 @@ main {
         .control--right {
           right: -50px;
           width: 20px;
+          z-index: 5;
         }
         
         &_1 {
@@ -102,7 +106,6 @@ main {
           position: absolute;
           width: 200px;
           height: 314px;
-          border: 1px solid green;
           z-index: 3;
         }
         &_2 {
@@ -112,7 +115,6 @@ main {
           height: 210px;
           top: 54px;
           left: 130px;
-          border: 1px solid blue;
           z-index: 2;
         }
         &_3 {
@@ -122,12 +124,11 @@ main {
           height: 176px;
           top: 70px;
           left: 190px ; 
-          border: 1px solid purple;
           z-index: 1;
 
         }
 
-        .img_active {
+        .active_img {
           display: block;
           position: absolute; 
           width: 200px;

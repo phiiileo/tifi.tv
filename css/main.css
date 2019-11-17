@@ -102,6 +102,7 @@ main .row1 div .search_input input#search {
   border-right: none;
   background-color: transparent;
   outline: none;
+  border-radius: 5px 0 0 5px;
 }
 
 main .row1 div .search_input input[type="submit"] {
@@ -110,10 +111,10 @@ main .row1 div .search_input input[type="submit"] {
   background-color: #FF5300;
   border: 1px solid #FF5300;
   color: #ffffff;
+  border-radius: 0 5px 5px 0;
 }
 
 main .row1 .carousel_container {
-  border: 1px solid #777777;
   height: 320px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -128,9 +129,12 @@ main .row1 .carousel_container img {
 
 main .row1 .carousel_container .img_container {
   position: relative;
-  border: 1px solid red;
   height: 315px;
   width: 320px;
+}
+
+main .row1 .carousel_container .img_container .images {
+  display: none;
 }
 
 main .row1 .carousel_container .img_container .control {
@@ -154,6 +158,7 @@ main .row1 .carousel_container .img_container .control--left {
 main .row1 .carousel_container .img_container .control--right {
   right: -50px;
   width: 20px;
+  z-index: 5;
 }
 
 main .row1 .carousel_container .img_container_1 {
@@ -161,7 +166,6 @@ main .row1 .carousel_container .img_container_1 {
   position: absolute;
   width: 200px;
   height: 314px;
-  border: 1px solid green;
   z-index: 3;
 }
 
@@ -172,7 +176,6 @@ main .row1 .carousel_container .img_container_2 {
   height: 210px;
   top: 54px;
   left: 130px;
-  border: 1px solid blue;
   z-index: 2;
 }
 
@@ -183,11 +186,10 @@ main .row1 .carousel_container .img_container_3 {
   height: 176px;
   top: 70px;
   left: 190px;
-  border: 1px solid purple;
   z-index: 1;
 }
 
-main .row1 .carousel_container .img_container .img_active {
+main .row1 .carousel_container .img_container .active_img {
   display: block;
   position: absolute;
   width: 200px;

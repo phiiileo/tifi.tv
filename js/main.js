@@ -4,28 +4,35 @@
 let image_stack = $(".images");
 let right_control = $(".fa-angle-right");
 let left_control = $(".fa-angle-left");
-let active_img = $(".img");
 
 // let right_control set next image active and remove active from current one
 
 
 
     right_control.on("click", function () {
-        let img = $(".acting");
-        let active = $(".img_active");
-        img.removeClass(".img_active")
-       img.next().addClass("img_active");
-       active.next().addClass("img_active")
-
+    let active_img = $(".active_img");
+    let next_slide = $(active_img.next());
+    let next_slide2 = $(next_slide).next();
+    let next_slide3 = $(next_slide2).next();
+    active_img.removeClass("active_img");
+    next_slide.addClass("active_img");
+    next_slide2.addClass("img_container_2").removeClass("img_container_3");
+    next_slide3.addClass("img_container_3");
+    console.log(next_slide2);
     })
 
 
 // let left_control set previous image active and remove active from current one
 left_control.on("click", function () {
-    let active = $(".img_active");
-    active.removeClass(".img_active")
-   active.prev().addClass("img_active");
+    let active_img = $(".active_img");
+    let prev_slide = active_img.prev();
 
+    prev_slide.addClass("active_img");
+    active_img.removeClass("active_img");
+    let next_slide = $(active_img.next());
+    active_img.addClass("img_container_2");
+    next_slide.addClass("img_container_3");
+    console.log(active_img);
 })
 
 
