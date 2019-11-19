@@ -18,7 +18,6 @@
 
 <body>
     <?php include "components/site_header.php" ?>
-
     <main class="container py-md-0">
         <section class="row row1 mb-5 mx-0 px-0">
             <article class="col-lg-6 px-0">
@@ -112,7 +111,7 @@
         </section>
 
         <section class="row3 text-center mx-0 row my-3">
-            <div class="img_container col-md-2  text-md-left mx-auto my-0 py-5 py-md-4 ml-md-0">
+            <div class="img_container col-md-2  text-md-left mx-auto my-0 py-5 py-md-4 ml-md-n3">
                 <img src="uploads/super.jpeg" alt="" class="rounded-circle" width="100px" height="100px">
                 <p class="mx-auto mx-md-1 mt-2">Charles Etu <a href="settings.php"><i class="fas fa-pencil-alt"></i></a>
                 </p>
@@ -179,12 +178,13 @@
             <article>
                 <h3>Most Popular right now</h3>
                 <article class="sort">Sorted by
-                    <span class="brand_color myDropdown"><span class="filter_value"> &nbsp;Popularity </span> <i
+                    <span class="brand_color myDropdown"><span class="filter_value"> &nbsp; Popularity </span> <i
                             class="fa fa-angle-down"></i></span>
                     <div class="dropdown_content">
-                        <li>Popularity <i class="fa fa-check bg_color px-4 py-1 sort_active"></i></li>
-                        <li>Top Rated <i class="fa fa-check bg_color px-4 py-1"></i></li>
-                        <li>All-Time Great <i class="fa fa-check bg_color px-4 py-1 "></i></li>
+                        <li>Popularity <span class="sort_active"><i class="fa fa-check "></i><img src="uploads/Path 165.svg" alt=""></span></li>
+
+                        <li>Top Rated <span class="check"><i class="fa fa-check "></i><img src="uploads/Path 165.svg" alt=""></span></li>
+                        <li>All-Time Great<span class="check"><i class="fa fa-check "></i><img src="uploads/Path 165.svg" alt=""></span></i></li>
                     </div>
 
                 </article>
@@ -195,7 +195,7 @@
                         <input type="range" class=""></p>
                 </article>
             </article>
-            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
+            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-md-between justify-content-around">
                 <article>
                     <span>
                         <div><img src="uploads/img1.png" alt=""></div>
@@ -1130,11 +1130,11 @@
     </main>
 
     <main class="full_width mt-n5 mb-5 ">
-        <section class="container text-center">
-            <h3 class="font-weight-bold py-4">Send me email on updates</h3>
+        <section class="container text-center py-5">
+            <h3 class="font-weight-bold pb-3">Send me email on updates</h3>
             <form action="" class="subscribe_input mx-auto">
                 <input type="text" name="subscribe" id="subscribe" placeholder="Find a movie or series" class="pl-3">
-                <input type="submit" value="Subscribe" class="ml-n2 rounded-right">
+                <input type="submit" value="Subscribe" class="ml-n2 ">
             </form>
         </section>
     </main>

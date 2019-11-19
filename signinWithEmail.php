@@ -60,7 +60,7 @@
                             </section>
 
                             <section class="submit">
-                                <input type="submit" value="Continue"></section>
+                                <a href="home_login.php"><input type="submit" value="Continue"></a></section>
                         </div>
                     </form>
 

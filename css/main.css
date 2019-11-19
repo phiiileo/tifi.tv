@@ -201,7 +201,6 @@ main .row1 .carousel_container .img_container .active_img {
 
 main .row2 {
   text-align: left;
-  border-bottom: 1px solid #202124;
   width: 100%;
 }
 
@@ -422,21 +421,34 @@ main .row4 article.sort .dropdown_content {
   border-bottom: 1px solid grey;
 }
 
+main .row4 article.sort .dropdown_content .check {
+  display: none !important;
+}
+
 main .row4 article.sort .dropdown_content li {
   border: 1px solid grey;
   border-bottom: none;
-  padding: 10px 15px;
+  padding: 10px;
   list-style: none;
+  position: relative;
 }
 
 main .row4 article.sort .dropdown_content li i {
   float: right;
-  display: none;
+  display: block;
+  color: white;
+  position: relative;
+  font-size: 10px;
+  padding-right: 8px;
+  padding-top: 4px;
 }
 
-main .row4 article.sort .dropdown_content li:hover {
-  background: #f3f3f3;
-  border-radius: 10px;
+main .row4 article.sort .dropdown_content li img {
+  position: absolute;
+  display: block;
+  right: 10px;
+  top: 10px;
+  z-index: -1;
 }
 
 main .row4 article.sort .myDropdown:hover .dropdown_content {
@@ -693,7 +705,7 @@ main .row4 div.movie_list article .watch p.watch_movie {
   background-color: #FF5300;
   border: 1px solid #FF5300;
   color: #ffffff;
-  border-bottom: none;
+  border-radius: 0 8px 8px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -794,7 +806,9 @@ main .row4 div.movie_list article .watch p.watch_movie {
   bottom: 45px !important;
 }
 
-.sort_active {
-  display: block !important;
+@media screen and (max-width: 560px) {
+  .carousel_container {
+    display: none !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */

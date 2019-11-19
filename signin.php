@@ -32,7 +32,7 @@
 
                 <p><span>or</span></p>
 
-                <a href="signinWithEmail">
+                <a href="signinWithEmail.php">
                     <section class="email"><i class="fas fa-envelope"></i>Continue with Email</section>
                 </a>
                 <div class="notSignedIn">

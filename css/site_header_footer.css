@@ -55,9 +55,6 @@ img {
   header .container {
     position: relative;
   }
-  header .container .tifi_logo {
-    letter-spacing: 2px;
-  }
   header .container .tifi_logo a {
     color: #FF5300;
     font-size: 28px;
