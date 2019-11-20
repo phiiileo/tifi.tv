@@ -676,6 +676,7 @@ main .row4 div.movie_list article .watch p.watch_movie {
   bottom: -10px;
   left: 8px;
   width: 90%;
+  cursor: pointer;
 }
 
 .full_width {
