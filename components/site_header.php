@@ -1,10 +1,48 @@
 <head>
     <link rel="stylesheet" href="css/site_header_footer.css">
+    <style>
+    .navbutton {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: 1px solid grey;
+        width: 30px;
+        height: 27px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .stick {
+        background-color: grey;
+        height: 3px;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+
+    .hideme{
+         display: none;
+    }
+
+    @media screen and (min-width: 992px){
+        .header_search, .header_user {
+         display: block;
+    }
+
+    .navbutton {
+        display: none;
+    }
+    }
+
+    </style>
 </head>
 <body>
     <header class="my-3 mb-5">
         <section class="container">
-
+            <section class="navbutton">
+                <div class="stick"></div>
+                <div class="stick"></div>
+                <div class="stick"></div>
+            </section>
             <section class="tifi_logo pb-1">    
                     <a href="index.php">tifi<svg class="" width="25" height="25" viewBox="0 0 50 40" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +54,7 @@
                 
             </section>
 
-            <section class="header_search px-lg-5">
+            <section class="header_search hideme px-lg-5">
                     <span class="menu mr-4 pl-lg-5 my-3">
                         <a href="index.php" class="mr-4 ml-lg-5">HOME</a>
                         <a href="#" class=" ">WHAT'S NEW</a>
@@ -29,7 +67,7 @@
                     
             </section>
 
-            <section class="header_user pt-3">
+            <section class="header_user hideme pt-3">
                 <p class="login">
                     <a href="signin.php">LOGIN</a>
                     <a href="signup.php" class="px-3 py-2 ml-2">SIGN UP</a>
@@ -43,3 +81,10 @@
         </section>
     </header>
 </body>
+
+<script>
+    $(".navbutton").on("click", function(){
+        $(".header_search").toggleClass("hideme");
+        $(".header_user").toggleClass("hideme");
+    })
+</script>

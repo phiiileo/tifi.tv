@@ -17,7 +17,6 @@
 </head>
 
 <body>
-    <a href="donepages.php">Check other pages</a>
     <?php include "components/site_header.php" ?>
     <main class="container py-md-0">
         <section class="row row1 mb-5 mx-0 px-0">
