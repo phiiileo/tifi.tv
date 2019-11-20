@@ -177,15 +177,21 @@
 
         <section class="row4 px-2 px-md-0 mt-5">
             <article>
-                <h3>Most Popular right now</h3>
+                <h3 class="mb-4">Most Popular right now</h3>
                 <article class="sort">Sorted by
-                    <span class="brand_color myDropdown"><span class="filter_value"> &nbsp; Popularity </span> <i
+                    <span class="brand_color myDropdown"><span class="filter_value pl-2">Popularity </span> <i
                             class="fa fa-angle-down"></i></span>
                     <div class="dropdown_content">
-                        <li>Popularity <span class="sort_active"><i class="fa fa-check "></i><img src="uploads/Path 165.svg" alt=""></span></li>
+                        <li>Popularity 
+                            <span class="check_state active_check"><img src="uploads/check.png" alt=""></span>
+                        </li>
 
-                        <li>Top Rated <span class="check"><i class="fa fa-check "></i><img src="uploads/Path 165.svg" alt=""></span></li>
-                        <li>All-Time Great<span class="check"><i class="fa fa-check "></i><img src="uploads/Path 165.svg" alt=""></span></i></li>
+                        <li>Top Rated 
+                            <span class=" check_state"><img src="uploads/check.png" alt=""></span>
+                        </li>
+                        <li>All-Time Great
+                            <span class=" check_state"><img src="uploads/check.png" alt=""></span>
+                        </li>
                     </div>
 
                 </article>
@@ -196,7 +202,7 @@
                         <input type="range" class=""></p>
                 </article>
             </article>
-            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-md-between justify-content-around">
+            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-around">
                 <article>
                     <span>
                         <div><img src="uploads/img1.png" alt=""></div>
@@ -1124,9 +1130,7 @@
                 </article>
             </div>
         </section>
-
         </div>
-
         </section>
     </main>
 

@@ -279,7 +279,7 @@ main .row3 .personalize_acct a {
   border: 1px solid #777777;
   border-radius: 5px;
   width: 80px;
-  height: 32px;
+  height: 28px;
   font-size: 14px;
   color: #777777;
   display: -webkit-box;
@@ -310,7 +310,7 @@ main .row3 .personalize_acct article.genre a.plus i {
   border-radius: 100%;
   position: absolute;
   padding: 0;
-  top: 7px;
+  top: 4px;
   right: 30px;
 }
 
@@ -389,13 +389,13 @@ main .row4 article.sort {
   color: #1e1e1e;
   margin: 20px 0;
   position: relative;
-  width: 220px;
+  width: 215px;
 }
 
 main .row4 article.sort .myDropdown {
   cursor: pointer;
   display: inline-block;
-  width: 140px;
+  width: 130px;
 }
 
 main .row4 article.sort .myDropdown i {
@@ -417,12 +417,7 @@ main .row4 article.sort .dropdown_content {
   top: 25px;
   left: 0px;
   z-index: 1;
-  border-radius: 10px;
   border-bottom: 1px solid grey;
-}
-
-main .row4 article.sort .dropdown_content .check {
-  display: none !important;
 }
 
 main .row4 article.sort .dropdown_content li {
@@ -431,9 +426,14 @@ main .row4 article.sort .dropdown_content li {
   padding: 10px;
   list-style: none;
   position: relative;
+  cursor: pointer;
 }
 
-main .row4 article.sort .dropdown_content li i {
+main .row4 article.sort .dropdown_content li .check_state {
+  display: none;
+}
+
+main .row4 article.sort .dropdown_content li .check_state i {
   float: right;
   display: block;
   color: white;
@@ -443,7 +443,7 @@ main .row4 article.sort .dropdown_content li i {
   padding-top: 4px;
 }
 
-main .row4 article.sort .dropdown_content li img {
+main .row4 article.sort .dropdown_content li .check_state img {
   position: absolute;
   display: block;
   right: 10px;
@@ -462,7 +462,7 @@ main .row4 .range {
 
 main .row4 .range span {
   position: absolute;
-  top: 5px;
+  top: 0px;
   right: 70px;
 }
 
@@ -572,7 +572,7 @@ main .row4 div.movie_list article .m_state .icons {
 }
 
 main .row4 div.movie_list article .m_state .icons i {
-  color: #bfbfbf;
+  color: #e6d8d8;
   font-size: 20px;
   position: relative;
 }
@@ -683,7 +683,8 @@ main .row4 div.movie_list article .watch p.watch_movie {
 }
 
 .full_width .subscribe_input {
-  width: 320px;
+  min-width: 320px;
+  max-width: 410px;
   height: 35px;
   border-right: none;
   font-size: 15px;
@@ -804,6 +805,10 @@ main .row4 div.movie_list article .watch p.watch_movie {
 
 .moveup {
   bottom: 45px !important;
+}
+
+.active_check {
+  display: block !important;
 }
 
 @media screen and (max-width: 560px) {

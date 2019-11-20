@@ -63,7 +63,7 @@ main {
 
     .carousel_container {
       height: 320px;
-        justify-content: center;
+      justify-content: center;
 
       img {
         width: 100%;
@@ -74,11 +74,11 @@ main {
         position: relative;
         height: 315px;
         width: 320px;
-        
-       .images {
-         display: none;
-       }
-     
+
+        .images {
+          display: none;
+        }
+
         .control {
           position: absolute;
           top: 0;
@@ -92,7 +92,6 @@ main {
         .control--left {
           left: -50px;
           width: 20px;
-
         }
 
         .control--right {
@@ -100,7 +99,7 @@ main {
           width: 20px;
           z-index: 5;
         }
-        
+
         &_1 {
           display: block !important;
           position: absolute;
@@ -123,22 +122,19 @@ main {
           width: 117px;
           height: 176px;
           top: 70px;
-          left: 190px ; 
+          left: 190px;
           z-index: 1;
-
         }
 
         .active_img {
           display: block;
-          position: absolute; 
+          position: absolute;
           width: 200px;
           height: 314px;
           left: 0;
           top: 0;
           z-index: 3;
         }
-
-
       }
     }
   }
@@ -221,7 +217,7 @@ main {
         border: 1px solid $general_color;
         border-radius: 5px;
         width: 80px;
-        height: 32px;
+        height: 28px;
         font-size: 14px;
         color: $general_color;
         display: flex;
@@ -243,7 +239,7 @@ main {
             border-radius: 100%;
             position: absolute;
             padding: 0;
-            top: 7px;
+            top: 4px;
             right: 30px;
           }
         }
@@ -324,12 +320,12 @@ main {
       color: #1e1e1e;
       margin: 20px 0;
       position: relative;
-      width: 220px;
+      width: 215px;
 
       .myDropdown {
         cursor: pointer;
         display: inline-block;
-        width: 140px;
+        width: 130px;
         i {
           float: right;
           margin-top: 5px;
@@ -349,12 +345,7 @@ main {
         top: 25px;
         left: 0px;
         z-index: 1;
-        border-radius: 10px;
         border-bottom: 1px solid grey;
-
-        .check {
-          display: none !important;
-        }
 
         li {
           border: 1px solid grey;
@@ -362,25 +353,29 @@ main {
           padding: 10px;
           list-style: none;
           position: relative;
-        
-          i {
-            float: right;
-            display: block;
-            color: white;
-            position: relative;
-            font-size: 10px;
-            padding-right: 8px;
-            padding-top: 4px;
+          cursor: pointer;
+
+          .check_state {
+            display: none;
+            i {
+              float: right;
+              display: block;
+              color: white;
+              position: relative;
+              font-size: 10px;
+              padding-right: 8px;
+              padding-top: 4px;
+            }
+            img {
+              position: absolute;
+              display: block;
+              right: 10px;
+              top: 10px;
+              z-index: -1;
+            }
           }
-          img {
-            position: absolute;
-            display: block;
-            right: 10px;
-            top: 10px;
-            z-index: -1;
-          }
+    
         }
-        
       }
       .myDropdown:hover .dropdown_content {
         font-size: 25px;
@@ -393,7 +388,7 @@ main {
 
       span {
         position: absolute;
-        top: 5px;
+        top: 0px;
         right: 70px;
       }
 
@@ -492,7 +487,7 @@ main {
             left: 0;
             width: 100%;
             i {
-              color: #bfbfbf;
+              color: rgb(230, 216, 216);
               font-size: 20px;
               position: relative;
 
@@ -586,7 +581,8 @@ main {
 .full_width {
   background-color: #f4f4f4;
   .subscribe_input {
-    width: 320px;
+    min-width: 320px;
+    max-width: 410px;
     height: 35px;
     border-right: none;
     font-size: 15px;
@@ -607,7 +603,6 @@ main {
       border: 1px solid $brand_color;
       color: $font_color;
       border-radius: 0 8px 8px 0;
-
     }
   }
 }
@@ -712,8 +707,13 @@ main {
   bottom: 45px !important;
 }
 
+.active_check{
+  display: block !important;
+}
+
+
 ////////////////////////
-@media screen and (max-width:560px){
+@media screen and (max-width: 560px) {
   .carousel_container {
     display: none !important;
   }

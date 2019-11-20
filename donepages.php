@@ -47,7 +47,7 @@
         <main class="mx-auto px-3">
             <H3>FOR THE <span class="brand_color">PURPOSE</span> OF TESTING</H3>
             <ol>
-                <li><a href="index1.php">Index Page</a></li>
+                <li><a href="index.php">Index Page</a></li>
                 <li><a href="signin.php">signin Page +++</a></li>
                 <li><a href="signinWithEmail.php">signinWithEmail Page +++</a></li>
                 <li><a href="signup.php">signup Page +++</a></li>
