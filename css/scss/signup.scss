@@ -23,9 +23,6 @@ main {
         line-height: 44px;
       }
 
-      p {
-        color: $header_text;
-      }
     }
 
     .steps {
@@ -36,6 +33,7 @@ main {
       section {
         border-bottom: 4px solid rgb(146, 138, 138);
         padding-bottom: 10px;
+        cursor: pointer;
         p {
           margin-bottom: 5px;
           font-weight: normal;
@@ -85,6 +83,7 @@ main {
       font-size: 14px;
       text-align: center;
       position: relative;
+      cursor: pointer;
 
       i {
         position: absolute;

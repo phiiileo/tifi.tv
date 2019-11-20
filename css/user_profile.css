@@ -81,6 +81,7 @@ main .section--one .steps p {
 
 main .section--one .steps section {
   border-bottom: 2px solid #928a8a;
+  cursor: pointer;
 }
 
 main .section--one .steps .active {
@@ -147,6 +148,7 @@ main .body .pick_genre div section article {
   text-align: left;
   width: 45px;
   margin-right: 39px;
+  cursor: pointer;
 }
 
 main .body .pick_genre div section article span {
@@ -156,6 +158,27 @@ main .body .pick_genre div section article span {
   height: 45px;
   background-color: #c4c4c4;
   border-radius: 3px;
+}
+
+main .body .pick_genre div section article span i {
+  display: none;
+}
+
+main .body .pick_genre div section article span.g_active {
+  border: 2px solid #FF5300;
+  position: relative;
+}
+
+main .body .pick_genre div section article span.g_active i {
+  display: block;
+  background-color: #FF5300;
+  color: white;
+  font-size: 10px;
+  padding: 3px;
+  position: absolute;
+  right: -10px;
+  top: -8px;
+  border-radius: 2px;
 }
 
 main .body .pick_genre div section article p {
@@ -208,6 +231,7 @@ main .body .select_movies .movie_container .movie_lists .move_list_item {
   height: 150px;
   display: inline-block;
   margin: 5px;
+  cursor: pointer;
 }
 
 main .body .select_movies .movie_container .movie_lists .move_list_item img {

@@ -7,14 +7,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 .container {
   max-width: 1200px;
   min-width: 320px;
   padding: 0 1%;
-}
-
-.row {
-  margin: 0;
 }
 
 a {
@@ -71,10 +71,6 @@ main .section--one span h3 {
   line-height: 44px;
 }
 
-main .section--one span p {
-  color: #777777;
-}
-
 main .section--one .steps {
   margin: 50px auto;
   color: #333333;
@@ -84,6 +80,7 @@ main .section--one .steps {
 main .section--one .steps section {
   border-bottom: 4px solid #928a8a;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 
 main .section--one .steps section p {
@@ -130,6 +127,7 @@ main .section--two section {
   font-size: 14px;
   text-align: center;
   position: relative;
+  cursor: pointer;
 }
 
 main .section--two section i {

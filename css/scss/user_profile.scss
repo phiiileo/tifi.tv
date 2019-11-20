@@ -33,6 +33,7 @@ main {
 
       section {
         border-bottom: 2px solid rgb(146, 138, 138);
+        cursor: pointer;
       }
       .active {
         border-bottom: 3px solid $brand_color;
@@ -93,6 +94,7 @@ main {
             text-align: left;
             width: 45px;
             margin-right: 39px;
+              cursor: pointer;
 
             span {
               display: block;
@@ -101,7 +103,27 @@ main {
               height: 45px;
               background-color: #c4c4c4;
               border-radius: 3px;
+              i {
+                display: none;
+              }
             }
+            span.g_active {
+              border: 2px solid $brand_color;
+              position: relative;
+
+              i {
+                display: block;
+                background-color: $brand_color;
+                color: white;
+                font-size: 10px;
+                padding: 3px;
+                position: absolute;
+                right: -10px;
+                top: -8px;
+                border-radius: 2px;
+              }
+            }
+
 
             p {
               font-weight: bold;
@@ -155,6 +177,7 @@ main {
             height: 150px;
             display: inline-block;
             margin: 5px;
+            cursor: pointer;
 
             img {
               width: 95px;

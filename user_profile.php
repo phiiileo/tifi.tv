@@ -26,8 +26,10 @@
                 </span>
                 <div class="steps row mx-auto my-5">
                     <section class="col-6">
-                        <p>STEP 1</p>
-                        <P>Create Account</P>
+                        <a href="signin.php">
+                            <p>STEP 1</p>
+                            <P>Create Account</P>
+                        </a>
                     </section>
                     <section class="active col-6">
                         <p>STEP 2</p>
@@ -38,7 +40,8 @@
 
             <section class="body p-3">
                 <p class="intro mb-3">
-                    <span>Welcome <a href="#" class="brand_color">Brandon</a></span>, Tifi.tv works better when we know what you like
+                    <span>Welcome <a href="#" class="brand_color">Brandon</a></span>, Tifi.tv works better when we know
+                    what you like
                 </p>
                 <div class="add_something">
                     <p>Add something to your watchlist</p>
@@ -47,64 +50,66 @@
 
                 <div class="pick_genre mx-auto my-5">
                     <p>Pick a genre</p>
-                    <div>
+                    <div class="genre">
                         <section>
                             <article>
-                                <span></span>
+                                <span>
+                                    <i class="fa fa-check"></i>
+                                </span>
                                 <p>Drama</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span class="g_active"> <i class="fa fa-check"></i></span>
                                 <p>Romance</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Comedy</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span class="g_active"> <i class="fa fa-check"></i></span>
                                 <p>Herror</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Thriller</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Science Fiction</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Action</p>
                             </article>
                         </section>
                         <section>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Western</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Adventure</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Animation</p>
                             </article>
                             <article class="tlong">
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Documentary</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Fantasy</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Musicals</p>
                             </article>
                             <article>
-                                <span></span>
+                                <span> <i class="fa fa-check"></i></span>
                                 <p>Crimes</p>
                             </article>
                         </section>
@@ -112,7 +117,7 @@
                 </div>
 
                 <div class="select_movies py-5 clear">
-                    <p > Select movies
+                    <p> Select movies
                         <span>This allows us to figure out a recomendation for you</span>
                     </p>
                     <section class="movie_container">
@@ -226,5 +231,16 @@
 
     <?php include "components/site_footer.php" ?>
 </body>
+<script>
+
+    let genre = $(".genre article span");
+
+    for (i = 0; i < genre.length; i++) {
+        $(genre[i]).on("click", function () {
+            $(this).toggleClass("g_active");
+        });
+
+    }
+</script>
 
 </html>
