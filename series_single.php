@@ -18,9 +18,11 @@
 
 <body>
     <?php include "components/site_header.php" ?>
+
     <main>
         <section class="page_header border border-dark">
-            <section class="container">
+           <section class="container">
+
                 <article class="page_header_content">
                     <div class="vote_number">
                         <p class="font-weight-bold mb-n1">4/5</p>
@@ -97,8 +99,8 @@
                                 <p>Nairobi (Agata Jimenez)</p>
                             </article>
                         </div>
-                        <div class="border border-top-dark mt-3 pt-3">
-                            <p class="font-weight-bold">See 3 more <i class="fas fa-angle-down"></i></p>
+                        <div class=" mt-3 pt-3">
+                            <a class="font-weight-bold" href="#">See 3 more <i class="fas fa-angle-down"></i></a>
                         </div>
                     </section>
                 </div>
@@ -115,10 +117,10 @@
                             stands between the realms of men and the icy horrors beyond.
                         </p>
                         <p class="mb-0 mt-5">
-                            <a href="" class="active py-2 px-4 ml-0 mr-3 "> <i class="fa fa-check"> </i> MARK AS
+                            <a href="" class="active py-2 px-4 ml-0 mr-5 "> <i class="fa fa-check"> </i> MARK AS
                                 SEEN</a>
-                            <a href="" class=" py-2 px-4  mx-3"> <i class="far fa-comment"> </i> ADD COMMENT</a>
-                            <a href="" class=" py-2 px-4 mx-3"> <i class="fas fa-share-alt"> </i> SHARE</a>
+                            <a href="" class=" py-2 px-4 ml-0 mr-5"> <i class="far fa-comment"> </i> ADD COMMENT</a>
+                            <a href="" class=" py-2 px-4 ml-0 "> <i class="fas fa-share-alt"> </i> SHARE</a>
                             <!-- <a href="" class="active"><i class="fa fa-mark ">MARK AS SEEN</i></a>
                             <a href=""></a><i class="fa fa-comment"></i>ADD COMMENT</a>
                             <a href=""><i class="fa fa-share"></i>SHARE</a> -->
@@ -171,8 +173,8 @@
                         </ul>
                     </section>
 
-                    <section class="episode_thriller row mx-0 my-5">
-                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6 px-0">
+                    <section class="episode_thriller row mx-0 my-5 px-0 ">
+                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6 pl-0">
                             <iframe src="https://www.youtube.com/embed/zkhUealkTc8/">
                             </iframe> 
                             <span>
@@ -183,7 +185,7 @@
                             <p>S08 E07 <a>Caballo de Troya</a></p>
                             <a href="" class="trailer_text">The press decide to blame Inspector Murillo for the shooting of Arturo.</a>
                         </div>
-                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6">
+                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6 pr-0">
                             <iframe src="https://www.youtube.com/embed/zkhUealkTc8/" frameborder="0">
 
                             </iframe> 
@@ -200,6 +202,8 @@
                     </section>
 
                     <section class="comment_container">
+                    <?php include "components/tweets.php"?>
+
                         <h3>COMMENTS</h3>
                         <div>
                         <section class="comment row py-5 px-0">
@@ -221,8 +225,8 @@
                             </article>
                            
                         </section>
-                         <div class="gists mt-n5 pl-5 ml-0">
-                                <div class="fa fa-comment ml-5 pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
+                         <div class="gists mt-n5 pl-lg-5 ml-0">
+                                <div class="fa fa-comment ml-5 pl-sm-4 pt-3"> &nbsp; 120 People are talking about this</div>
                             </div>
                         </div>
                         <div class="pt-5">
@@ -245,10 +249,11 @@
                             </article>
                            
                         </section> 
-                        <div class="gists mt-n5 pl-5  ml-n0">
-                                <div class="fa fa-comment ml-5 pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
+                        <div class="gists mt-n5 pl-lg-5  ml-0">
+                                <div class="fa fa-comment ml-5 pl-sm-4 pt-3"> &nbsp; 120 People are talking about this</div>
                         </div>
-                        <p class="pt-3 see_more">See more</p>
+
+                        <p class="pt-3 see_more" onclick="toggleModal()">See more</p>
                         </div>
                     </section>
                 </div>
@@ -259,5 +264,10 @@
     </main>
     <?php include "components/site_footer.php" ?>
 </body>
-
+<script> 
+ let toggleModal = () => {
+    $(".tweet_box").toggle();
+    console.log ()
+ }
+</script>
 </html>

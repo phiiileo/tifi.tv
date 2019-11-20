@@ -114,7 +114,7 @@
                             </article>
                         </div>
                         <div class=" mt-3 pt-3">
-                            <p class="font-weight-bold">See 3 more <i class="fas fa-angle-down"></i></p>
+                            <a href="#" class="font-weight-bold">See 3 more <i class="fas fa-angle-down"></i></a>
                         </div>
                     </section>
                 </div>
@@ -131,16 +131,18 @@
                             stands between the realms of men and the icy horrors beyond.
                         </p>
                         <p class="mb-0 mt-5">
-                            <a href="" class="active py-2 px-4 ml-0 mr-3 "> <i class="fa fa-check"> </i> MARK AS
+                            <a href="" class="active py-2 px-4 ml-0 mr-5"> <i class="fa fa-check"> </i> MARK AS
                                 SEEN</a>
-                            <a href="" class=" py-2 px-4  mx-3"> <i class="far fa-comment"> </i> ADD COMMENT</a>
-                            <a href="" class=" py-2 px-4 mx-3"> <i class="fas fa-share-alt"> </i> SHARE</a>
+                            <a href="" class=" py-2 px-4  ml-0 mr-5"> <i class="far fa-comment"> </i> ADD COMMENT</a>
+                            <a href="" class=" py-2 px-4 ml-0"> <i class="fas fa-share-alt"> </i> SHARE</a>
                             <!-- <a href="" class="active"><i class="fa fa-mark ">MARK AS SEEN</i></a>
                             <a href=""></a><i class="fa fa-comment"></i>ADD COMMENT</a>
                             <a href=""><i class="fa fa-share"></i>SHARE</a> -->
                         </p>
                     </section>
                     <section class="comment_container">
+                            <?php include "components/tweets.php"?>
+
                         <h3>COMMENTS</h3>
                         <div>
                         <section class="comment row py-5 px-0">
@@ -162,8 +164,8 @@
                             </article>
                            
                         </section> 
-                        <div class="gists mt-n5 pl-5 ml-0">
-                                <div class="fa fa-comment ml-5 pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
+                        <div class="gists mt-n5 pl-lg-5 ml-2">
+                                <div class="fa fa-comment ml-5 pl-sm-4 pt-3"> &nbsp; 120 People are talking about this</div>
                             </div>
                         </div>
                         <div class="pt-5">
@@ -186,11 +188,10 @@
                             </article>
                            
                         </section> 
-                        <div class="gists mt-n5 pl-5  ml-0">
-                                <div class="fa fa-comment ml-5 pl-5 pt-3"> &nbsp; 120 People are talking about this</div>
+                        <div class="gists mt-n5 pl-lg-5  ml-2">
+                                <div class="fa fa-comment ml-5 pl-sm-4 pt-3"> &nbsp; 120 People are talking about this</div>
                         </div>
-                        <p class="pt-3 see_more">See more</p>
-                        </div>
+                        <p class="pt-3 see_more" onclick="toggleModal()">See more</p>                        </div>
                     </section>
                 </div>
             </section>
@@ -200,5 +201,10 @@
     </main>
     <?php include "components/site_footer.php" ?>
 </body>
-
+<script> 
+        let toggleModal = () => {
+           $(".tweet_box").toggle();
+           console.log ()
+        }
+       </script>
 </html>

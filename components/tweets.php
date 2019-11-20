@@ -4,9 +4,10 @@
 </head>
 
 <body>
-    <section class="container">
+    <section class="container tweet_box p-0">
         <section class="tweet_container_box">
-            <section class="tweet_header py-3">
+             <p onclick="toggleModal()" class="close">&times;</p>
+       <section class="tweet_header py-3">
                 <p>COMMENTS</p>
                 <h5 class="tweet_nav">
                     <a href="#" class="active mr-3">POPULAR</a>

@@ -256,11 +256,11 @@ header .header_search .menu {
 
 .page_body .main_container section.seasons ul.list-unstyled {
   width: 100%;
-  background-color: #dfd7d7;
+  background-color: rgba(223, 215, 215, 0.342);
 }
 
 .page_body .main_container section.seasons ul.list-unstyled li {
-  border: 1px solid #b6adad;
+  border: 1px solid rgba(182, 173, 173, 0.438);
   border-right: none;
   border-left: none;
 }
@@ -281,6 +281,7 @@ header .header_search .menu {
 .page_body .main_container .episode_thriller_item iframe {
   width: 100%;
   height: auto;
+  border: none;
 }
 
 .page_body .main_container .episode_thriller_item span a {
@@ -304,6 +305,11 @@ header .header_search .menu {
   line-height: 20px;
 }
 
+.page_body .main_container .comment_container {
+  position: relative;
+  width: 98%;
+}
+
 .page_body .main_container .comment_container h3 {
   font-weight: 600;
   font-size: 18px;
@@ -318,7 +324,7 @@ header .header_search .menu {
 
 .page_body .main_container .comment_container .comment .fa-twitter {
   position: absolute;
-  right: 40px;
+  right: 30px;
   top: 40px;
   color: #00aeff;
   font-size: 30px;
@@ -355,6 +361,7 @@ header .header_search .menu {
 
 .page_body .main_container .comment_container .gists {
   border-top: 1px solid #dadada;
+  position: relative;
 }
 
 .page_body .main_container .comment_container .gists div {
@@ -366,10 +373,12 @@ header .header_search .menu {
 
 .page_body .main_container .comment_container .see_more {
   font-weight: 600;
+  width: 100px;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.233333px;
   color: #1b8bc8;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {

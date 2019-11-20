@@ -48,16 +48,16 @@
             <H3>FOR THE <span class="brand_color">PURPOSE</span> OF TESTING</H3>
             <ol>
                 <li><a href="index1.php">Index Page</a></li>
-                <li><a href="signin.php">signin Page</a></li>
-                <li><a href="signinWithEmail.php">signinWithEmail Page</a></li>
-                <li><a href="signup.php">signup Page</a></li>
-                <li><a href="signupWithEmail.php">signupWithEmail Page</a></li>
+                <li><a href="signin.php">signin Page +++</a></li>
+                <li><a href="signinWithEmail.php">signinWithEmail Page +++</a></li>
+                <li><a href="signup.php">signup Page +++</a></li>
+                <li><a href="signupWithEmail.php">signupWithEmail Page +++</a></li>
                 <li><a href="user_profile.php">User profile Page</a></li>
-                <li><a href="settings.php">Settings</a></li>
+                <li><a href="settings.php">Settings +++</a></li>
                 <li><a href="components_test.php">See Difference components</a></li>
                 <li><a href="home_login.php">Home Login</a></li>
-                <li><a href="series_single.php">Series page</a></li>
-                <li><a href="movies_single.php">Movies page</a></li>
+                <li><a href="series_single.php">Series page +++</a></li>
+                <li><a href="movies_single.php">Movies page +++</a></li>
 
             </ol>
         </main>

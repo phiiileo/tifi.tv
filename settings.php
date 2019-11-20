@@ -102,11 +102,11 @@
                             <div class="form-group row">
                                 <label class="col-md-6" for="timezone">TimeZone:</label>
                                 <select class="col-md-6 " name="timezone" id="timezone">
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
+                                    <option value="">Australian Central Daylight</option>
+                                    <option value="">Eastern Daylight Time</option>
+                                    <option value="">West Africa Time</option>
+                                    <option value="">Pacific Time</option>
+                                    <option value="">East Greenland Time</option>
                                 </select>
                             </div>
                             <div class="form-group row">

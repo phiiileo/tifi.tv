@@ -51,9 +51,29 @@ img {
   color: #FF5300;
 }
 
+.tweet_box {
+  background-color: white;
+  top: 10vh;
+  z-index: 99;
+  position: absolute;
+  display: none;
+  top: -5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.tweet_box .close {
+  font-size: 35px;
+  color: red;
+  cursor: pointer;
+}
+
 .tweet_container_box {
   min-width: 320px;
   max-width: 700px;
+  margin: 0 auto;
   color: #332f30;
 }
 
@@ -114,7 +134,7 @@ img {
 
 .tweet_container_box .tweet_body .tweet_sender_act {
   position: absolute;
-  top: 20px;
+  top: 45px;
   right: 20px;
 }
 
