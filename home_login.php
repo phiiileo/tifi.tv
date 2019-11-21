@@ -22,6 +22,7 @@
     <main class="container">
         <section class="row mx-0 mx-0">
             <section class="col-lg-3 sidebar pl-0 pr-3">
+                <i class="fa fa-arrow-left arrow"></i>
                 <h5 class="bg_color sidebar_header pl-5 ">
                     Recommended For You
                 </h5>
@@ -93,7 +94,7 @@
                 </section>
             </section>
 
-            <section class="col-lg-9 main_page pl-0 pl-lg-3 pr-0">
+            <section class="col-lg-9 main_page pl-0 pl-lg-3 pr-0 mx-auto">
                 <article class="pb-5 pb-lg-0">
                     <h3 class="mb-4">Tv Show you should watch</h3>
                     <article class="sort">Sorted by

@@ -77,4 +77,12 @@ $(watch_movie).on("click", function () {
     let b = $(this).parent().toggleClass("moveup");
 })
 
+//SIDEBAR FUNCTION 
+    let arrow = $(".arrow");
+    let sidebar = $(".sidebar");
+    arrow.on("click", function(){
+       $(this).toggleClass("fa-arrow-right").css("right","-15px !important");
+       $(sidebar).toggleClass("toggleSidebar");
+        
+    })
 

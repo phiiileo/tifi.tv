@@ -56,10 +56,32 @@ header .login {
 }
 
 /* SIDEBAR */
+main.container {
+  position: relative;
+}
+
+main.container .arrow {
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+main.container .arrow:hover {
+  color: #FF5300;
+}
+
 main.container .sidebar {
+  position: absolute;
+  left: -320px;
+  top: -35px;
+  -webkit-transition: left 1s ease-in;
+  transition: left 1s ease-in;
   background-color: #ffffff;
   height: auto;
   z-index: 1;
+  width: 320px;
 }
 
 main.container .sidebar h5 {
@@ -132,6 +154,10 @@ main.container .sidebar span.m_public p i {
   position: absolute;
   right: 0;
   top: 5px;
+}
+
+main.container .toggleSidebar {
+  left: 0;
 }
 
 main.container .main_page {
@@ -479,6 +505,14 @@ main.container .pagination .page-link.active {
 }
 
 @media screen and (min-width: 992px) {
+  .arrow {
+    display: none;
+  }
+  .sidebar {
+    display: block !important;
+    position: static !important;
+    min-width: 240px !important;
+  }
   article.sort {
     right: 210px;
     top: -5px !important;

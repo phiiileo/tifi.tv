@@ -8,10 +8,27 @@ header {
 
 /* SIDEBAR */
 main.container {
+  position: relative;
+
+  .arrow {
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    z-index: 5;
+    cursor: pointer;
+  }
+  .arrow:hover {
+    color: $brand_color;
+  }
   .sidebar {
+    position: absolute;
+    left: -320px;
+    top: -35px ;
+    transition: left 1s ease-in;
     background-color: $font_color;
     height: auto;
     z-index: 1;
+    width: 320px;
 
     h5 {
       background-color: #332f30;
@@ -82,6 +99,9 @@ main.container {
         }
       }
     }
+  }
+  .toggleSidebar {
+    left: 0;
   }
 
   .main_page {
@@ -405,6 +425,14 @@ main.container {
 }
 
 @media screen and (min-width: 992px) {
+  .arrow {
+    display: none;
+  }
+  .sidebar {
+    display: block !important;
+    position: static !important;
+    min-width: 240px !important;
+  }
   article.sort {
     right: 210px;
     top: -5px !important;
