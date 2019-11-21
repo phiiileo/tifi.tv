@@ -35,7 +35,7 @@
             </nav>
         </section>
 
-        <section class="content col-md-10 mx-auto pl-5 pr-0">
+        <section class="content col-md-10 mx-0 pl-0 pl-md-5 pr-0">
             <section class="content_box">
                 <section class="account">
                     <h4 class="my-3 my-md-0">ACCOUNT</h4>
