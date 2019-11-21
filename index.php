@@ -43,22 +43,22 @@
                     <article class="control control--left"><i class="fa fa-angle-left"></i> </article>
 
                     <span>
-                        <article class="images img_container_1  active_img">
+                        <article class="images 1 active_img">
                             <img src="uploads/carousel_img1.png" alt="">
                         </article>
-                        <article class="images img_container_2">
+                        <article class="images 2 img_container_2">
                             <img src="uploads/carousel_img2.png" alt="">
                         </article>
-                        <article class=" images img_container_3 ">
+                        <article class=" images 3 img_container_3 ">
                             <img src="uploads/carousel_img1.png" alt="">
                         </article>
-                        <article class=" images">
+                        <article class=" images 4">
                             <img src="uploads/carousel_img2.png" alt="">
                         </article>
-                        <article class=" images">
+                        <article class=" images 5">
                             <img src="uploads/carousel_img1.png" alt="">
                         </article>
-                        <article class=" images">
+                        <article class=" images 6">
                             <img src="uploads/carousel_img2.png" alt="">
                         </article>
                         <article class=" images">

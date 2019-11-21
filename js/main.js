@@ -11,18 +11,17 @@ let init = 0;
 right_control.on("click", function () {
     let active_img = $(".active_img");
     let next_slide = $(active_img.next());
-    let next_slide2 = $(next_slide).next();
-    let next_slide3 = $(next_slide2).next();
-    if (init > image_stack.length - 4) {
-        console.log("hello Emmanuel");
-        console.log(init);
+    let next_slide2 = $(next_slide.next());
+    let next_slide3 = $(next_slide2.next());
+    if (init > image_stack.length - 2) {
+        console.log("This is the last image");
+        $(image_stack[image_stack.length -1]).addClass("active_img");
 
     } else {
         active_img.removeClass("active_img");
-        next_slide.addClass("active_img");
+        next_slide.addClass("active_img").removeClass("img_container_2");
         next_slide2.addClass("img_container_2").removeClass("img_container_3");
         next_slide3.addClass("img_container_3");
-        console.log(init);
         init = init + 1;
 
     }
@@ -31,22 +30,21 @@ right_control.on("click", function () {
 
 // let left_control set previous image active and remove active from current one
 left_control.on("click", function () {
-    let active_img = $(".active_img");
-    let prev_slide = active_img.prev();
+    let active_img = $($(".active_img"));
+    let prev_slide = $(active_img.prev());
+    let next_slide = $(prev_slide.next());
+    let next_slide2 = $(next_slide.next());
+    let next_slide3 = $(next_slide2.next());
 
     if (init === 0) {
-        console.log("this is last image");
+        console.log("This is First image");
     }
     else {
-
         prev_slide.addClass("active_img");
-        active_img.removeClass("active_img");
-        let next_slide = $(active_img.next());
-        active_img.addClass("img_container_2");
-        next_slide.addClass("img_container_3");
-
-
-        init = init - 1 ;
+        next_slide.removeClass("active_img").addClass("img_container_2");
+        next_slide2.removeClass("img_container_2").addClass("img_container_3");
+        next_slide3.removeClass("img_container_3");
+        init = init - 1;
 
     }
 })
