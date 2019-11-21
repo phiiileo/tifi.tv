@@ -55,43 +55,15 @@ header .login {
   display: none;
 }
 
-header .header_search div span {
-  display: none !important;
-  margin-left: -70px;
-}
-
-/* PAGE CONTAINER STYING STARTS HERE*/
-main.container {
-  overflow-x: hidden;
-}
-
-/*ARROW STYLING */
-.arrow {
-  position: absolute;
-  top: 60px;
-  left: 20px;
-  font-size: 25px;
-}
-
-.arrow:hover {
-  color: #FF5300;
-}
-
-/* SIDE BAR STYING STARTS HERE*/
-.sidebar {
+/* SIDEBAR */
+main.container .sidebar {
+  border: 1px solid red;
   background-color: #ffffff;
-  min-width: 300px;
-  max-width: 50%;
   height: auto;
-  margin-left: -60px;
   z-index: 1;
-  position: absolute;
-  left: -500px;
-  -webkit-transition: left 1s;
-  transition: left 1s;
 }
 
-.sidebar h5 {
+main.container .sidebar h5 {
   background-color: #332f30;
   color: #ffffff;
   font-weight: bold;
@@ -102,280 +74,72 @@ main.container {
   position: relative;
 }
 
-.sidebar h5 span {
+main.container .sidebar h5 span {
   position: absolute;
-  right: 25px;
+  right: 10px;
   top: 13px;
   color: #FF5300;
   font-size: 18px;
   line-height: 25px;
 }
 
-.sidebar .sidebar h5:first-child,
-.sidebar .bg_color {
+main.container .sidebar h5 span a {
+  color: #FF5300;
+}
+
+main.container .sidebar .sidebar h5:first-child,
+main.container .sidebar .bg_color {
   background-color: #FF5300;
 }
 
-.sidebar h6 {
+main.container .sidebar h6 {
   position: relative;
   font-weight: bold;
   font-size: 16px;
   line-height: 25px;
   color: #202124;
   margin: 25px 0;
+  cursor: pointer;
 }
 
-.sidebar h6 i {
+main.container .sidebar h6 i, main.container .sidebar h6 img {
   position: absolute;
-  right: -15px;
+  right: 0px;
   top: 5px;
   cursor: pointer;
 }
 
-.sidebar h6:hover {
+main.container .sidebar h6:hover {
   color: #FF5300;
 }
 
-.sidebar p {
+main.container .sidebar p {
   font-size: 18px;
   line-height: 25px;
   color: #202124;
-  position: relative;
 }
 
-.sidebar p input {
+main.container .sidebar p input {
   margin-right: 22px;
 }
 
-.sidebar p i {
-  position: absolute;
-  right: -15px;
-  color: white;
-}
-
-.sidebar p i:hover {
-  color: #FF5300;
-}
-
-.slideShow {
-  left: 30px;
-}
-
-/* MAIN CONTENT STYING STARTS HERE*/
-.main {
-  /* First section  STYING STARTS HERE*/
-}
-
-.main .row1,
-.main .row2 {
-  /* MOVIE LISTS SECTION STYLING */
-}
-
-.main .row1 article,
-.main .row2 article {
-  font-size: 14px;
-  line-height: 52px;
-}
-
-.main .row1 article h3,
-.main .row2 article h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 44px;
-  color: #202124;
-}
-
-.main .row1 article div.sort_range,
-.main .row2 article div.sort_range {
-  position: relative;
-}
-
-.main .row1 article.sort,
-.main .row2 article.sort {
-  color: #1e1e1e;
-}
-
-.main .row1 .range,
-.main .row2 .range {
-  width: 100%;
-}
-
-.main .row1 .range input,
-.main .row2 .range input {
-  -webkit-appearance: none;
-  width: 100px;
-  height: 3px;
-  margin-left: 5px;
-  border-radius: 5px;
-  background: #FF5300;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: 0.2s;
-  -webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
-}
-
-.main .row1 .range input::-webkit-slider-thumb,
-.main .row2 .range input::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #FF5300;
-  cursor: pointer;
-}
-
-.main .row1 .range input::-moz-range-thumb,
-.main .row2 .range input::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #FF5300;
-  cursor: pointer;
-}
-
-.main .row1 div.movie_list,
-.main .row2 div.movie_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-bottom: 80px;
-}
-
-.main .row1 div.movie_list article,
-.main .row2 div.movie_list article {
-  width: 180px;
-  height: 300px;
-  margin-bottom: 50px;
-}
-
-.main .row1 div.movie_list article img,
-.main .row2 div.movie_list article img {
-  width: 100%;
-  height: 250px;
-  border-radius: 8px;
-}
-
-.main .row1 div.movie_list article .m_details,
-.main .row2 div.movie_list article .m_details {
-  height: 50px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 19px;
-  position: relative;
-  padding-top: 10px;
-}
-
-.main .row1 div.movie_list article .m_details span,
-.main .row2 div.movie_list article .m_details span {
-  background-color: #dadada;
-  border-radius: 100%;
-  display: inline-block;
-  position: absolute;
-  font-weight: bold;
-  width: 30px;
-  height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main .row1 div.movie_list article .m_details p,
-.main .row2 div.movie_list article .m_details p {
-  display: inline-block;
-  margin-left: 42px;
-  font-weight: bold;
-}
-
-.main .row1 div.movie_list article .m_details p i,
-.main .row2 div.movie_list article .m_details p i {
+main.container .sidebar span.m_public p {
   font-weight: normal;
-  font-size: 10px;
-  line-height: 14px;
-  color: #979797;
+  position: relative;
 }
 
-.main .row2 p {
-  border-bottom: 1px solid #dadada;
+main.container .sidebar span.m_public p i {
+  position: absolute;
+  right: 0;
+  top: 5px;
 }
 
-.main .row2 .year {
-  width: 175px;
+main.container .main_page {
+  border: 1px solid green;
+  position: relative;
 }
 
-.main .row2 .year span {
-  margin-right: 23px;
-}
-
-.main .row2 .month span {
-  font-weight: bold;
-  margin-right: 35px;
-}
-
-.main .row2 .active {
-  font-weight: bold;
-}
-
-.main .row2 .movie_list p {
-  margin-left: 0 !important;
-}
-
-.main .row2 .movie_list i a {
-  color: #FF5300;
-}
-
-/* MEDIUM SCREEN STYING STARTS HERE*/
-@media screen and (min-width: 768px) {
-  header .header_search div span {
-    display: block !important;
-    visibility: hidden;
-  }
-  .row1 {
-    position: relative;
-  }
-  .row1 article h3 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
-    line-height: 44px;
-    color: #202124;
-  }
-  .row1 article div.sort_range {
-    position: absolute !important;
-    top: -25px;
-    right: -10px;
-    width: 385px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-  .row1 article div.sort_range .week {
-    position: absolute;
-    top: -20px;
-    right: 50px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .sidebar {
-    position: static !important;
-  }
+main.container .main_page article {
+  border: 1px solid blue;
 }
 /*# sourceMappingURL=home_login.css.map */
