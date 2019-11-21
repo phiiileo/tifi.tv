@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home | tifi.tv</title>
+    <title>User Home | tifi.tv</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -93,7 +93,7 @@
                 </section>
             </section>
 
-            <section class="col-lg-9 main_page pl-3 pr-0">
+            <section class="col-lg-9 main_page pl-0 pl-lg-3 pr-0">
                 <article class="pb-5 pb-lg-0">
                     <h3 class="mb-4">Tv Show you should watch</h3>
                     <article class="sort">Sorted by
@@ -1100,7 +1100,7 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
+                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1154,7 +1154,7 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
+                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1207,7 +1207,7 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
+                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1261,7 +1261,7 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
+                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1314,7 +1314,7 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
+                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1368,7 +1368,7 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
+                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1421,7 +1421,7 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
+                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1457,9 +1457,63 @@
                         </section>
                     </article>
                 </div>
+                <section class="row2 my-5">
+                    <article class="my-4">
+                        <h3>Upcoming Movies and TV Shows</h3>
+                        <p class="year py-2">
+                            <span class="active">2019</span>
+                            <span>2020</span>
+                            <span>2021</span>
+                        </p>
+                        <p class="month py-2">
+                            <span class="active">OCT</span>
+                            <span>NOV</span>
+                            <span>DEC</span>
+                            <span>TBA</span>
+                        </p>
+                    </article>
+                    <div class="movie_list mt-3 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
+                        <article>
+                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div class="m_details">
+                                <p>Monet Hiest <br>
+                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div class="m_details">
+                                <p>Monet Hiest <br>
+                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div class="m_details">
+                                <p>Monet Hiest <br>
+                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div class="m_details">
+                                <p>Monet Hiest <br>
+                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div class="m_details">
+                                <p>Monet Hiest <br>
+                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
             </section>
 
         </section>
+
     </main>
 
     <?php include "components/site_footer.php" ?>

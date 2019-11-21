@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Search Results | tifi.tv</title>
+    <title>Search Result | tifi.tv</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -1391,8 +1391,294 @@
                         </section>
                     </article>
                 </div>
+                <section class="spaceholder my-5" style="height: 100px;">
+
+                </section>
+                <div class="movie_list mt-5 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
+                    <article class="">
+                        <span>
+                            <div><img src="uploads/img1.png" alt=""></div>
+                            <div class="m_details">
+                                <span>1</span>
+                                <p>Aladin <br>
+                                    <i>Movie</i></p>
+                            </div>
+                        </span>
+                        <section class="state_container">
+                            <section class="m_state">
+                                <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
+                                    <i class="fa fa-heart state_icon"></i>
+                                    <i class="fa fa-check state_icon"></i>
+                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fa fa-comment">
+                                        <span>233</span>
+                                    </i>
+
+                                </p>
+                            </section>
+                            <section class="seen seen1 changestate">
+                                <p class="">
+                                    <i class="fa fa-check"></i>
+                                    <a href="">Seen</a>
+                                </p>
+                            </section>
+
+                            <section class="watch watch1 changestate">
+                                <p class="about_movie mb-2">
+                                    Mild-mannered high school chemistry teacher Walter White thinks his life can't get
+                                    much
+                                    worse. His salary barely makes ends meet, a situation not likely to improve once his
+                                    pregnant wife gives birth, and their teenage son is battling cerebral palsy
+                                </p>
+                                <p class="ratings mb-4 mt-4">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>42 Ratings</span>
+                                </p>
+
+
+
+                                <p class="watch_movie py-2">
+                                    Watch
+                                </p>
+
+                            </section>
+
+                        </section>
+                    </article>
+                    <article>
+                        <span>
+                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div class="m_details">
+                                <span>1</span>
+                                <p>Matrix <br>
+                                    <i>Movie</i></p>
+                            </div>
+                        </span>
+                        <section class="state_container">
+                            <section class="m_state">
+                                <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
+                                    <i class="fa fa-heart state_icon"></i>
+                                    <i class="fa fa-check state_icon"></i>
+                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fa fa-comment">
+                                        <span>233</span>
+                                    </i>
+                                </p>
+                            </section>
+                            <section class="seen seen1 changestate">
+                                <p class="">
+                                    <i class="fa fa-check"></i>
+                                    <a href="">Seen</a>
+                                </p>
+                            </section>
+
+                            <section class="watch watch1 changestate">
+                                <p class="about_movie mb-2">
+                                    Mild-mannered high school chemistry teacher Walter White thinks his life can't get
+                                    much
+                                    worse. His salary barely makes ends meet, a situation not likely to improve once his
+                                    pregnant wife gives birth, and their teenage son is battling cerebral palsy
+                                </p>
+                                <p class="ratings mb-4 mt-4">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>42 Ratings</span>
+                                </p>
+
+
+
+                                <p class="watch_movie py-2">
+                                    Watch
+                                </p>
+
+                            </section>
+                        </section>
+                    </article>
+                    <article>
+                        <span>
+                            <div><img src="uploads/img4.png" alt=""></div>
+                            <div class="m_details">
+                                <span>125</span>
+                                <p>The Walking Dead <br>
+                                    <i>series</i></p>
+                            </div>
+                        </span>
+                        <section class="state_container">
+                            <section class="m_state">
+                                <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
+                                    <i class="fa fa-heart state_icon"></i>
+                                    <i class="fa fa-check state_icon"></i>
+                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fa fa-comment">
+                                        <span>233</span>
+                                    </i>
+                                </p>
+                            </section>
+                            <section class="seen seen1 changestate">
+                                <p class="">
+                                    <i class="fa fa-check"></i>
+                                    <a href="">Seen</a>
+                                </p>
+                            </section>
+
+                            <section class="watch watch1 changestate">
+                                <p class="about_movie mb-2">
+                                    Mild-mannered high school chemistry teacher Walter White thinks his life can't get
+                                    much
+                                    worse. His salary barely makes ends meet, a situation not likely to improve once his
+                                    pregnant wife gives birth, and their teenage son is battling cerebral palsy
+                                </p>
+                                <p class="ratings mb-4 mt-4">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>42 Ratings</span>
+                                </p>
+
+
+
+                                <p class="watch_movie py-2">
+                                    Watch
+                                </p>
+
+                            </section>
+
+                        </section>
+                    </article>
+                    <article>
+                        <span>
+                            <div><img src="uploads/img8.png" alt=""></div>
+                            <div class="m_details">
+                                <span>1</span>
+                                <p>Monet Hiest <br>
+                                    <i>series</i></p>
+                            </div>
+                        </span>
+                        <section class="state_container">
+                            <section class="m_state">
+                                <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
+                                    <i class="fa fa-heart state_icon"></i>
+                                    <i class="fa fa-check state_icon"></i>
+                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fa fa-comment">
+                                        <span>233</span>
+                                    </i>
+                                </p>
+                            </section>
+                            <section class="seen seen1 changestate">
+                                <p class="">
+                                    <i class="fa fa-check"></i>
+                                    <a href="">Seen</a>
+                                </p>
+                            </section>
+
+                            <section class="watch watch1 changestate">
+                                <p class="about_movie mb-2">
+                                    Mild-mannered high school chemistry teacher Walter White thinks his life can't get
+                                    much
+                                    worse. His salary barely makes ends meet, a situation not likely to improve once his
+                                    pregnant wife gives birth, and their teenage son is battling cerebral palsy
+                                </p>
+                                <p class="ratings mb-4 mt-4">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>42 Ratings</span>
+                                </p>
+
+
+
+                                <p class="watch_movie py-2">
+                                    Watch
+                                </p>
+
+                            </section>
+                        </section>
+                    </article>
+                    <article>
+                        <span>
+                            <div><img src="uploads/img5.png" alt=""></div>
+                            <div class="m_details">
+                                <span>1</span>
+                                <p>Alita <br>
+                                    <i>Movie</i></p>
+                            </div>
+                        </span>
+                        <section class="state_container">
+                            <section class="m_state">
+                                <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
+                                    <i class="fa fa-heart state_icon"></i>
+                                    <i class="fa fa-check state_icon"></i>
+                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fa fa-comment">
+                                        <span>233</span>
+                                    </i>
+                                </p>
+                            </section>
+                            <section class="seen seen1 changestate">
+                                <p class="">
+                                    <i class="fa fa-check"></i>
+                                    <a href="">Seen</a>
+                                </p>
+                            </section>
+
+                            <section class="watch watch1 changestate">
+                                <p class="about_movie mb-2">
+                                    Mild-mannered high school chemistry teacher Walter White thinks his life can't get
+                                    much
+                                    worse. His salary barely makes ends meet, a situation not likely to improve once his
+                                    pregnant wife gives birth, and their teenage son is battling cerebral palsy
+                                </p>
+                                <p class="ratings mb-4 mt-4">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>42 Ratings</span>
+                                </p>
+
+
+
+                                <p class="watch_movie py-2">
+                                    Watch
+                                </p>
+
+                            </section>
+
+                        </section>
+                    </article>
+                </div>
             </section>
 
+
+        </section>
+        <section class="pagination mb-5">
+            <ul class="pagination mx-auto my-3">
+                <li class="page-item mr-4"><a class="page-link" href="#"><i class="fa fa-angle-left"></i></a></li>
+                <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                <li class="page-item"><a class="page-link" href="#">8</a></li>
+                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                <li class="page-item"><a class="page-link" href="#">20</a></li>
+                <li class="page-item ml-4"><a class="page-link" href="#"><i class="fa fa-angle-right"></i></a></li>
+            </ul>
         </section>
     </main>
 

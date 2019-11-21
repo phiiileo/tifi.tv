@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home | tifi.tv</title>
+    <title>Pages | tifi.tv</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -47,7 +47,7 @@
         <main class="mx-auto px-3">
             <H3>FOR THE <span class="brand_color">PURPOSE</span> OF TESTING</H3>
             <ol>
-                <li><a href="index.php">Index Page</a></li>
+                <li><a href="index.php">Index Page ++</a></li>
                 <li><a href="signin.php">signin Page +++</a></li>
                 <li><a href="signinWithEmail.php">signinWithEmail Page +++</a></li>
                 <li><a href="signup.php">signup Page +++</a></li>
@@ -58,7 +58,7 @@
                 <li><a href="home_login.php">Home Login</a></li>
                 <li><a href="series_single.php">Series page +++</a></li>
                 <li><a href="movies_single.php">Movies page +++</a></li>
-                <li><a href="search_result.php">search_result page</a></li>
+                <li><a href="search_result.php">search_result page +++</a></li>
                 
 
             </ol>

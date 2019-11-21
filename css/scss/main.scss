@@ -340,16 +340,14 @@ main {
         color: black;
         margin-top: 10px;
         display: none;
-        width: 250px;
+        width: 200px;
         position: absolute;
         top: 25px;
         left: 0px;
         z-index: 1;
-        border-bottom: 1px solid grey;
 
         li {
-          border: 1px solid grey;
-          border-bottom: none;
+          border-bottom: 1px solid #F3F3F3;
           padding: 10px;
           list-style: none;
           position: relative;
@@ -376,9 +374,6 @@ main {
           }
     
         }
-      }
-      .myDropdown:hover .dropdown_content {
-        font-size: 25px;
       }
     }
 

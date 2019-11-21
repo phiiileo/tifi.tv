@@ -412,17 +412,15 @@ main .row4 article.sort .dropdown_content {
   color: black;
   margin-top: 10px;
   display: none;
-  width: 250px;
+  width: 200px;
   position: absolute;
   top: 25px;
   left: 0px;
   z-index: 1;
-  border-bottom: 1px solid grey;
 }
 
 main .row4 article.sort .dropdown_content li {
-  border: 1px solid grey;
-  border-bottom: none;
+  border-bottom: 1px solid #F3F3F3;
   padding: 10px;
   list-style: none;
   position: relative;
@@ -449,10 +447,6 @@ main .row4 article.sort .dropdown_content li .check_state img {
   right: 10px;
   top: 10px;
   z-index: -1;
-}
-
-main .row4 article.sort .myDropdown:hover .dropdown_content {
-  font-size: 25px;
 }
 
 main .row4 .range {
