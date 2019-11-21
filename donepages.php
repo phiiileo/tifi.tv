@@ -58,6 +58,8 @@
                 <li><a href="home_login.php">Home Login</a></li>
                 <li><a href="series_single.php">Series page +++</a></li>
                 <li><a href="movies_single.php">Movies page +++</a></li>
+                <li><a href="search_result.php">search_result page</a></li>
+                
 
             </ol>
         </main>

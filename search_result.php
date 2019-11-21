@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home | tifi.tv</title>
+    <title>Search Results | tifi.tv</title>
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
         <section class="row mx-0 mx-0">
             <section class="col-lg-3 sidebar pl-0 pr-3">
                 <h5 class="bg_color sidebar_header pl-5 ">
-                    Recommended For You
+                    Filter
                 </h5>
                 <form action="" class="form1 pl-5">
                     <div class="form-group">
@@ -40,19 +40,7 @@
                         <p><input type="checkbox" name="" id="" value="Violence">Violence</p>
                         <p><input type="checkbox" name="" id="" value="Feature Films">Feature Films</p>
                     </div>
-                    <div class="form-group">
-                        <h6>What is your mood today? <i class="fa fa-angle-up"></i></h6>
-                        <p><input type="checkbox" name="" value="Solemn" id="">Solemn</p>
-                        <p><input type="checkbox" name="" value="Mischievous" id="">Mischievous</p>
-                        <p><input type="checkbox" name="" id="" value="Romantic">Romantic</p>
-                        <p><input type="checkbox" name="" id="" value="Old">Old</p>
-                        <p><input type="checkbox" name="" id="" value="Margical">Violence</p>
-                        <p><input type="checkbox" name="" id="" value="Festive">Festive</p>
-                    </div>
                 </form>
-                <h5 class=" sidebar_header px-5">
-                    Explore
-                </h5>
                 <div class="form-group pl-5">
                     <h6>Recently Added <i class="fa fa-angle-up"></i></h6>
                     <p><input type="checkbox" name="" value="Netflix" id="">Netflix</p>
@@ -61,41 +49,12 @@
                     <p><input type="checkbox" name="" id="" value="HBO">HBO</p>
                     <p><input type="checkbox" name="" id="" value="ShowMax">ShowMax</p>
                     <p><input type="checkbox" name="" id="" value="Disney TV">Disney TV</p>
-
-                    <h6>Hot on Twitter <img src="uploads/left_pointer.png" alt=""></h6>
-                    <h6>Top Downloaded <img src="uploads/left_pointer.png" alt=""></h6>
-                    <h6>Popular Lists <i class="fa fa-angle-up"></i></h6>
-
-                    <p><input type="checkbox" name="" value="" id="">Baddt</p>
-                    <p><input type="checkbox" name="" id="" value="">Sapio</p>
-                    <p><input type="checkbox" name="" id="" value="">All Crime</p>
-                    <p><input type="checkbox" name="" id="" value="">Bloddy Horrors</p>
-                    <p><input type="checkbox" name="" id="" value="">Erotic</p>
                 </div>
-                <h5 class=" sidebar_header">
-                    My Lists (Baddt)
-                    <span><a href="#" class="">Edit</a> </span>
-                </h5>
-                <section class="my_list mb-5 pl-5">
-
-                    <form action="" class="form2 px-0 mx-0">
-                        <div class="form-group">
-                            <h6>Make Public <i><input type="checkbox" name="" id=""></i></h6>
-                            <span class="m_public">
-                                <p>Suits<i class="fas fa-times"></i></p>
-                                <p>Breaking Bad<i class="fas fa-times"></i></p>
-                                <p>Grey's Anatomy<i class="fas fa-times"></i></p>
-                                <p>HBO<i class="fas fa-times"></i></p>
-                            </span>
-                        </div>
-
-                    </form>
-                </section>
             </section>
 
             <section class="col-lg-9 main_page pl-3 pr-0">
                 <article class="pb-5 pb-lg-0">
-                    <h3 class="mb-4">Tv Show you should watch</h3>
+                    <h3 class="mb-4">Search Results for "baby"</h3>
                     <article class="sort">Sorted by
                         <span class="brand_color myDropdown"><span class="filter_value pl-2">Popularity </span> <i
                                 class="fa fa-angle-down"></i></span>
@@ -138,7 +97,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
 
                                 </p>
                             </section>
@@ -193,7 +151,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -246,7 +203,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -300,7 +256,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -353,7 +308,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -407,7 +361,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -460,7 +413,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -513,7 +465,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -567,7 +518,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -620,7 +570,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -674,7 +623,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -727,7 +675,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -781,7 +728,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -834,7 +780,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -887,7 +832,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -941,7 +885,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -994,7 +937,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1047,7 +989,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-                                    <i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1100,7 +1041,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1154,7 +1094,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1207,7 +1146,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1261,7 +1199,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1314,7 +1251,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1368,7 +1304,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
@@ -1421,7 +1356,6 @@
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
-<i class="fa fa-ban state_icon"></i>
                                 </p>
                             </section>
                             <section class="seen seen1 changestate">
