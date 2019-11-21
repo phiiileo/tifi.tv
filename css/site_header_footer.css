@@ -57,11 +57,12 @@ img {
   }
   header .container .tifi_logo a {
     color: #FF5300;
-    font-size: 28px;
+    font-size: 1.8em !important;
     font-weight: 900;
   }
   header .container .tifi_logo a svg {
     display: inline-block;
+    margin-top: -15px;
   }
   header .container .header_search .menu {
     font-weight: 600;

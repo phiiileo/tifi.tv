@@ -4,6 +4,7 @@
 let image_stack = $(".images");
 let right_control = $(".fa-angle-right");
 let left_control = $(".fa-angle-left");
+let init = 0;
 
 // let right_control set next image active and remove active from current one
 
@@ -12,11 +13,19 @@ right_control.on("click", function () {
     let next_slide = $(active_img.next());
     let next_slide2 = $(next_slide).next();
     let next_slide3 = $(next_slide2).next();
-    active_img.removeClass("active_img");
-    next_slide.addClass("active_img");
-    next_slide2.addClass("img_container_2").removeClass("img_container_3");
-    next_slide3.addClass("img_container_3");
-    console.log(next_slide2);
+    if (init > image_stack.length - 4) {
+        console.log("hello Emmanuel");
+        console.log(init);
+
+    } else {
+        active_img.removeClass("active_img");
+        next_slide.addClass("active_img");
+        next_slide2.addClass("img_container_2").removeClass("img_container_3");
+        next_slide3.addClass("img_container_3");
+        console.log(init);
+        init = init + 1;
+
+    }
 })
 
 
@@ -25,12 +34,21 @@ left_control.on("click", function () {
     let active_img = $(".active_img");
     let prev_slide = active_img.prev();
 
-    prev_slide.addClass("active_img");
-    active_img.removeClass("active_img");
-    let next_slide = $(active_img.next());
-    active_img.addClass("img_container_2");
-    next_slide.addClass("img_container_3");
-    console.log(active_img);
+    if (init === 0) {
+        console.log("this is last image");
+    }
+    else {
+
+        prev_slide.addClass("active_img");
+        active_img.removeClass("active_img");
+        let next_slide = $(active_img.next());
+        active_img.addClass("img_container_2");
+        next_slide.addClass("img_container_3");
+
+
+        init = init - 1 ;
+
+    }
 })
 
 
@@ -78,11 +96,11 @@ $(watch_movie).on("click", function () {
 })
 
 //SIDEBAR FUNCTION 
-    let arrow = $(".arrow");
-    let sidebar = $(".sidebar");
-    arrow.on("click", function(){
-       $(this).toggleClass("fa-arrow-right").css("right","-15px !important");
-       $(sidebar).toggleClass("toggleSidebar");
-        
-    })
+let arrow = $(".arrow");
+let sidebar = $(".sidebar");
+arrow.on("click", function () {
+    $(this).toggleClass("fa-arrow-right").css("right", "-15px !important");
+    $(sidebar).toggleClass("toggleSidebar");
+
+})
 

@@ -8,10 +8,11 @@
       .tifi_logo {
         a {
           color: $brand_color;
-          font-size: 28px;
+          font-size: 1.8em !important;
           font-weight: 900;
           svg {
             display: inline-block;
+            margin-top: -15px;
           }
         }
       }
