@@ -160,6 +160,8 @@ header .login {
 .content_box .services_container .cta a {
   border: 1px solid #FF5300;
   border-radius: 8px;
+  display: inline-block;
+  width: 150px;
 }
 
 @media screen and (min-width: 786px) {

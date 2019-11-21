@@ -24,13 +24,13 @@
     </div>
     <main class="container mx-auto py-5 row ">
         <section class="sidebar col-md-2 px-0">
-            <nav class="row">
-                <p class="nav_links col-4 col-md-12 my-0  py-2"><a href="settings.php"
+            <nav class="row mx-0">
+                <p class="nav_links col-4 col-md-12 my-0 mx-0  py-2"><a href="settings.php"
                         class="nav_links_item active">General</a></p>
-                <p class="nav_links col-4 col-md-12 my-0 py-2"><a href="settings.php"
+                <p class="nav_links col-4 col-md-12 my-0 mx-0  py-2"><a href="settings.php"
                         class="nav_links_item ">Sharing</a>
                 </p>
-                <p class="nav_links col-4 col-md-12 my-0 py-2"><a href="settings.php"
+                <p class="nav_links col-4 col-md-12 my-0 mx-0 py-2"><a href="settings.php"
                         class="nav_links_item">Notification</a></p>
             </nav>
         </section>
@@ -163,7 +163,7 @@
 
                     </section>
                     <div class="clear cta mt-n5 mb-5 text-center">
-                        <a href="" class="bg_color px-5 py-1 mr-4 font-weight-bold">Save</a>
+                        <a href="" class="bg_color px-5 py-1 font-weight-bold mb-3">Save</a>
                         <a href="" class="brand_color px-5 py-1 font-weight-bold">Cancel</a>
                     </div>
                 </section>
