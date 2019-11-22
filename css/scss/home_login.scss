@@ -248,14 +248,14 @@ main.container {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 34px;
             position: absolute;
             font-weight: bold;
           }
           p {
             display: inline-block;
-            margin-left: 50px;
+            margin-left: 45px;
             font-weight: bold;
           }
 
@@ -282,13 +282,13 @@ main.container {
             width: 100%;
             i {
               color: rgb(230, 216, 216);
-              font-size: 15px;
+              font-size: 13px;
               position: relative;
 
               span {
                 position: absolute;
                 top: 4px;
-                left: 3px;
+                left: 2px;
                 font-size: 6px;
                 color: black;
                 font-weight: bolder;
@@ -333,7 +333,7 @@ main.container {
             line-height: 12px;
           }
           p.ratings {
-            font-size: 8px;
+            font-size: 7px;
             line-height: 12px;
 
             i {
@@ -405,6 +405,7 @@ main.container {
   }
 
   .pagination {
+    min-width: 320px;
     .page-link {
       color: black;
       border: none;
@@ -463,298 +464,21 @@ main.container {
 
 ////////////////////////
 
-// /* PAGE CONTAINER STYING STARTS HERE*/
-// main.container {
-//   overflow-x: hidden;
-// }
+@media screen and (max-width:560px) {
+  .pagination {
+    width: auto;
+    position: relative;
+   .page-item {
+     display: none;
+   }
 
-// /*ARROW STYLING */
-//   .arrow {
-//       position: absolute;
-//       top: 60px;
-//       left: 20px;
-//       font-size: 25px;
-//   }
-
-//   .arrow:hover {
-//       color: $brand_color;
-//   }
-
-// /* SIDE BAR STYING STARTS HERE*/
-// .sidebar {
-//   background-color: $font_color;
-//   min-width: 300px;
-//   max-width: 50%;
-//   height: auto;
-//   margin-left: -60px;
-//   z-index: 1;
-//   position: absolute;
-//   left: -500px;
-//   transition: left 1s;
-//   h5 {
-//     background-color: #332f30;
-//     color: $font_color;
-//     font-weight: bold;
-//     font-size: 20px;
-//     line-height: 33px;
-//     padding: 8px 5px 8px 50px;
-//     border-radius: 0px 8px 8px 0px;
-//     position: relative;
-
-//     span {
-//       position: absolute;
-//       right: 25px;
-//       top: 13px;
-//       color: $brand_color;
-//       font-size: 18px;
-//       line-height: 25px;
-//     }
-//   }
-
-//   .sidebar h5:first-child,
-//   .bg_color {
-//     background-color: $brand_color;
-//   }
-
-//   h6 {
-//     position: relative;
-//     font-weight: bold;
-//     font-size: 16px;
-//     line-height: 25px;
-//     color: $text_color;
-//     margin: 25px 0;
-
-//     i {
-//       position: absolute;
-//       right: -15px;
-//       top: 5px;
-//       cursor: pointer;
-//     }
-//   }
-
-//   h6:hover {
-//     color: $brand_color;
-//   }
-
-//   p {
-//     font-size: 18px;
-//     line-height: 25px;
-//     color: $text_color;
-//     position: relative;
-
-//     input {
-//       margin-right: 22px;
-//     }
-
-//     i {
-//       position: absolute;
-//       right: -15px;
-//       color: white ;
-//     }
-
-//     i:hover {
-//       color: $brand_color;
-//     }
-//   }
-// }
-
-// .slideShow {
-//     left: 30px;
-// }
-// /* MAIN CONTENT STYING STARTS HERE*/
-// .main {
-//   /* First section  STYING STARTS HERE*/
-
-//   .row1,
-//   .row2 {
-//     article {
-//       font-size: 14px;
-//       line-height: 52px;
-//       h3 {
-//         font-style: normal;
-//         font-weight: bold;
-//         font-size: 25px;
-//         line-height: 44px;
-//         color: $text_color;
-//       }
-//       div.sort_range {
-//         position: relative;
-//       }
-//     }
-//     article.sort {
-//       color: #1e1e1e;
-//     }
-
-//     .range {
-//       width: 100%;
-
-//       input {
-//         -webkit-appearance: none;
-//         width: 100px;
-//         height: 3px;
-//         margin-left: 5px;
-//         border-radius: 5px;
-//         background: $brand_color;
-//         outline: none;
-//         opacity: 0.7;
-//         -webkit-transition: 0.2s;
-//         transition: opacity 0.2s;
-//       }
-
-//       input::-webkit-slider-thumb {
-//         -webkit-appearance: none;
-//         appearance: none;
-//         width: 10px;
-//         height: 10px;
-//         border-radius: 50%;
-//         background: $brand_color;
-//         cursor: pointer;
-//       }
-
-//       input::-moz-range-thumb {
-//         width: 25px;
-//         height: 25px;
-//         border-radius: 50%;
-//         background: $brand_color;
-//         cursor: pointer;
-//       }
-//     }
-
-//     /* MOVIE LISTS SECTION STYLING */
-//     div.movie_list {
-//       display: flex;
-//       flex-direction: row;
-//       flex-wrap: wrap;
-//       justify-content: space-around;
-//       margin-bottom: 80px;
-
-//       article {
-//         width: 180px;
-//         height: 300px;
-//         margin-bottom: 50px;
-
-//         img {
-//           width: 100%;
-//           height: 250px;
-//           border-radius: 8px;
-//         }
-
-//         .m_details {
-//           height: 50px;
-//           font-weight: bold;
-//           font-size: 14px;
-//           line-height: 19px;
-//           position: relative;
-//           padding-top: 10px;
-
-//           span {
-//             background-color: $badge_color;
-//             border-radius: 100%;
-//             display: inline-block;
-//             position: absolute;
-//             font-weight: bold;
-//             width: 30px;
-//             height: 30px;
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//           }
-//           p {
-//             display: inline-block;
-//             margin-left: 42px;
-//             font-weight: bold;
-//             i {
-//               font-weight: normal;
-//               font-size: 10px;
-//               line-height: 14px;
-//               color: #979797;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-
-//   .row2 {
-//     p {
-//       border-bottom: 1px solid $badge_color;
-//     }
-
-//     .year {
-//       width: 175px;
-//       span {
-//         margin-right: 23px;
-//       }
-//     }
-//     .month {
-//       span {
-//         font-weight: bold;
-//         margin-right: 35px;
-//       }
-//     }
-
-//     .active {
-//       font-weight: bold;
-//     }
-
-//     .movie_list {
-//       p {
-//         margin-left: 0 !important;
-//       }
-//       i {
-//         a {
-//           color: $brand_color;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// /* MEDIUM SCREEN STYING STARTS HERE*/
-
-// @media screen and (min-width: 768px) {
-//   header {
-//     .header_search {
-//       div {
-//         span {
-//           display: block !important;
-//           visibility: hidden;
-//         }
-//       }
-//     }
-//   }
-
-//   .row1 {
-//     position: relative;
-//     article {
-//       h3 {
-//         font-style: normal;
-//         font-weight: bold;
-//         font-size: 23px;
-//         line-height: 44px;
-//         color: $text_color;
-//       }
-
-//       div.sort_range {
-//         position: absolute !important;
-//         top: -25px;
-//         right: -10px;
-//         width: 385px;
-//         display: grid;
-//         grid-template-columns: 1fr 1fr;
-
-//         .week {
-//           position: absolute;
-//           top: -20px;
-//           right: 50px;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// @media screen and (min-width: 992px){
-//     .sidebar {
-//         position: static !important;
-//     }
-// }
+   .page-item:first-child, .page-item:last-child {
+     display: block;
+     display: inline-block;
+   }
+   .page-item:last-child {
+    position: absolute;
+    right: 0;
+   }
+  }
+}

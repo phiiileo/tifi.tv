@@ -320,15 +320,15 @@ main.container .main_page div.movie_list article div.m_details span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 34px;
   position: absolute;
   font-weight: bold;
 }
 
 main.container .main_page div.movie_list article div.m_details p {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 45px;
   font-weight: bold;
 }
 
@@ -357,14 +357,14 @@ main.container .main_page div.movie_list article .m_state .icons {
 
 main.container .main_page div.movie_list article .m_state .icons i {
   color: #e6d8d8;
-  font-size: 15px;
+  font-size: 13px;
   position: relative;
 }
 
 main.container .main_page div.movie_list article .m_state .icons i span {
   position: absolute;
   top: 4px;
-  left: 3px;
+  left: 2px;
   font-size: 6px;
   color: black;
   font-weight: bolder;
@@ -425,7 +425,7 @@ main.container .main_page div.movie_list article .watch p.about_movie {
 }
 
 main.container .main_page div.movie_list article .watch p.ratings {
-  font-size: 8px;
+  font-size: 7px;
   line-height: 12px;
 }
 
@@ -489,6 +489,10 @@ main.container .row2 .movie_list article .m_details p {
   margin-left: 0 !important;
 }
 
+main.container .pagination {
+  min-width: 320px;
+}
+
 main.container .pagination .page-link {
   color: black;
   border: none;
@@ -541,5 +545,23 @@ main.container .pagination .page-link.active {
 .active_check {
   display: block !important;
   background: #F3F3F3;
+}
+
+@media screen and (max-width: 560px) {
+  .pagination {
+    width: auto;
+    position: relative;
+  }
+  .pagination .page-item {
+    display: none;
+  }
+  .pagination .page-item:first-child, .pagination .page-item:last-child {
+    display: block;
+    display: inline-block;
+  }
+  .pagination .page-item:last-child {
+    position: absolute;
+    right: 0;
+  }
 }
 /*# sourceMappingURL=home_login.css.map */

@@ -20,7 +20,7 @@
     <?php include "components/site_header.php" ?>
 
     <main class="container">
-        <section class="row mx-0 mx-0">
+        <section class="row mx-0">
             <section class="col-lg-3 sidebar pl-0 pr-3">
                     <i class="fa fa-arrow-left arrow"></i>
 
@@ -1666,7 +1666,7 @@
 
 
         </section>
-        <section class="pagination mb-5">
+        <section class="pagination mb-5 mx-0">
             <ul class="pagination mx-auto my-3">
                 <li class="page-item mr-4"><a class="page-link" href="#"><i class="fa fa-angle-left"></i></a></li>
                 <li class="page-item"><a class="page-link active" href="#">1</a></li>
