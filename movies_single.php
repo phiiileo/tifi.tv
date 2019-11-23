@@ -164,9 +164,9 @@
                             </article>
                            
                         </section> 
-                        <div class="gists mt-n5 pl-lg-5 ml-2">
-                                <div class="fa fa-comment ml-5 pl-sm-4 pt-3"> &nbsp; 120 People are talking about this</div>
-                            </div>
+                        <div class="gists mt-n5 ">
+                                <i class="fa fa-comment pt-3"></i> &nbsp; 120 People are talking about this
+                        </div>
                         </div>
                         <div class="pt-5">
                         <section class="comment row py-5 px-0">
@@ -188,8 +188,8 @@
                             </article>
                            
                         </section> 
-                        <div class="gists mt-n5 pl-lg-5  ml-2">
-                                <div class="fa fa-comment ml-5 pl-sm-4 pt-3"> &nbsp; 120 People are talking about this</div>
+                        <div class="gists mt-n5">
+                                <i class="fa fa-comment pt-3"></i> &nbsp; 120 People are talking about this
                         </div>
                         <p class="pt-3 see_more" onclick="toggleModal()">See more</p>                        </div>
                     </section>

@@ -295,13 +295,11 @@ header {
       }
       .gists {
         border-top: 1px solid $badge_color;
-        position: relative;
-        div {
-          font-weight: 600;
-          font-size: 16px;
-          line-height: 20px;
-          color: #1b8bc8;
-        }
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1b8bc8;
+        padding-left:18% ;
       }
       .see_more {
         font-weight: 600;
@@ -325,5 +323,12 @@ header {
         visibility: hidden;
       }
     }
+  }
+}
+
+@media screen and (max-width: 560px){
+
+  .gists {
+    font-size: .8em !important;
   }
 }

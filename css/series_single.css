@@ -361,14 +361,11 @@ header .header_search .menu {
 
 .page_body .main_container .comment_container .gists {
   border-top: 1px solid #dadada;
-  position: relative;
-}
-
-.page_body .main_container .comment_container .gists div {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
   color: #1b8bc8;
+  padding-left: 18%;
 }
 
 .page_body .main_container .comment_container .see_more {
@@ -386,6 +383,12 @@ header .header_search .menu {
   header .header_search .menu {
     display: inline-block !important;
     visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .gists {
+    font-size: .8em !important;
   }
 }
 /*# sourceMappingURL=series_single.css.map */
