@@ -157,7 +157,7 @@ main.container .sidebar span.m_public p i {
 }
 
 main.container .toggleSidebar {
-  left: 0;
+  left: -20px;
 }
 
 main.container .main_page {
@@ -287,7 +287,7 @@ main.container .main_page .range input::-moz-range-thumb {
 }
 
 main.container .main_page div.movie_list article {
-  width: 160px;
+  width: 180px;
   height: 300px;
   border-radius: 8px;
   margin-bottom: 70px;

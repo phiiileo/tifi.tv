@@ -1475,37 +1475,37 @@
                     </article>
                     <div class="movie_list mt-3 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
                         <article>
-                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <p>Monet Hiest <br>
                                     <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
                             </div>
                         </article>
                         <article>
-                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div><img src="uploads/Suits 1.png" alt=""></div>
+                            <div class="m_details">
+                                <p>Suits <br>
+                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/chernobyl.png" alt=""></div>
+                            <div class="m_details">
+                                <p>chernobyl <br>
+                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <p>Monet Hiest <br>
                                     <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
                             </div>
                         </article>
                         <article>
-                            <div><img src="uploads/img2.png" alt=""></div>
+                            <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
-                                <p>Monet Hiest <br>
-                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
-                            </div>
-                        </article>
-                        <article>
-                            <div><img src="uploads/img2.png" alt=""></div>
-                            <div class="m_details">
-                                <p>Monet Hiest <br>
-                                    <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
-                            </div>
-                        </article>
-                        <article>
-                            <div><img src="uploads/img2.png" alt=""></div>
-                            <div class="m_details">
-                                <p>Monet Hiest <br>
+                                <p>John Wick <br>
                                     <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
                             </div>
                         </article>

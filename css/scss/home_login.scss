@@ -101,7 +101,7 @@ main.container {
     }
   }
   .toggleSidebar {
-    left: 0;
+    left: -20px;
   }
 
   .main_page {
@@ -224,7 +224,7 @@ main.container {
 
     div.movie_list {
       article {
-        width: 160px;
+        width: 180px;
         height: 300px;
         border-radius: 8px;
         margin-bottom: 70px;

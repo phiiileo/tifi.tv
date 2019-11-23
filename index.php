@@ -100,7 +100,7 @@
                             src="uploads/netflix.png" alt=""></span>
                     <span><input type="checkbox" name="hulu" id="hulu" value="hulu"><img src="uploads/hulu.png"
                             alt=""></span>
-                    <span><input type="checkbox" name="hbo" id="hbo" value="HBO"><img src="uploads/hbo.png"
+                    <span><input type="checkbox" name="hbo" id="hbo" value="HBO"><img src="uploads/check1.png"
                             alt=""></span>
                     <span><input type="checkbox" name="amazon" id="amazon" value="amazon"><img src="uploads/amazon.png"
                             alt=""></span>
@@ -119,11 +119,11 @@
             <div class="personalize_acct  text-md-left col-md-10 mx-0 px-0 ">
                 <section class="row mx-0 px-0">
                     <div class="col-lg-2 p_type px-0">
-                        <section class="mx-auto my-0">Personality type </section>
+                        <section class="mx-auto my-0 pb-0">Personality type </section>
                         <a class="my-3 mx-auto ml-md-0" href="#">INTP</a>
                     </div>
                     <div class="col-lg-3 my-2 my-md-0 px-0">
-                        <section class="genre_container my-2 my-md-0">Genres you like</section>
+                        <section class="genre_container my-2 my-md-0 pb-1">Genres you like</section>
                         <article class="genre d-flex flex-row flex-wrap mx-auto ml-md-0 mt-2">
                             <div class="m-1"><a href="#">Horror</a></div>
                             <div class="m-1"><a href="#">Sci-Fi</a></div>
@@ -256,10 +256,10 @@
                 </article>
                 <article>
                     <span>
-                        <div><img src="uploads/img2.png" alt=""></div>
+                        <div><img src="uploads/power.png" alt=""></div>
                         <div class="m_details">
                             <span>1</span>
-                            <p>Matrix <br>
+                            <p>Power <br>
                                 <i>Movie</i></p>
                         </div>
                     </span>
@@ -307,10 +307,10 @@
                 </article>
                 <article>
                     <span>
-                        <div><img src="uploads/img4.png" alt=""></div>
+                        <div><img src="uploads/chernobyl.png" alt=""></div>
                         <div class="m_details">
                             <span>125</span>
-                            <p>The Walking Dead <br>
+                            <p>Chernobyl <br>
                                 <i>series</i></p>
                         </div>
                     </span>
@@ -413,7 +413,7 @@
                         <div><img src="uploads/img5.png" alt=""></div>
                         <div class="m_details">
                             <span>1</span>
-                            <p>Alita <br>
+                            <p>Alita: Battle Angel <br>
                                 <i>Movie</i></p>
                         </div>
                     </span>
@@ -564,11 +564,11 @@
                 </article>
                 <article>
                     <span>
-                        <div><img src="uploads/img1.png" alt=""></div>
+                        <div><img src="uploads/Suits 1.png" alt=""></div>
                         <div class="m_details">
                             <span>1</span>
-                            <p>Aladin <br>
-                                <i>Movie</i></p>
+                            <p>Suit <br>
+                                <i>Series</i></p>
                         </div>
                     </span>
                     <section class="state_container">
@@ -616,10 +616,10 @@
                 </article>
                 <article>
                     <span>
-                        <div><img src="uploads/img2.png" alt=""></div>
+                        <div><img src="uploads/snowfall.png" alt=""></div>
                         <div class="m_details">
                             <span>1</span>
-                            <p>Matrix <br>
+                            <p>SnowFall <br>
                                 <i>Movie</i></p>
                         </div>
                     </span>
@@ -1147,7 +1147,7 @@
 
             <div class="movie_list mx-auto d-flex flex-row flex-wrap justify-content-around justify-content-lg-between">
                 <article>
-                    <div><img src="uploads/img1.png" alt=""></div>
+                    <div><img src="uploads/img8.png" alt=""></div>
                     <div class="m_details">
                         <span>1</span>
                         <p>Monet Hiest <br>
@@ -1155,15 +1155,15 @@
                     </div>
                 </article>
                 <article>
-                    <div><img src="uploads/img2.png" alt=""></div>
+                    <div><img src="uploads/img1.png" alt=""></div>
                     <div class="m_details">
                         <span>200</span>
-                        <p>Power <br>
-                            <i>series</i></p>
+                        <p>Aladdin <br>
+                            <i>Movies</i></p>
                     </div>
                 </article>
                 <article>
-                    <div><img src="uploads/img3.png" alt=""></div>
+                    <div><img src="uploads/power.png" alt=""></div>
                     <div class="m_details">
                         <span>3</span>
                         <p>Power <br>
@@ -1171,10 +1171,10 @@
                     </div>
                 </article>
                 <article>
-                    <div><img src="uploads/img1.png" alt=""></div>
+                    <div><img src="uploads/Suits 1.png" alt=""></div>
                     <div class="m_details">
                         <span>4</span>
-                        <p>Monet Hiest <br>
+                        <p>Suits <br>
                             <i>series</i></p>
                     </div>
                 </article>
@@ -1182,7 +1182,7 @@
                     <div><img src="uploads/img4.png" alt=""></div>
                     <div class="m_details">
                         <span>5</span>
-                        <p>Monet Hiest <br>
+                        <p>The Walking Dead <br>
                             <i>series</i></p>
                     </div>
                 </article>
@@ -1190,7 +1190,7 @@
                     <div><img src="uploads/img5.png" alt=""></div>
                     <div class="m_details">
                         <span>6</span>
-                        <p>Monet Hiest <br>
+                        <p>Alita: Battle Angel <br>
                             <i>series</i></p>
                     </div>
                 </article>
