@@ -62,9 +62,15 @@
                             </div>
 
                             <div class="form-group row">
-                                <label class="col-md-6" for="location">Lcation:</label>
+                                <label class="col-md-6" for="location">Location:</label>
                                 <input class="col-md-6" type="text" name="location" placeholder="Portharcourt">
                             </div>
+                            
+                            <div class="form-group row">
+                                <label class="col-md-6" for="location">About Me:</label>
+                                <textarea class="col-md-6" type="text" name="about_me" placeholder="About"></textarea>
+                            </div>
+
                             <div class="form-group row">
                                 <label class="col-md-6" for="date">Date of Birth:</label>
                                 <span class="col-md-6 ml-n3">
@@ -141,7 +147,7 @@
                 <section class="services_container">
                     <div class="services_container_header">
                         <h4>SERVICES I SUBSCRIBE TO</h4>
-                        <P>EDIT</P>
+                        <P><a href="#"> EDIT</a></P>
                     </div>
 
                     <section class="services mb-5">

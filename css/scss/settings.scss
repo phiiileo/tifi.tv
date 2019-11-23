@@ -21,9 +21,13 @@ header {
       border: 1px solid#F5F4F4;
       text-align: center;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 200;
       font-size: 14px;
       line-height: 22px;
+    }
+
+    p a.active {
+      font-weight: 600;
     }
   }
 }
@@ -40,6 +44,7 @@ header {
 
   i {
     color: grey;
+    cursor: pointer;
   }
   .form_container {
     width: 80%;
@@ -61,6 +66,17 @@ header {
         padding: 10px;
         font-size: 13px;
         line-height: 18px;
+        color: #333333;
+
+      }
+     textarea{
+        height: 177px;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 10px;
+        box-shadow: inset 0px 0px 10px #e5e5e5;
+        color: #333333;
+
       }
     }
   }
