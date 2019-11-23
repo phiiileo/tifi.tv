@@ -21,7 +21,7 @@
     <main class="container py-md-0">
         <section class="row row1 mb-5 mx-0 px-0">
             <article class="col-lg-6 px-0">
-                <h3>
+                <h3 class="pr-5">
                     Watch the best <span class="brand_color">movies</span> and <span class="brand_color">Tv shows</span>
                     based on
                     your personality
@@ -87,13 +87,13 @@
         </section>
 
         <section class="row row2 ml-0">
-            <div class="personalize col-12 px-0 mt-lg-5">
+            <div class="personalize col-12 px-0 mt-lg-5 pb-3">
                 <span>Personalize</span>
                 <span>
                     <input type="button" value="Save" class="bg_color px-5 mb-2">
                 </span>
             </div>
-            <div class="popular_brands col-12 pl-0 pr-0 pt-2">
+            <div class="popular_brands col-12 pl-0 pr-0 pt-3">
                 <a>What do you have:</a>
                 <article class="my-2 d-flex flex-wrap">
                     <span><input type="checkbox" name="netflix" id="netflix" value="Netflix"><img
@@ -113,7 +113,7 @@
         <section class="row3 text-center mx-0 row my-3">
             <div class="img_container col-md-2  text-md-left mx-auto my-0 py-5 py-md-4 ml-md-n3">
                 <img src="uploads/super.jpeg" alt="" class="rounded-circle" width="100px" height="100px">
-                <p class="mx-auto mx-md-1 mt-2">Charles Etu <a href="settings.php"><i class="fas fa-pencil-alt"></i></a>
+                <p class="mx-auto mx-md-1 mt-3">Charles Etu <a href="settings.php"><i class="fas fa-pencil-alt"></i></a>
                 </p>
             </div>
             <div class="personalize_acct  text-md-left col-md-10 mx-0 px-0 ">
@@ -164,9 +164,9 @@
                                 <i>Movie</i>
                             </article>
                             <article class="plus">
-                                <p class="px-2 py-2 rounded-circle">
-                                    +
-                                </p>
+                                <a href="#" class="plus "><i class="fa fa-plus"></i></a>
+                                <p>Add</p>
+                                <i>Movies or shows</i>
                             </article>
                         </section>
                     </section>
@@ -201,7 +201,7 @@
                         <input type="range" class=""></p>
                 </article>
             </article>
-            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-around">
+            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-around justify-content-lg-between">
                 <article>
                     <span>
                         <div><img src="uploads/img1.png" alt=""></div>
@@ -1145,7 +1145,7 @@
     <main class="container p-md-0">
         <section class="row4 px-2">
 
-            <div class="movie_list mx-auto d-flex flex-row flex-wrap justify-content-around">
+            <div class="movie_list mx-auto d-flex flex-row flex-wrap justify-content-around justify-content-lg-between">
                 <article>
                     <div><img src="uploads/img1.png" alt=""></div>
                     <div class="m_details">
