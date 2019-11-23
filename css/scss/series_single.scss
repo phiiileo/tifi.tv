@@ -285,12 +285,10 @@ header {
         }
 
         .rt_likes {
-          i {
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 20px;
-            color: #979797;
-          }
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #979797;
         }
       }
       .gists {
@@ -299,7 +297,7 @@ header {
         font-size: 16px;
         line-height: 20px;
         color: #1b8bc8;
-        padding-left:18% ;
+        padding-left: 18%;
       }
       .see_more {
         font-weight: 600;
@@ -326,9 +324,8 @@ header {
   }
 }
 
-@media screen and (max-width: 560px){
-
+@media screen and (max-width: 560px) {
   .gists {
-    font-size: .8em !important;
+    font-size: 0.8em !important;
   }
 }

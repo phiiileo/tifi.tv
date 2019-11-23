@@ -352,7 +352,7 @@ header .header_search .menu {
   padding-right: 40px;
 }
 
-.page_body .main_container .comment_container .comment .rt_likes i {
+.page_body .main_container .comment_container .comment .rt_likes {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -388,7 +388,7 @@ header .header_search .menu {
 
 @media screen and (max-width: 560px) {
   .gists {
-    font-size: .8em !important;
+    font-size: 0.8em !important;
   }
 }
 /*# sourceMappingURL=series_single.css.map */

@@ -219,8 +219,8 @@
                                     <a class="brand_color">#GOT8 </a>
                                 </article>
                                 <article class="rt_likes my-3">
-                                    <i class="fas fa-retweet mr-5"> &nbsp; 100k</i>
-                                    <i class="fas fa-heart">  &nbsp; 10k</i>
+                                    <i class="fas fa-retweet"> </i> 100k &nbsp;
+                                    <i class="fas fa-heart"> </i>&nbsp;10k
                                 </article>
                             </article>
                            
@@ -243,8 +243,8 @@
                                     <a class="brand_color">#GOT8 </a>
                                 </article>
                                 <article class="rt_likes my-3">
-                                    <i class="fas fa-retweet mr-5"> &nbsp; 100k</i>
-                                    <i class="fas fa-heart">  &nbsp; 10k</i>
+                                    <i class="fas fa-retweet"> </i> 100k &nbsp;
+                                    <i class="fas fa-heart"> </i>&nbsp;10k
                                 </article>
                             </article>
                            
