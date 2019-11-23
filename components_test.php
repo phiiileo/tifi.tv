@@ -11,15 +11,3 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-<?php include "components/site_header.php" ?>
-<main class="mx-1 mx-sm-5 my-5 my-5">
-<?php include "components/movie_share.php" ?>
-
-<?php include "components/tweets.php" ?>
-</main>
-<?php include "components/site_footer.php" ?>
-
-</body>
-</html>

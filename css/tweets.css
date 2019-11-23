@@ -70,6 +70,15 @@ img {
   cursor: pointer;
 }
 
+.tweet_box::-webkit-scrollbar {
+  width: 2px;
+  background-color: #dbcbc2;
+}
+
+.tweet_box::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
 .tweet_container_box {
   min-width: 320px;
   max-width: 700px;
