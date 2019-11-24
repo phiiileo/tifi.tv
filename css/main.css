@@ -13,9 +13,8 @@ body {
 
 .container {
   max-width: 1200px;
-  min-width: 320px;
+  min-width: 350px;
   padding: 0 2.5%;
-  border: 1px solid red;
 }
 
 a {
@@ -326,11 +325,12 @@ main .row3 .personalize_acct section.m_likes article {
   height: 170px;
   margin-bottom: 10px;
   position: relative;
+  margin-right: 0px;
 }
 
 main .row3 .personalize_acct section.m_likes article a {
   height: 135px;
-  width: 89px;
+  width: 95%;
   border: none;
 }
 
@@ -397,7 +397,7 @@ main .row3 .personalize_acct section.m_likes article.plus a i {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
   border: 1px solid #f4f4f4;
 }
 
@@ -567,6 +567,11 @@ main .row4 div.movie_list article div.m_details p {
   display: inline-block;
   margin-left: 45px;
   font-weight: bold;
+}
+
+main .row4 div.movie_list article div.m_details p a {
+  font-size: 14px;
+  line-height: 19px;
 }
 
 main .row4 div.movie_list article div.m_details i {

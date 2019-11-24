@@ -6,6 +6,10 @@ header {
   }
 }
 
+.container {
+  max-width: 1440px !important;
+}
+
 /* SIDEBAR */
 main.container {
   position: relative;
@@ -41,12 +45,10 @@ main.container {
       position: relative;
 
       span {
-        position: absolute;
-        right: 10px;
-        top: 13px;
-        color: $brand_color;
+       float: right;
         font-size: 18px;
         line-height: 25px;
+        margin-top: 5px;
         a {
           color: $brand_color;
         }

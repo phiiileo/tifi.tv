@@ -87,7 +87,7 @@
                             <div><img src="uploads/img1.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Aladin <br>
+                                <p><a href="series_single.php">Aladin </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -141,7 +141,7 @@
                             <div><img src="uploads/img2.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Matrix <br>
+                                <p><a href="series_single.php">Matrix </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -193,7 +193,7 @@
                             <div><img src="uploads/img4.png" alt=""></div>
                             <div class="m_details">
                                 <span>125</span>
-                                <p>The Walking Dead <br>
+                                <p><a href="series_single.php">The Walking Dead </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -246,7 +246,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php">Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -298,7 +298,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php">Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -351,7 +351,7 @@
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>John Wick 3 <br>
+                                <p><a href="series_single.php">John Wick 3 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -403,7 +403,7 @@
                             <div><img src="uploads/img7.png" alt=""></div>
                             <div class="m_details">
                                 <span>5</span>
-                                <p>Toy Story 4 <br>
+                                <p><a href="series_single.php">Toy Story 4 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -455,7 +455,7 @@
                             <div><img src="uploads/img1.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Aladin <br>
+                                <p><a href="series_single.php">Aladin </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -508,7 +508,7 @@
                             <div><img src="uploads/img2.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Matrix <br>
+                                <p><a href="series_single.php">Matrix </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -560,7 +560,7 @@
                             <div><img src="uploads/img4.png" alt=""></div>
                             <div class="m_details">
                                 <span>125</span>
-                                <p>The Walking Dead <br>
+                                <p><a href="series_single.php">The Walking Dead </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -613,7 +613,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php">Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -665,7 +665,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php">Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -718,7 +718,7 @@
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>John Wick 3 <br>
+                                <p><a href="series_single.php">John Wick 3 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -770,7 +770,7 @@
                             <div><img src="uploads/img7.png" alt=""></div>
                             <div class="m_details">
                                 <span>5</span>
-                                <p>Toy Story 4 <br>
+                                <p><a href="series_single.php">Toy Story 4 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -822,7 +822,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php">Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -875,7 +875,7 @@
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>John Wick 3 <br>
+                                <p><a href="series_single.php">John Wick 3 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -927,7 +927,7 @@
                             <div><img src="uploads/img7.png" alt=""></div>
                             <div class="m_details">
                                 <span>5</span>
-                                <p>Toy Story 4 <br>
+                                <p><a href="series_single.php">Toy Story 4 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -979,7 +979,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php">Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -1031,7 +1031,7 @@
                             <div><img src="uploads/img1.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Aladin <br>
+                                <p><a href="series_single.php">Aladin </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -1084,7 +1084,7 @@
                             <div><img src="uploads/img2.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Matrix <br>
+                                <p><a href="series_single.php">Matrix </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -1136,7 +1136,7 @@
                             <div><img src="uploads/img4.png" alt=""></div>
                             <div class="m_details">
                                 <span>125</span>
-                                <p>The Walking Dead <br>
+                                <p><a href="series_single.php">The Walking Dead </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -1189,7 +1189,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php">Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -1241,7 +1241,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php">Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -1294,7 +1294,7 @@
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>John Wick 3 <br>
+                                <p><a href="series_single.php">John Wick 3 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -1346,7 +1346,7 @@
                             <div><img src="uploads/img7.png" alt=""></div>
                             <div class="m_details">
                                 <span>5</span>
-                                <p>Toy Story 4 <br>
+                                <p><a href="series_single.php">Toy Story 4 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -1403,7 +1403,7 @@
                             <div><img src="uploads/img1.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Aladin <br>
+                                <p><a href="series_single.php">Aladin </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -1457,7 +1457,7 @@
                             <div><img src="uploads/img2.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Matrix <br>
+                                <p><a href="series_single.php">Matrix </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -1509,7 +1509,7 @@
                             <div><img src="uploads/img4.png" alt=""></div>
                             <div class="m_details">
                                 <span>125</span>
-                                <p>The Walking Dead <br>
+                                <p><a href="series_single.php">The Walking Dead </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -1562,7 +1562,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php">Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -1614,7 +1614,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php">Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>

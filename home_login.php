@@ -22,7 +22,7 @@
     </div>
     <main class="container">
         <section class="row mx-0 mx-0">
-            <section class="col-lg-3 sidebar pl-0 pr-3">
+            <section class="col-lg-3 sidebar pl-0 pr-3 mx-0">
                 <i class="fa fa-arrow-left arrow"></i>
                 <h5 class="bg_color sidebar_header pl-5 ">
                     Recommended For You
@@ -95,7 +95,7 @@
                 </section>
             </section>
 
-            <section class="col-lg-9 main_page pl-0 pl-lg-3 pr-0 mx-auto">
+            <section class="col-lg-9 main_page pl-0 pl-lg-3 pr-0 mx-0">
                 <article class="pb-5 pb-lg-0">
                     <h3 class="mb-4">Tv Show you should watch</h3>
                     <article class="sort">Sorted by
@@ -127,7 +127,7 @@
                             <div><img src="uploads/img1.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Aladin <br>
+                                <p><a href="series_single.php"> Aladin </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -182,7 +182,7 @@
                             <div><img src="uploads/img2.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Matrix <br>
+                                <p><a href="series_single.php"> Matrix </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -235,7 +235,7 @@
                             <div><img src="uploads/img4.png" alt=""></div>
                             <div class="m_details">
                                 <span>125</span>
-                                <p>The Walking Dead <br>
+                                <p><a href="series_single.php"> The Walking Dead </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -289,7 +289,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php"> Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -342,7 +342,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php"> Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -396,7 +396,7 @@
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>John Wick 3 <br>
+                                <p><a href="series_single.php"> John Wick 3 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -449,7 +449,7 @@
                             <div><img src="uploads/img7.png" alt=""></div>
                             <div class="m_details">
                                 <span>5</span>
-                                <p>Toy Story 4 <br>
+                                <p><a href="series_single.php"> Toy Story 4 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -502,7 +502,7 @@
                             <div><img src="uploads/img1.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Aladin <br>
+                                <p><a href="series_single.php"> Aladin </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -556,7 +556,7 @@
                             <div><img src="uploads/img2.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Matrix <br>
+                                <p><a href="series_single.php"> Matrix </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -609,7 +609,7 @@
                             <div><img src="uploads/img4.png" alt=""></div>
                             <div class="m_details">
                                 <span>125</span>
-                                <p>The Walking Dead <br>
+                                <p><a href="series_single.php"> The Walking Dead </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -663,7 +663,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php"> Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -716,7 +716,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php"> Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -770,7 +770,7 @@
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>John Wick 3 <br>
+                                <p><a href="series_single.php"> John Wick 3 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -823,7 +823,7 @@
                             <div><img src="uploads/img7.png" alt=""></div>
                             <div class="m_details">
                                 <span>5</span>
-                                <p>Toy Story 4 <br>
+                                <p><a href="series_single.php"> Toy Story 4 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -876,7 +876,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php"> Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -930,7 +930,7 @@
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>John Wick 3 <br>
+                                <p><a href="series_single.php"> John Wick 3 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -983,7 +983,7 @@
                             <div><img src="uploads/img7.png" alt=""></div>
                             <div class="m_details">
                                 <span>5</span>
-                                <p>Toy Story 4 <br>
+                                <p><a href="series_single.php"> Toy Story 4 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -1036,7 +1036,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php"> Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -1089,7 +1089,7 @@
                             <div><img src="uploads/img1.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Aladin <br>
+                                <p><a href="series_single.php"> Aladin </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -1143,7 +1143,7 @@
                             <div><img src="uploads/img2.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Matrix <br>
+                                <p><a href="series_single.php"> Matrix </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -1196,7 +1196,7 @@
                             <div><img src="uploads/img4.png" alt=""></div>
                             <div class="m_details">
                                 <span>125</span>
-                                <p>The Walking Dead <br>
+                                <p><a href="series_single.php"> The Walking Dead </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -1250,7 +1250,7 @@
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php"> Monet Hiest </a><br>
                                     <i>series</i></p>
                             </div>
                         </span>
@@ -1303,7 +1303,7 @@
                             <div><img src="uploads/img5.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>Alita <br>
+                                <p><a href="series_single.php"> Alita </a><br>
                                     <i>Movie</i></p>
                             </div>
                         </span>
@@ -1357,7 +1357,7 @@
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
                                 <span>1</span>
-                                <p>John Wick 3 <br>
+                                <p><a href="series_single.php"> John Wick 3 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -1410,7 +1410,7 @@
                             <div><img src="uploads/img7.png" alt=""></div>
                             <div class="m_details">
                                 <span>5</span>
-                                <p>Toy Story 4 <br>
+                                <p><a href="series_single.php"> Toy Story 4 </a><br>
                                     <i>Movies</i></p>
                             </div>
                         </span>
@@ -1478,35 +1478,35 @@
                         <article>
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php">Monet Hiest </a><br>
                                     <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
                             </div>
                         </article>
                         <article>
                             <div><img src="uploads/Suits 1.png" alt=""></div>
                             <div class="m_details">
-                                <p>Suits <br>
+                                <p><a href="series_single.php">Suits </a><br>
                                     <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
                             </div>
                         </article>
                         <article>
                             <div><img src="uploads/chernobyl.png" alt=""></div>
                             <div class="m_details">
-                                <p>chernobyl <br>
+                                <p><a href="series_single.php">chernobyl </a><br>
                                     <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
                             </div>
                         </article>
                         <article>
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">
-                                <p>Monet Hiest <br>
+                                <p><a href="series_single.php">Monet Hiest </a><br>
                                     <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
                             </div>
                         </article>
                         <article>
                             <div><img src="uploads/img6.png" alt=""></div>
                             <div class="m_details">
-                                <p>John Wick <br>
+                                <p><a href="series_single.php">John Wick </a><br>
                                     <i>series: <a class="brand_color">Release Date:</a>Oct, 31st 2020</i></p>
                             </div>
                         </article>

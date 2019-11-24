@@ -2,7 +2,6 @@
 
 /*HEADER STYLE*/
 header {
-
   .menu a.m_active {
     border-top: 2px solid $brand_color;
     padding-top: 5px;
@@ -257,10 +256,11 @@ main {
           height: 170px;
           margin-bottom: 10px;
           position: relative;
+          margin-right: 0px;
 
           a {
             height: 135px;
-            width: 89px;
+            width: 95%;
             border: none;
           }
           img {
@@ -312,7 +312,7 @@ main {
               display: flex;
               justify-content: center;
               align-content: center;
-              background-color: #AAAAAA;
+              background-color: #aaaaaa;
               border: 1px solid #f4f4f4;
             }
           }
@@ -477,6 +477,11 @@ main {
             display: inline-block;
             margin-left: 45px;
             font-weight: bold;
+            a {
+              font-size: 14px;
+              line-height: 19px;
+            }
+         
           }
 
           i {
