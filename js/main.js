@@ -65,6 +65,7 @@ myDropdown.on("click", function () {
             $(".check_state").css("display", "none");
             $(".active_check").removeClass("active_check")
             $(this).children("span").css("display", "block");
+            dropdown_content.css("display", "none");
         })
     }
 })
