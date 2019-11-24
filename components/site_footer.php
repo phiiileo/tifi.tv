@@ -8,7 +8,7 @@
                     <a href="#">Popular Movies</a>
                 </div>
             </div>
-            <div class="footer_content col-md-3">
+            <div class="footer_content col-md-4">
                 <h3>Now Streaming</h3>
                 <div>
                     <a href="#">Streaming on Netflix</a>
@@ -26,7 +26,7 @@
                     <a href="#">Frequently Asked Questions</a>
                 </div>
             </div>
-            <div class="footer_content col-md-3">
+            <div class="footer_content col-md-2  text-md-right">
                 <a href="index.php">
                     <h3>tifi<i><svg width="40" height="30" viewBox="0 0 50 40" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +36,7 @@
                             </svg>
                         </i></h3>
                 </a>
-                <div class="mt-n4">
+                <div class="mt-n4 mr-n2">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-facebook-f"></i></a>

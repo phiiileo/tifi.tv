@@ -12,9 +12,9 @@ body {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   min-width: 320px;
-  padding: 0 1%;
+  padding: 0 2.5%;
 }
 
 a {
@@ -25,6 +25,7 @@ a {
 a:hover {
   text-decoration: none;
   color: #FF5300;
+  opacity: .7;
 }
 
 .brand_color {
@@ -51,11 +52,12 @@ img {
   color: #FF5300;
 }
 
-a:hover {
-  opacity: 0.6;
+/*HEADER STYLE*/
+header .menu a.m_active {
+  border-top: 2px solid #FF5300;
+  padding-top: 5px;
 }
 
-/*HEADER STYLE*/
 header .header_user .signedIn {
   display: none;
 }
@@ -82,11 +84,11 @@ main .row1 p {
   font-size: 20px;
   color: #777777;
   line-height: 30px;
-  width: 75%;
+  width: 100%;
 }
 
 main .row1 div {
-  width: 80%;
+  width: 100%;
 }
 
 main .row1 div .search_input {
@@ -230,7 +232,7 @@ main .row2 .popular_brands a {
 }
 
 main .row2 .popular_brands article span {
-  width: 130px;
+  width: 120px;
   margin-bottom: 20px;
   margin-right: 40px;
 }
@@ -239,7 +241,7 @@ main .row2 .popular_brands article span img {
   width: 80px;
   height: 30px;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 16px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -437,7 +439,7 @@ main .row4 article.sort .dropdown_content {
   color: black;
   margin-top: 10px;
   display: none;
-  width: 200px;
+  width: 230px;
   position: absolute;
   top: 25px;
   left: 0px;
@@ -475,14 +477,14 @@ main .row4 article.sort .dropdown_content li .check_state img {
 }
 
 main .row4 .range {
-  width: 300px;
+  width: 250px;
   position: relative;
 }
 
 main .row4 .range span {
   position: absolute;
   top: 0px;
-  right: 70px;
+  right: 50px;
 }
 
 main .row4 .range input {
@@ -521,10 +523,10 @@ main .row4 .range input::-moz-range-thumb {
 }
 
 main .row4 div.movie_list article {
-  width: 185px;
+  width: 180px;
   height: 300px;
   border-radius: 8px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   position: relative;
 }
 
@@ -729,6 +731,12 @@ main .row4 div.movie_list article .watch p.watch_movie {
 }
 
 @media screen and (min-width: 768px) {
+  main .row1 p {
+    width: 75%;
+  }
+  main .row1 div {
+    width: 80%;
+  }
   main .row2 {
     border: none;
   }
@@ -742,7 +750,7 @@ main .row4 div.movie_list article .watch p.watch_movie {
   main .row2 .personalize span input {
     position: absolute;
     right: 0;
-    top: 0;
+    bottom: 0;
   }
   main .row2 .popular_brands {
     text-align: left;
@@ -808,13 +816,13 @@ main .row4 div.movie_list article .watch p.watch_movie {
   main .row4 article.sort {
     position: absolute;
     z-index: 1;
-    right: 380px;
+    right: 300px;
     top: -10px;
   }
   main .row4 .range {
     position: absolute;
     top: -35px;
-    right: 10px;
+    right: 0px;
   }
 }
 

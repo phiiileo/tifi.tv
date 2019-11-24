@@ -17,10 +17,10 @@
 </head>
 
 <body>
-    <?php include "components/site_header.php" ?>
     <main class="container py-md-0">
-        <section class="row row1 mb-5 mx-0 px-0">
-            <article class="col-lg-6 px-0">
+        <?php include "components/site_header.php" ?>
+    <section class="row row1 mb-4 mt-2 mx-0 px-0">
+            <article class="col-lg-7 pl-0 pr-3 text-center text-md-left">
                 <h3 class="pr-5">
                     Watch the best <span class="brand_color">movies</span> and <span class="brand_color">Tv shows</span>
                     based on
@@ -30,15 +30,15 @@
                     Find, track and discover where to watch your favourite TV shows and movies from Netflix, Amazon
                     Prime, Hulu, Showtime and more services.
                 </p>
-                <div class="mt-3">
+                <div class="mt-4">
                     <form action="" class="search_input">
                         <input type="text" name="search" id="search" placeholder="Find a movie or series" class="pl-3">
-                        <input type="submit" value="Search" class="ml-n2">
+                        <input type="submit" value="Search" class="ml-n2 p-1">
                     </form>
                 </div>
             </article>
 
-            <article class="carousel_container col-lg-6 mt-5 my-lg-0 mx-auto">
+            <article class="carousel_container col-lg-5 mt-5 my-lg-0 mx-auto">
                 <section class="img_container mx-auto ">
                     <article class="control control--left"><i class="fa fa-angle-left"></i> </article>
 
@@ -87,10 +87,10 @@
         </section>
 
         <section class="row row2 ml-0">
-            <div class="personalize col-12 px-0 mt-lg-5 pb-3">
+            <div class="personalize col-12 px-0 mt-lg-5 pb-2">
                 <span>Personalize</span>
                 <span>
-                    <input type="button" value="Save" class="bg_color px-5 mb-2">
+                    <input type="button" value="Save" class="bg_color px-5 mb-3">
                 </span>
             </div>
             <div class="popular_brands col-12 pl-0 pr-0 pt-3">
@@ -166,7 +166,7 @@
                             <article class="plus">
                                 <a href="#" class="plus "><i class="fa fa-plus"></i></a>
                                 <p>Add</p>
-                                <i>Movies or shows</i>
+                                <i>Movies or Tv series</i>
                             </article>
                         </section>
                     </section>
@@ -201,7 +201,7 @@
                         <input type="range" class=""></p>
                 </article>
             </article>
-            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-around justify-content-lg-between">
+            <div class="movie_list mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-around justify-content-md-between">
                 <article>
                     <span>
                         <div><img src="uploads/img1.png" alt=""></div>
@@ -1133,7 +1133,7 @@
         </section>
     </main>
 
-    <main class="full_width mt-n5 mb-5 ">
+    <main class="full_width mt-n5 mb-5 px-0 ">
         <section class="container text-center py-5">
             <h3 class="font-weight-bold pb-3">Send me email on updates</h3>
             <form action="" class="subscribe_input mx-auto">
@@ -1143,9 +1143,9 @@
         </section>
     </main>
     <main class="container p-md-0">
-        <section class="row4 px-2">
+        <section class="row4 px-4">
 
-            <div class="movie_list mx-auto d-flex flex-row flex-wrap justify-content-around justify-content-lg-between">
+            <div class="movie_list mx-auto d-flex flex-row flex-wrap justify-content-around justify-content-md-between">
                 <article>
                     <div><img src="uploads/img8.png" alt=""></div>
                     <div class="m_details">

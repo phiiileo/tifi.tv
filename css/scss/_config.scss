@@ -22,9 +22,9 @@ body {
     overflow-x: hidden !important;
 }
 .container {
-    max-width: 1300px;
+    max-width: 1200px;
     min-width: 320px;
-    padding: 0 1%;
+    padding: 0 2.5%;
 }
 
 a {
@@ -35,6 +35,7 @@ a {
 a:hover {
     text-decoration: none;
     color: $brand_color;
+    opacity: .7;
 }
 
 
