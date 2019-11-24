@@ -121,7 +121,7 @@
                             <input type="range" class=""></p>
                     </article>
                 </article>
-                <div class="movie_list mt-5 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
+                <div class="movie_list mt-5 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-around justify-content-md-between">
                     <article>
                         <span>
                             <div><img src="uploads/img1.png" alt=""></div>
@@ -1474,7 +1474,7 @@
                             <span>TBA</span>
                         </p>
                     </article>
-                    <div class="movie_list mt-3 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
+                    <div class="movie_list mt-3 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-md-between justify-content-around">
                         <article>
                             <div><img src="uploads/img8.png" alt=""></div>
                             <div class="m_details">

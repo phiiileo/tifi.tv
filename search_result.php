@@ -81,7 +81,7 @@
                             <input type="range" class=""></p>
                     </article>
                 </article>
-                <div class="movie_list mt-5 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
+                <div class="movie_list mt-5 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-md-between justify-content-around">
                     <article>
                         <span>
                             <div><img src="uploads/img1.png" alt=""></div>
@@ -1397,7 +1397,7 @@
                 <section class="spaceholder my-5" style="height: 100px;">
 
                 </section>
-                <div class="movie_list mt-5 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-between">
+                <div class="movie_list mt-5 mx-0 px-md-0 d-flex flex-row flex-wrap justify-content-md-between justify-content-around">
                     <article class="">
                         <span>
                             <div><img src="uploads/img1.png" alt=""></div>

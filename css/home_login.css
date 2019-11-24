@@ -190,11 +190,6 @@ main.container .main_page article.sort .myDropdown {
   width: 130px;
 }
 
-main.container .main_page article.sort .myDropdown i {
-  float: right;
-  margin-top: 5px;
-}
-
 main.container .main_page article.sort .myDropdown:hover {
   opacity: 0.7;
 }
