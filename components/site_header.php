@@ -25,12 +25,12 @@
             </span>
             <span class="header_user pt-3 mt-md-n2 mt-lg-0">
                 <p class="login">
-                    <a href="signin.php pr-2">LOGIN</a>
+                    <a href="signin.php">LOGIN</a>
                     <a href="signup.php" class="px-3 py-2 ml-0 ml-md-3">SIGN UP</a>
                 </p>
                 <p class="signedIn mi-md-n1">
-                    <img src="uploads/super.jpeg" alt="">
-                    <i class="fa fa-angle-down"></i>
+                    <img src="uploads/power.png" alt="">
+                    <a href="settings.php"><i class="fa fa-angle-down"></i></a>
                 </p>
 
             </span>

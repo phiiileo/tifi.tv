@@ -136,7 +136,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -191,7 +191,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -244,7 +244,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -298,7 +298,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -351,7 +351,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -405,7 +405,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -458,7 +458,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -511,7 +511,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -565,7 +565,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -618,7 +618,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -672,7 +672,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -725,7 +725,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -779,7 +779,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -832,7 +832,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -885,7 +885,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -939,7 +939,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -992,7 +992,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -1045,7 +1045,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -1098,7 +1098,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -1152,7 +1152,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -1205,7 +1205,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -1259,7 +1259,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -1312,7 +1312,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -1366,7 +1366,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>
@@ -1419,7 +1419,7 @@
                                 <p class="icons d-flex flex-row flex-wrap justify-content-between px-4">
                                     <i class="fa fa-heart state_icon"></i>
                                     <i class="fa fa-check state_icon"></i>
-                                    <i class="fa fa-clipboard-list state_icon movie_tag"></i>
+                                    <i class="fas fa-bookmark state_icon movie_tag"></i>
                                     <i class="fa fa-comment">
                                         <span>233</span>
                                     </i>

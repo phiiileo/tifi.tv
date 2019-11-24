@@ -272,11 +272,15 @@ main .row3 .personalize_acct {
 }
 
 main .row3 .personalize_acct section {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 27px;
   font-size: 20px;
   line-height: 27px;
   color: #202124;
+}
+
+main .row3 .personalize_acct .p_type, main .row3 .personalize_acct .genre_container {
+  font-size: 16px;
 }
 
 main .row3 .personalize_acct a {
@@ -296,6 +300,11 @@ main .row3 .personalize_acct a {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+main .row3 .personalize_acct a._active {
+  color: #FF5300;
+  border: 1px solid #FF5300;
 }
 
 main .row3 .personalize_acct article.genre {
@@ -318,6 +327,14 @@ main .row3 .personalize_acct article.genre a.plus i {
   padding: 0;
   top: 4px;
   right: 30px;
+}
+
+main .row3 .personalize_acct article.genre--p {
+  width: 140px;
+}
+
+main .row3 .personalize_acct article.genre--p a {
+  width: 60px;
 }
 
 main .row3 .personalize_acct section.m_likes article {
@@ -424,11 +441,6 @@ main .row4 article.sort .myDropdown {
   cursor: pointer;
   display: inline-block;
   width: 130px;
-}
-
-main .row4 article.sort .myDropdown i {
-  float: right;
-  margin-top: 5px;
 }
 
 main .row4 article.sort .myDropdown:hover {

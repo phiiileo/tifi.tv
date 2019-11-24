@@ -209,11 +209,14 @@ main {
     .personalize_acct {
       color: $text_color;
       section {
-        font-size: 18px;
+        font-size: 14px;
         line-height: 27px;
         font-size: 20px;
         line-height: 27px;
         color: #202124;
+      }
+      .p_type, .genre_container {
+        font-size: 16px;
       }
       a {
         display: inline-block;
@@ -227,6 +230,10 @@ main {
         display: flex;
         justify-content: center;
         align-content: center;
+      }
+      a._active {
+        color: $brand_color;
+        border: 1px solid $brand_color;
       }
       article.genre {
         color: $general_color;
@@ -247,6 +254,12 @@ main {
             right: 30px;
           }
         }
+      }
+      article.genre--p{
+        width: 140px;
+        a{
+        width: 60px;
+      }
       }
       /*movies like by users*/
 
@@ -347,10 +360,6 @@ main {
         cursor: pointer;
         display: inline-block;
         width: 130px;
-        i {
-          float: right;
-          margin-top: 5px;
-        }
       }
       .myDropdown:hover {
         opacity: 0.7;

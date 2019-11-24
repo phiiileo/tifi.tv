@@ -62,13 +62,14 @@ img {
     position: relative;
   }
   header .header_content a {
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 900;
   }
   header .header_content a img {
     width: 30px;
     height: 24px;
     margin-bottom: 5px;
+    margin-left: 3px;
   }
   header .header_content .menu a {
     font-weight: 600;
@@ -123,6 +124,9 @@ img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
+  }
+  header .header_content .header_user .signedIn a {
+    font-size: 15px;
   }
 }
 
