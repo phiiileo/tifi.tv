@@ -71,6 +71,11 @@ header .header_search .menu {
   background-size: cover;
 }
 
+.page_header .container {
+  position: relative;
+  height: 320px;
+}
+
 .page_header_content {
   width: 300px;
   position: absolute;
@@ -100,7 +105,11 @@ header .header_search .menu {
   font-weight: 600;
 }
 
-.page_header_content .vote_star i:last-child {
+.page_header_content .vote_star i {
+  margin-right: 5px;
+}
+
+.page_header_content .vote_star i.far.fa-star {
   color: white;
 }
 
@@ -124,6 +133,10 @@ header .header_search .menu {
 
 .page_header_content .m_provider span {
   display: block;
+}
+
+.page_body .sidebar {
+  margin-bottom: 300px;
 }
 
 .page_body .sidebar .img_container {
@@ -208,6 +221,7 @@ header .header_search .menu {
   font-size: 28px;
   line-height: 38px;
   color: #000000;
+  display: inline-block;
 }
 
 .page_body .main_container h3 span {
@@ -215,9 +229,7 @@ header .header_search .menu {
 }
 
 .page_body .main_container p.add_to {
-  position: absolute;
-  right: 20px;
-  top: 20px;
+  float: right;
   font-size: 14px;
   line-height: 18px;
 }
@@ -258,13 +270,12 @@ header .header_search .menu {
 
 .page_body .main_container section.seasons ul.list-unstyled {
   width: 100%;
-  background-color: rgba(223, 215, 215, 0.342);
+  background-color: #f0efef;
 }
 
 .page_body .main_container section.seasons ul.list-unstyled li {
-  border: 1px solid rgba(182, 173, 173, 0.438);
-  border-right: none;
-  border-left: none;
+  border-bottom: 1px solid rgba(182, 173, 173, 0.438);
+  cursor: pointer;
 }
 
 .page_body .main_container section.seasons ul.list-unstyled i {
@@ -282,11 +293,11 @@ header .header_search .menu {
 
 .page_body .main_container .episode_thriller_item iframe {
   width: 100%;
-  height: auto;
+  height: 200px;
   border: none;
 }
 
-.page_body .main_container .episode_thriller_item span a {
+.page_body .main_container .episode_thriller_item span a, .page_body .main_container .episode_thriller_item i {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
@@ -298,11 +309,11 @@ header .header_search .menu {
   line-height: 20px;
 }
 
-.page_body .main_container .episode_thriller_item p a {
+.page_body .main_container .episode_thriller_item p i {
   font-weight: normal;
 }
 
-.page_body .main_container .episode_thriller_item a.trailer_text {
+.page_body .main_container .episode_thriller_item p.trailer_text {
   font-size: 14px;
   line-height: 20px;
 }
@@ -337,7 +348,7 @@ header .header_search .menu {
   color: #979797;
 }
 
-.page_body .main_container .comment_container .comment .tweet a {
+.page_body .main_container .comment_container .comment .tweet .brand_color {
   color: #FF5300;
 }
 
@@ -367,7 +378,7 @@ header .header_search .menu {
   font-size: 16px;
   line-height: 20px;
   color: #1b8bc8;
-  padding-left: 18%;
+  padding-left: 20%;
 }
 
 .page_body .main_container .comment_container .see_more {
@@ -389,8 +400,11 @@ header .header_search .menu {
 }
 
 @media screen and (max-width: 560px) {
+  .t_user i {
+    font-size: 50px !important;
+  }
   .gists {
-    font-size: 0.8em !important;
+    font-size: 0.9em !important;
   }
 }
 /*# sourceMappingURL=series_single.css.map */

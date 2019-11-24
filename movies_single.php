@@ -15,28 +15,29 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/series_single.css">
     <style>
-    .page_header {
-        background-image: url("uploads/img1.png");
-    }
+        .page_header {
+            background-image: url("uploads/img1.png");
+        }
     </style>
 </head>
 
 <body>
-<div class="container">
+    <div class="container">
         <?php include "components/site_header.php" ?>
-    </div>    <main>
+    </div>
+    <main>
         <section class="page_header border border-dark">
             <section class="container">
                 <article class="page_header_content">
                     <div class="vote_number">
-                        <p class="font-weight-bold mb-n1">4/5</p>
+                        <p class="font-weight-bold mb-n1">3/5</p>
                         <span class="">10k votes</span>
                     </div>
                     <div class="vote_star my-3">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
                         <i class="far fa-star"></i>
                     </div>
                     <div class="m_provider d-flex flex-row text-center mb-n4">
@@ -51,7 +52,7 @@
 
         <section class="page_body container pl-2">
             <section class="row mx-auto my-2">
-                <div class=" sidebar col-md-4 pl-0">
+                <div class=" sidebar col-md-4 pl-4  ">
                     <section class="img_container">
                         <img src="uploads/img1.png" alt="" class="">
                         <figcaption class="m_provider_logo row mx-auto">
@@ -74,9 +75,9 @@
                         <article class="d-flex flex-row flex-wrap justify-content-between mt-5">
                             <iframe src="https://www.youtube.com/embed/zkhUealkTc8" frameborder="0"
                                 class="mb-1"></iframe>
-                                <iframe src="https://www.youtube.com/embed/zkhUealkTc8" frameborder="0"
+                            <iframe src="https://www.youtube.com/embed/zkhUealkTc8" frameborder="0"
                                 class="mb-1"></iframe>
-                                <iframe src="https://www.youtube.com/embed/zkhUealkTc8" frameborder="0"
+                            <iframe src="https://www.youtube.com/embed/zkhUealkTc8" frameborder="0"
                                 class="mb-1"></iframe>
                             <iframe src="https://www.youtube.com/embed/zkhUealkTc8/" frameborder="0"
                                 class="mb-1"></iframe>
@@ -86,10 +87,10 @@
                     <section class="movie_trailer mt-5">
                         <p class="p-2">PHOTO</p>
                         <article class="d-flex flex-row flex-wrap justify-content-between mt-5">
-                           <img src="uploads/img3" alt="" class="mb-2">
-                           <img src="uploads/img3" alt="" class="mb-2">
-                           <img src="uploads/img3" alt="" class="mb-2">
-                           <img src="uploads/img3" alt="" class="mb-2">
+                            <img src="uploads/img3" alt="" class="mb-2">
+                            <img src="uploads/img3" alt="" class="mb-2">
+                            <img src="uploads/img3" alt="" class="mb-2">
+                            <img src="uploads/img3" alt="" class="mb-2">
                         </article>
                     </section>
                     <section class="movie_cc my-5">
@@ -132,68 +133,68 @@
                             stands between the realms of men and the icy horrors beyond.
                         </p>
                         <p class="mb-0 mt-5">
-                            <a href="" class="active py-2 px-4 ml-0 mr-5"> <i class="fa fa-check"> </i> MARK AS
+                            <a href="" class="active py-2 px-4 ml-0 mr-3"> <i class="fa fa-check"> </i> &nbsp; MARK AS
                                 SEEN</a>
-                            <a href="" class=" py-2 px-4  ml-0 mr-5"> <i class="far fa-comment"> </i> ADD COMMENT</a>
-                            <a href="" class=" py-2 px-4 ml-0"> <i class="fas fa-share-alt"> </i> SHARE</a>
-                            <!-- <a href="" class="active"><i class="fa fa-mark ">MARK AS SEEN</i></a>
-                            <a href=""></a><i class="fa fa-comment"></i>ADD COMMENT</a>
-                            <a href=""><i class="fa fa-share"></i>SHARE</a> -->
+                            <a href="" class=" py-2 px-4  ml-0 mr-3"> <i class="far fa-comment"> </i> &nbsp; ADD COMMENT</a>
+                            <a href="" class=" py-2 px-4 ml-0"> <i class="fas fa-share-alt"> </i>&nbsp; &nbsp;SHARE</a>
                         </p>
                     </section>
                     <section class="comment_container">
-                            <?php include "components/tweets.php"?>
-
                         <h3>COMMENTS</h3>
                         <div>
-                        <section class="comment row py-5 px-0">
-                            <i class="fab fa-twitter"> </i>
-                            <article class="t_user col-2 d-flex justify-content-center"><img src="" alt=""> <i class="fas fa-user-circle"></i></article>
-                           
-                            <article class="col-10 tweet">
-                                <p><a class="brand_color">Mark Essien </a> @markessien</p>
-                                <article>
-                                    Game of Thrones is exactly like the title says: A game for the throne. Played by the
-                                    people who think its their right to claim, conquer or inherit it. They all have
-                                    different goals and different ways of getting to that point
-                                    <a class="brand_color">#GOT8 </a>
+                            <section class="comment row py-5 px-0">
+                                <i class="fab fa-twitter"> </i>
+                                <article class="t_user col-2 d-flex justify-content-center"><img src="" alt=""> <i
+                                        class="fas fa-user-circle"></i></article>
+
+                                <article class="col-10 tweet">
+                                        <p> <i class="brand_color">Mark Essien</i> <a href=""> @markessien </a></p>                                    <article>
+                                        Game of Thrones is exactly like the title says: A game for the throne. Played by
+                                        the
+                                        people who think its their right to claim, conquer or inherit it. They all have
+                                        different goals and different ways of getting to that point
+                                        <a class="brand_color">#GOT8 </a>
+                                    </article>
+                                    <article class="rt_likes my-3">
+                                        <img src="uploads/retweet" alt=""> </i> 100k &nbsp;
+                                        <img src="uploads/likes" alt=""> </i>&nbsp;10k
+                                    </article>
                                 </article>
-                                <article class="rt_likes my-3">
-                                    <i class="fas fa-retweet"> </i> 100k &nbsp;
-                                    <i class="fas fa-heart"> </i>&nbsp;10k
-                                </article>
-                            </article>
-                           
-                        </section> 
-                        <div class="gists mt-n5 ">
-                                <i class="fa fa-comment pt-3"></i> &nbsp; 120 People are talking about this
-                        </div>
+
+                            </section>
+                            <div class="gists mt-n5  pt-3 mx-n3 ">
+                                <img src="uploads/comments" alt=""> &nbsp; 120 People are talking about this
+                            </div>
                         </div>
                         <div class="pt-5">
-                        <section class="comment row py-5 px-0">
-                            <i class="fab fa-twitter"> </i>
-                            <article class="t_user col-2 d-flex justify-content-center"><img src="" alt=""> <i class="fas fa-user-circle"></i></article>
-                           
-                            <article class="col-10 tweet">
-                                <p><a class="brand_color">Mark Essien </a> @markessien</p>
-                                <article>
-                                    Game of Thrones is exactly like the title says: A game for the throne. Played by the
-                                    people who think its their right to claim, conquer or inherit it. They all have
-                                    different goals and different ways of getting to that point
-                                    <a class="brand_color">#GOT8 </a>
+                            <section class="comment row py-5 px-0">
+                                <i class="fab fa-twitter"> </i>
+                                <article class="t_user col-2 d-flex justify-content-center"><img src="" alt=""> <i
+                                        class="fas fa-user-circle"></i></article>
+
+                                <article class="col-10 tweet">
+                                        <p> <i class="brand_color">Mark Essien</i> <a href=""> @markessien </a></p>                                    <article>
+                                        Game of Thrones is exactly like the title says: A game for the throne. Played by
+                                        the
+                                        people who think its their right to claim, conquer or inherit it. They all have
+                                        different goals and different ways of getting to that point
+                                        <a class="brand_color">#GOT8 </a>
+                                    </article>
+                                    <article class="rt_likes my-3">
+                                        <img src="uploads/retweet" alt=""> </i> 100k &nbsp;
+                                        <img src="uploads/likes" alt=""> </i>&nbsp;10k
+                                    </article>
                                 </article>
-                                <article class="rt_likes my-3">
-                                    <i class="fas fa-retweet"> </i> 100k &nbsp;
-                                    <i class="fas fa-heart"> </i>&nbsp;10k
-                                </article>
-                            </article>
-                           
-                        </section> 
-                        <div class="gists mt-n5">
-                                <i class="fa fa-comment pt-3"></i> &nbsp; 120 People are talking about this
+
+                            </section>
+                            <div class="gists mt-n5 pt-3 mx-n3">
+                                <img src="uploads/comments" alt=""> &nbsp; 120 People are talking about this
+                            </div>
+                            <p class="pt-3 see_more">See more</p>
                         </div>
-                        <p class="pt-3 see_more" onclick="toggleModal()">See more</p>                        </div>
                     </section>
+                    <?php include "components/tweets.php"?>
+
                 </div>
             </section>
         </section>
@@ -202,10 +203,11 @@
     </main>
     <?php include "components/site_footer.php" ?>
 </body>
-<script> 
-        let toggleModal = () => {
-           $(".tweet_box").toggle();
-           console.log ()
-        }
-       </script>
+<script>
+    let toggleModal = () => {
+        $(".tweet_box").toggle();
+        console.log()
+    }
+</script>
+
 </html>

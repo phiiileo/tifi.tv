@@ -47,7 +47,7 @@
         </section>
         <section class="page_body container pl-2">
             <section class="row mx-auto my-2">
-                <div class=" sidebar col-md-4 pl-0">
+                <div class=" sidebar col-md-4 pl-4">
                     <section class="img_container">
                         <img src="uploads/got.png" alt="" class="">
                         <figcaption class="m_provider_logo row mx-auto">
@@ -118,10 +118,10 @@
                             stands between the realms of men and the icy horrors beyond.
                         </p>
                         <p class="mb-0 mt-5">
-                            <a href="" class="active py-2 px-4 ml-0 mr-5 "> <i class="fa fa-check"> </i> MARK AS
+                            <a href="" class="active py-2 px-4 ml-0 mr-3 "> <i class="fa fa-check"> </i>&nbsp; MARK AS
                                 SEEN</a>
-                            <a href="" class=" py-2 px-4 ml-0 mr-5"> <i class="far fa-comment"> </i> ADD COMMENT</a>
-                            <a href="" class=" py-2 px-4 ml-0 "> <i class="fas fa-share-alt"> </i> SHARE</a>
+                            <a href="" class=" py-2 px-4 ml-0 mr-3"> <i class="far fa-comment"> </i> &nbsp;ADD COMMENT</a>
+                            <a href="" class=" py-2 px-4 ml-0 "> <i class="fas fa-share-alt"> </i> &nbsp;&nbsp;SHARE</a>
                             <!-- <a href="" class="active"><i class="fa fa-mark ">MARK AS SEEN</i></a>
                             <a href=""></a><i class="fa fa-comment"></i>ADD COMMENT</a>
                             <a href=""><i class="fa fa-share"></i>SHARE</a> -->
@@ -131,7 +131,7 @@
                     <section class="seasons">
                         <h3>SEASONS</h3>
                         <ul class="list-unstyled">
-                            <li class="py-2 px-3">Season 8 <i class="fa fa-angle-down"></i></li>
+                            <li class="py-2 px-3">Season 8 <i class="fa fa-angle-right"></i></li>
                             <!-- <ol class="episodes">
                                   <li>Episode 1</li>
                                   <li>Episode 2</li>
@@ -175,36 +175,33 @@
                     </section>
 
                     <section class="episode_thriller row mx-0 my-5 px-0 ">
-                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6 pl-0">
+                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6 pr-0 pr-sm-2 pr-md-0 pr-lg-3 pl-0">
                             <iframe src="https://www.youtube.com/embed/zkhUealkTc8/">
                             </iframe> 
-                            <span>
-                                <a href="">43:05</a>
+                            <span class="mb-3 d-inline-block">
+                                <i >43:05</i>
                                 <a href="">Season 8</a>
-                                <a href="">09/10/2019</a>
+                                <i>09/10/2019</i>
                             </span>
-                            <p>S08 E07 <a>Caballo de Troya</a></p>
-                            <a href="" class="trailer_text">The press decide to blame Inspector Murillo for the shooting of Arturo.</a>
+                            <p><a href="">S08 E07 <i>Caballo de Troya</i></a></p>
+                            <p class="trailer_text font-weight-bold">The press decide to blame Inspector Murillo for the shooting of Arturo.</p>
                         </div>
-                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6 pr-0">
+                        <div class="episode_thriller_item col-sm-6 col-md-12 col-lg-6 pr-0 pl-0 pl-sm-2 pl-md-0 pl-lg-3 mt-2 mt-sm-0 mt-md-2 mt-lg-0">
                             <iframe src="https://www.youtube.com/embed/zkhUealkTc8/" frameborder="0">
 
                             </iframe> 
-                            <span>
-                                <a href="">43:05</a>
+                            <span class="mb-3 d-inline-block">
+                                <i >43:05</i>
                                 <a href="">Season 8</a>
-                                <a href="">09/10/2019</a>
+                                <i >09/10/2019</i>
                             </span>
-                            <p>S08 E06 <a>La cálida Guerra Fría
-                            </a></p>
-                            <a href="" class="trailer_text">Raquel's name is raised when details of the negotiations with the robbers are
-                                leaked.</a>
+                            <p><a href="">S08 E06 <i>La cálida Guerra Fría
+                            </i></a></p>
+                            <p class="trailer_text font-weight-bold">Raquel's name is raised when details of the negotiations with the robbers are leaked.</p>
                         </div>
                     </section>
 
                     <section class="comment_container">
-                    <?php include "components/tweets.php"?>
-
                         <h3>COMMENTS</h3>
                         <div>
                         <section class="comment row py-5 px-0">
@@ -212,7 +209,7 @@
                             <article class="t_user col-2 d-flex justify-content-center"><img src="" alt=""> <i class="fas fa-user-circle"></i></article>
                            
                             <article class="col-10 tweet">
-                                <p><a class="brand_color">Mark Essien </a> @markessien</p>
+                                <p> <i class="brand_color">Mark Essien</i> <a href=""> @markessien </a></p>
                                 <article>
                                     Game of Thrones is exactly like the title says: A game for the throne. Played by the
                                     people who think its their right to claim, conquer or inherit it. They all have
@@ -220,14 +217,14 @@
                                     <a class="brand_color">#GOT8 </a>
                                 </article>
                                 <article class="rt_likes my-3">
-                                    <i class="fas fa-retweet"> </i> 100k &nbsp;
-                                    <i class="fas fa-heart"> </i>&nbsp;10k
+                                <img src="uploads/retweet" alt=""> </i> 100k &nbsp;
+                                <img src="uploads/likes" alt=""> </i>&nbsp;10k
                                 </article>
                             </article>
                            
                         </section>
-                         <div class="gists mt-n5">
-                                <i class="fa fa-comment pt-3"></i> &nbsp; 120 People are talking about this
+                         <div class="gists mt-n5 pt-3 mx-n3">
+                                <img src="uploads/comments" alt=""> &nbsp; 120 People are talking about this
                             </div>
                         </div>
                         <div class="pt-5">
@@ -236,26 +233,26 @@
                             <article class="t_user col-2 d-flex justify-content-center"><img src="" alt=""> <i class="fas fa-user-circle"></i></article>
                            
                             <article class="col-10 tweet">
-                                <p><a class="brand_color">Mark Essien </a> @markessien</p>
-                                <article>
+                            <p> <i class="brand_color">Mark Essien</i> <a href=""> @markessien </a></p>                                <article>
                                     Game of Thrones is exactly like the title says: A game for the throne. Played by the
                                     people who think its their right to claim, conquer or inherit it. They all have
                                     different goals and different ways of getting to that point
                                     <a class="brand_color">#GOT8 </a>
                                 </article>
                                 <article class="rt_likes my-3">
-                                    <i class="fas fa-retweet"> </i> 100k &nbsp;
-                                    <i class="fas fa-heart"> </i>&nbsp;10k
+                                <img src="uploads/retweet" alt=""> </i> 100k &nbsp;
+                                <img src="uploads/likes" alt=""> </i>&nbsp;10k
                                 </article>
                             </article>
                            
                         </section> 
-                        <div class="gists mt-n5 ">
-                                <i class="fa fa-comment pt-3"></i> &nbsp; 120 People are talking about this
+                        <div class="gists mt-n5 pt-3 mx-n3">
+                        <img src="uploads/comments" alt=""></i> &nbsp; 120 People are talking about this
                         </div>
 
-                        <p class="pt-3 see_more" onclick="toggleModal()">See more</p>
-                        </div>
+                        <p class="pt-3 see_more">See more</p>
+                        </div>                        <?php include "components/tweets.php"?>
+
                     </section>
                 </div>
             </section>
