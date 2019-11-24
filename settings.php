@@ -42,7 +42,7 @@
                 <section class="account">
                     <h4 class="my-3 my-md-0">ACCOUNT</h4>
                     <div class="my-5 text-center">
-                        <img src="uploads/super.jpeg" class="img rounded-circle mr-3 my-2" width="130px" height="130px"
+                        <img src="uploads/power.png" class="img rounded-circle mr-3 my-2" width="130px" height="130px"
                             alt="">
                         <i class="fa fa-upload "></i>
                     </div>
