@@ -42,10 +42,10 @@
 
 <body> 
 
-    <?php include "components/site_header.php" ?>
 
         <main class=" container mx-auto px-5">
-            <H3 class="px-5">FOR THE <span class="brand_color">PURPOSE</span> OF TESTING</H3>
+          <?php include "components/site_header.php" ?>
+      <H3 class="px-5">FOR THE <span class="brand_color">PURPOSE</span> OF TESTING</H3>
             <ol class="px-5">
                 <li><a href="index.php">Index Page ++</a></li>
                 <li><a href="signin.php">signin Page +++</a></li>

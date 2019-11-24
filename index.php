@@ -21,7 +21,7 @@
         <?php include "components/site_header.php" ?>
     <section class="row row1 mb-4 mt-2 mx-0 px-0">
             <article class="col-lg-7 pl-0 pr-3 text-center text-md-left">
-                <h3 class="pr-5">
+                <h3 class="px-0 pr-md-5">
                     Watch the best <span class="brand_color">movies</span> and <span class="brand_color">Tv shows</span>
                     based on
                     your personality
@@ -136,7 +136,7 @@
                     </div>
                     <section class="m_likes col-lg-7  px-md-0">
                         <section>Sample movies & series you like</section>
-                        <section class="m_likes_items d-flex flex-row flex-wrap justify-content-around mt-3">
+                        <section class="m_likes_items text-left d-flex flex-row flex-wrap justify-content-around mt-3">
                             <article>
                                 <a href-="#"><img src="uploads/img1.png" alt=""></a>
 
@@ -1143,9 +1143,9 @@
         </section>
     </main>
     <main class="container p-md-0">
-        <section class="row4 px-4">
+        <section class="row4 px-2 px-md-4">
 
-            <div class="movie_list mx-auto d-flex flex-row flex-wrap justify-content-around justify-content-md-between">
+            <div class="movie_list mx-0 px-md-2 d-flex flex-row flex-wrap justify-content-around justify-content-md-between">
                 <article>
                     <div><img src="uploads/img8.png" alt=""></div>
                     <div class="m_details">

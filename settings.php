@@ -18,7 +18,9 @@
 </head>
 
 <body>
-    <?php include "components/site_header.php" ?>
+<div class="container">
+        <?php include "components/site_header.php" ?>
+    </div>    
     <div class="page_header container my-0">
         <h3 class="page_header_text text-center mb-5 mb-md-0">SETTINGS</h3>
     </div>

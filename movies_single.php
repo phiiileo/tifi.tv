@@ -22,8 +22,9 @@
 </head>
 
 <body>
-    <?php include "components/site_header.php" ?>
-    <main>
+<div class="container">
+        <?php include "components/site_header.php" ?>
+    </div>    <main>
         <section class="page_header border border-dark">
             <section class="container">
                 <article class="page_header_content">

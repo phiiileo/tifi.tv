@@ -1,14 +1,14 @@
 <footer>
     <section class="container">
         <section class="footer_container row p-5 px-md-0 mx-auto">
-            <div class="footer_content col-md-3">
-                <h3>What to Watch</h3>
+            <div class="footer_content col-md-3 px-0">
+                <h3 class="">What to Watch</h3>
                 <div>
                     <a href="#">Popular TV Shows</a>
                     <a href="#">Popular Movies</a>
                 </div>
             </div>
-            <div class="footer_content col-md-4">
+            <div class="footer_content col-md-4 px-0 mt-4 mt-md-0">
                 <h3>Now Streaming</h3>
                 <div>
                     <a href="#">Streaming on Netflix</a>
@@ -17,7 +17,7 @@
                     <a href="#">Streaming on IrokoTV</a>
                 </div>
             </div>
-            <div class="footer_content col-md-3">
+            <div class="footer_content col-md-3 px-0 mt-4 mt-md-0">
                 <h3>Company</h3>
                 <div>
                     <a href="#">About Tifi TV</a>
@@ -26,7 +26,7 @@
                     <a href="#">Frequently Asked Questions</a>
                 </div>
             </div>
-            <div class="footer_content col-md-2  text-md-right">
+            <div class="footer_content col-md-2 mt-4 mt-md-0 text-md-right px-0">
                 <a href="index.php">
                     <h3>tifi<i><svg width="40" height="30" viewBox="0 0 50 40" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">

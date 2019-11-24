@@ -17,8 +17,9 @@
 </head>
 
 <body>
-    <?php include "components/site_header.php" ?>
-    <main class="mx-auto my-5 py-5">
+<div class="container">
+        <?php include "components/site_header.php" ?>
+    </div>    <main class="mx-auto mb-5 py-5">
         <div class="container">
             <section class="section--one">
                 <span>

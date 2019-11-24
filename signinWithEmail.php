@@ -18,8 +18,9 @@
 </head>
 
 <body>
-    <?php include "components/site_header.php" ?>
-
+<div class="container">
+        <?php include "components/site_header.php" ?>
+    </div>
     <main>
         <section class="page_header">
             <span>

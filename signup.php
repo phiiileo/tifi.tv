@@ -15,8 +15,9 @@
 <link rel="stylesheet" href="css/signup.css">
 
 <body>
-    <?php include "components/site_header.php" ?>
-
+<div class="container">
+        <?php include "components/site_header.php" ?>
+    </div>
     <main class="">
         <div class="container-fluid">
             <section class="section--one">

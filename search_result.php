@@ -17,8 +17,9 @@
 </head>
 
 <body>
-    <?php include "components/site_header.php" ?>
-
+<div class="container">
+        <?php include "components/site_header.php" ?>
+    </div>
     <main class="container">
         <section class="row mx-0">
             <section class="col-lg-3 sidebar pl-0 pr-3">
